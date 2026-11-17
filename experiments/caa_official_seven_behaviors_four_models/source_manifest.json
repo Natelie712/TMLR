@@ -1,0 +1,76 @@
+{
+  "upstream_commit": "5dabbbd9a0bca5f25e174501e959de378806aa48",
+  "repository": "https://github.com/nrimsky/CAA",
+  "files": {
+    "datasets/generate/coordinate-other-ais/generate_dataset.json": {
+      "sha256": "643717af88eeef37468ceb9f80322b1ebdb4e3934a114a79fc9b930105d6ac71",
+      "git_blob": "3f768fc48669697755d5d82fd6f5c848ab4f4f31",
+      "rows": 360
+    },
+    "datasets/test/coordinate-other-ais/test_dataset_ab.json": {
+      "sha256": "9f315149225f1c1daeb65a684eca097f884b87a153d1ed8ce2c2c15abe5fae23",
+      "git_blob": "3ba81719b46df0f2d01177d5b136c5d2f6c1f528",
+      "rows": 50
+    },
+    "datasets/generate/corrigible-neutral-HHH/generate_dataset.json": {
+      "sha256": "c93d4d8db72ab1de875b79367d08e00b3ba27675480d4315fd942bf676359893",
+      "git_blob": "5587f06f10ef1e9ddff5df1aa26e863624c2e507",
+      "rows": 290
+    },
+    "datasets/test/corrigible-neutral-HHH/test_dataset_ab.json": {
+      "sha256": "847759b4daf48b7d941f08a213ed7095414d1a3063354eb4ebe1dfffc4522cd0",
+      "git_blob": "bf1e2ddb52e89959d54867e34edb72ac1ca80b1e",
+      "rows": 50
+    },
+    "datasets/generate/hallucination/generate_dataset.json": {
+      "sha256": "11dfb47cee064d037b9c66a1e56da6dfb9257f5c53bc29a4310c83a45de1bfe3",
+      "git_blob": "705e2051454f2f231752891ac5cf7900aabe3e91",
+      "rows": 1000
+    },
+    "datasets/test/hallucination/test_dataset_ab.json": {
+      "sha256": "aca893768df46b7fb4a546b220fab327a58fd77dedcb49210b396bd24efe7dc6",
+      "git_blob": "fa88abccaf9ec6fd74a6bb22b51bba9383826666",
+      "rows": 50
+    },
+    "datasets/generate/myopic-reward/generate_dataset.json": {
+      "sha256": "3ae9dc68fc4a6f3dbc441ef9956e543b5c7a5a5d97a3cc770f1942477f212b7e",
+      "git_blob": "45743d21532e9b6d753c0dbc03ff9b37c02f713d",
+      "rows": 950
+    },
+    "datasets/test/myopic-reward/test_dataset_ab.json": {
+      "sha256": "5a7446706263e4bb67965fa48a3beb433cede5476ac735b0e2d26dd7e155d2fe",
+      "git_blob": "291dbe98395670496c4a050f45f7f83db77718e4",
+      "rows": 50
+    },
+    "datasets/generate/survival-instinct/generate_dataset.json": {
+      "sha256": "249a1807e6938223e66795cdd7a7212340d8612aa9bb185947669135b052697a",
+      "git_blob": "f5dcd175e890567a13fba5fa893d95a5a4a163ea",
+      "rows": 903
+    },
+    "datasets/test/survival-instinct/test_dataset_ab.json": {
+      "sha256": "750a96d7864c864b39168efed636cd79289bad6746024922a7367ccc171f951f",
+      "git_blob": "6ec7ae4538dc47a6934831ba6bac752cdb2a5c0f",
+      "rows": 50
+    },
+    "datasets/generate/sycophancy/generate_dataset.json": {
+      "sha256": "1394c959d97ffae28fe9df71ce07a402c13c9333159307a28bd664fbe355b8b0",
+      "git_blob": "93f52e5dbcc0f1330b08d1404c1d0f2e9dfc27a0",
+      "rows": 1000
+    },
+    "datasets/test/sycophancy/test_dataset_ab.json": {
+      "sha256": "96391f0468cadb5214c34dff9f614be6725699d9f395387f8a9b6ca630d9cb77",
+      "git_blob": "175f260f3603e3c5f7ef56f190b97dac89df1ff8",
+      "rows": 50
+    },
+    "datasets/generate/refusal/generate_dataset.json": {
+      "sha256": "966f6f32d5c2246579a1d9b544c082790fec6067d4efea6c6ef755c9d0a154a4",
+      "git_blob": "2cd8023b8f3f6632430d205d8bcfb9d585c2de2b",
+      "rows": 408
+    },
+    "datasets/test/refusal/test_dataset_ab.json": {
+      "sha256": "982838b5429f1389a36fcf59c40ddb7eb4e462cfa1464d7857b8629cd384321b",
+      "git_blob": "9046b6eb05351593c526af9a43ddb11457f3a694",
+      "rows": 50
+    }
+  }
+}

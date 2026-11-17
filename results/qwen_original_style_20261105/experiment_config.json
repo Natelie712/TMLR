@@ -1,0 +1,360 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "block": 18,
+  "hidden_state_index": 19,
+  "concepts": [
+    "coordinate-other-ais",
+    "corrigible-neutral-HHH",
+    "hallucination",
+    "myopic-reward",
+    "survival-instinct",
+    "sycophancy",
+    "refusal"
+  ],
+  "shards": {
+    "0": [
+      "corrigible-neutral-HHH",
+      "hallucination",
+      "survival-instinct",
+      "coordinate-other-ais"
+    ],
+    "1": [
+      "sycophancy",
+      "myopic-reward",
+      "refusal"
+    ]
+  },
+  "counts": {
+    "coordinate-other-ais": {
+      "fit": {
+        "rows": 298,
+        "groups": 298
+      },
+      "validation": {
+        "rows": 62,
+        "groups": 62
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "corrigible-neutral-HHH": {
+      "fit": {
+        "rows": 238,
+        "groups": 238
+      },
+      "validation": {
+        "rows": 52,
+        "groups": 52
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "hallucination": {
+      "fit": {
+        "rows": 803,
+        "groups": 754
+      },
+      "validation": {
+        "rows": 195,
+        "groups": 184
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 2,
+        "groups": 2
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "myopic-reward": {
+      "fit": {
+        "rows": 723,
+        "groups": 565
+      },
+      "validation": {
+        "rows": 137,
+        "groups": 126
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 90,
+        "groups": 6
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 46
+      }
+    },
+    "survival-instinct": {
+      "fit": {
+        "rows": 714,
+        "groups": 714
+      },
+      "validation": {
+        "rows": 189,
+        "groups": 189
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "sycophancy": {
+      "fit": {
+        "rows": 797,
+        "groups": 793
+      },
+      "validation": {
+        "rows": 202,
+        "groups": 200
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 1,
+        "groups": 1
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "refusal": {
+      "fit": {
+        "rows": 333,
+        "groups": 332
+      },
+      "validation": {
+        "rows": 75,
+        "groups": 75
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    }
+  },
+  "weights": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "fits": {
+    "corrigible-neutral-HHH": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_1.0.joblib"
+    },
+    "hallucination": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_1.0.joblib"
+    },
+    "survival-instinct": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_1.0.joblib"
+    },
+    "coordinate-other-ais": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_1.0.joblib"
+    },
+    "sycophancy": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_1.0.joblib"
+    },
+    "myopic-reward": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_1.0.joblib"
+    },
+    "refusal": {
+      "0.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.0.joblib",
+      "0.5": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.5.joblib",
+      "1.0": "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_1.0.joblib"
+    }
+  },
+  "native_steps": {
+    "corrigible-neutral-HHH": {
+      "-1": -21.859326124191284,
+      "1": 20.73086714744568
+    },
+    "hallucination": {
+      "-1": -36.76065111160278,
+      "1": 36.42935228347778
+    },
+    "survival-instinct": {
+      "-1": -7.421237647533417,
+      "1": 7.34356564283371
+    },
+    "coordinate-other-ais": {
+      "-1": -10.464680790901184,
+      "1": 10.407230019569397
+    },
+    "sycophancy": {
+      "-1": -41.65111970901489,
+      "1": 37.14015054702759
+    },
+    "myopic-reward": {
+      "-1": -28.98919939994812,
+      "1": 28.214061498641968
+    },
+    "refusal": {
+      "-1": -29.31042742729187,
+      "1": 27.710599184036255
+    }
+  },
+  "linear_vectors": "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_only_linear_vectors.pt",
+  "split_manifest": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/results/qwen_quadratic_attenuation_20261103/split_manifest.json",
+  "frozen_inputs": {
+    "experiments/caa_official_seven_behaviors_four_models/runtime_b.py": "ce7405cc3ae3df2d812ee56ac214bbe6500536ee12496cbf2ac53ee20d44fe08",
+    "experiments/caa_official_seven_behaviors_four_models/scoring.py": "8fdc294a05b446e47da2517a695c6074f613b39b64fc5db802b668a054ed9cae",
+    "experiments/caa_official_seven_behaviors_four_models/methods_b.py": "84919caf1be85fdc2545c6a0333fb0996e8e5ae0a52b60a977b5529e16e399fc",
+    "experiments/caa_reproduction/linear_eval.py": "2c488988326a169746874c637e3bfd350f66eeb85200c3dacab43c349f74572e",
+    "src/kpca/independent_decoder.py": "7e466d460f2724512eddee6b8bfd771013a32a415ce82f59c6280c863fa0e835",
+    "results/qwen_quadratic_attenuation_20261103/split_manifest.json": "8abec176e05e0e2a85ca179cd85ef9caa1b67d3ce7579678a2aa3381e039d437",
+    "results/qwen_quadratic_attenuation_20261103/experiment_config.json": "5d665af3682fde5d57210639727789f290eec0f7bcb7f4c4225d8c12207a3062",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_only_linear_vectors.pt": "a6840ece26e053ff792bba37bb132d21eab87f29d58d1b0325e5feb27e2f0652",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/strength_parameters.json": "d0a9f048bf97915447ff6dcb31d8100a56d45db6d58b6ac80da0eceb0a0f1270",
+    "results/qwen_quadratic_attenuation_20261103/focused_diagnostics_20261103/qwen3_focused-geometry_2312028/rows.json": "a498f0d8f10f4a0a5db34bf1467a5d7bf9d7f0e22a8699c2ef4c6d3ebed04cfe",
+    "results/qwen_quadratic_attenuation_20261103/frozen_test_20261103/qwen3_frozen-test_2312840/rows.json": "928238e66f53524cc7bab8a23e82671476b1485f7349aebd30e9e218d1dca87e",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_coordinate-other-ais.pt": "4bcc6d8e3c376715fc17bce51b3b15e3fc519bb74ed1945f0cdbf4c4fa0b5b6f",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_corrigible-neutral-HHH.pt": "93fafb24cf0273b652f2701d65ca3898ee84ab1a8982ffe601a0167eb89c1ca1",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_hallucination.pt": "769440e56fbf38b2163b2d05ae3a1dfa017afa59f198aaeb8fa35c0fb22210b2",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_myopic-reward.pt": "e3a18a0c7a9f88eec250b28d522c0166c8624fcfd524b7caff368c3de441ec95",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_refusal.pt": "46c4770525263eff0a3f49e05b32b59e0bacd3f129c9ab04a8815591be61436c",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_survival-instinct.pt": "8c866cc3faca6a3cc1271d89cd4df33614e763ab8e82bf4615142232858cfc70",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_sycophancy.pt": "1caa5e80250ceafdc77fdb5d1a84e35a5849994ab6b1671a8908ba989bfae1af",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_0.0.joblib": "dd81643c4eccafff625abfb75f01d40869cb9ad986189b869dac01b3e7e09c4b",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_0.5.joblib": "5ed6ed127c5e7d099c2a5f9af47277c4fe8086b835c8f3957f19907884180333",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_1.0.joblib": "026bcb0d0ce99d88e850737693c3700bb6b16c3daae3bb24067a1c4233862004",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_0.0.joblib": "0f178aff9e8d340358f954eaee8246decd41edf02071e722a591ee4c0c72b3d0",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_0.5.joblib": "124ba6f06cfe8a97ed992d39238ead31f75d941bbff73b22832c5784bd31dc4c",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_1.0.joblib": "8a53ba25b1c0d76238b36e75dd43414b314a04e8da7c59f60454c03cf9da0b18",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_0.0.joblib": "6919cd32d8125f13dc1813656c3907362ce775f977cd6ef5c93597849d365622",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_0.5.joblib": "217fbbe6b6f3a383b2ee21ef19f98e34bcd7f93c511763b03936ef23d88b7ca3",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_1.0.joblib": "076a724c9becb5d9f862cd10bac93d772b9efb4f3b82be58468e175cc9583c20",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_corrigible-neutral-HHH.pt": "1f563a72fbf8160e38876bdccffa6838ee69d3f2b1e302126883e547982b645e",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_myopic-reward.pt": "1cc247700fc0c86d82d8632e343771e040389c4f4002ad9c6c5da1b4ca1cfc50",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_survival-instinct.pt": "04402ac446c370cbf68d532ecf9e464bb6a88fdb62a62bff3be494ee84c7aa58",
+    "experiments/qwen_quadratic_attenuation_20261103/run.py": "4547b372102ef8f6ed02f61dc57f9acad4d85e7b9287340b9393a659b597e7aa",
+    "experiments/qwen_quadratic_attenuation_20261103/weighted.py": "b304c7e8291304ed5b0023fa79712ed4f046cc0e04d7650082222d295f5795b8",
+    "experiments/qwen_quadratic_attenuation_20261103/focused_geometry.py": "ba0532905a188139c4d75fd3ed03a0c64ae601a3bfc59e2348f383cea36be385",
+    "experiments/qwen_quadratic_attenuation_20261103/seven_splits.py": "2623645c165d25cf2468ea516f6d82b65a89c3d2269c82b4884717441199b340",
+    "experiments/qwen_quadratic_attenuation_20261103/seven_splits.sh": "035798ddb8482fc5ea48c94c8556bf227cf61c0f35fa172f45d042691b85cdfd",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.0.joblib": "dd81643c4eccafff625abfb75f01d40869cb9ad986189b869dac01b3e7e09c4b",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.5.joblib": "5ed6ed127c5e7d099c2a5f9af47277c4fe8086b835c8f3957f19907884180333",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_1.0.joblib": "026bcb0d0ce99d88e850737693c3700bb6b16c3daae3bb24067a1c4233862004",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.0.joblib": "53bf58d63334c2c820229120667a7d816da55c57c60f9c1f51b5ce3eda61b1dc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.5.joblib": "1f193a71fafa750f90b73d5bceff44efdd7e4fd50d0e8110631dbcbcc6a7c9bc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_1.0.joblib": "aef996a5f594d835b47ab04e6d870d9b6ad5e193b81c68a009541c7defc40a20",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.0.joblib": "6919cd32d8125f13dc1813656c3907362ce775f977cd6ef5c93597849d365622",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.5.joblib": "217fbbe6b6f3a383b2ee21ef19f98e34bcd7f93c511763b03936ef23d88b7ca3",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_1.0.joblib": "076a724c9becb5d9f862cd10bac93d772b9efb4f3b82be58468e175cc9583c20",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.0.joblib": "d9641cee54c63431d08ab03aa8f336c8df411aa43e9833fabb29115d496ac602",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.5.joblib": "684532a083bacf2c0b112a6f7affae74507582d9a6bd43e1388c64b815e91fdc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_1.0.joblib": "442dd47344207e27ac0168668ccd3fcc91dd93680908106227bdbcc18fcb85f0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/native_parameters.json": "6b002f8dd2741efe3a213afbb2b8bbeb0c8ec33541cd20904f43f654c2a74bfe",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.0.joblib": "0aef7af0537b280e62cf04b42dd8e631bd4f75e3156c1c3c925459f3cf11e7d0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.5.joblib": "1962d2c24e0e9610258efc1b56db1e4d1e2c45d24b90a0151456b4af418027b4",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_1.0.joblib": "a22a90ba6d7a3f2bd32310996f6e96828dd8fe14c20d13ee54b0594b0d951a53",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.0.joblib": "0f178aff9e8d340358f954eaee8246decd41edf02071e722a591ee4c0c72b3d0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.5.joblib": "124ba6f06cfe8a97ed992d39238ead31f75d941bbff73b22832c5784bd31dc4c",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_1.0.joblib": "8a53ba25b1c0d76238b36e75dd43414b314a04e8da7c59f60454c03cf9da0b18",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.0.joblib": "eb6154e5936e6a03d7353731ec0e2b17d84ba9b0f4645ae9d7b214fe4b7f3b37",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.5.joblib": "f21e3219363b64ba957f61d8bd236ca445130878e8cb63489a5075b987fe4371",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_1.0.joblib": "cf5f1aaecc0153810e168d6af1485f21947ae50f96a859b5eac256a4e6182f05",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/native_parameters.json": "e3976367eb361528846454fab212a94fb44cc8a2a0cc93fc7d3fbf12769d05b5",
+    "src/steering/hooks.py": "492c6e6b3c234a2f3d745b39eb62dcf7b1d50d10fbe8b8cbc8fa7af7678b8fc7",
+    "src/legacy/steering_eval_functions.py": "45795b3af319aa994c57c8de94bc3d1c812010c19aeaab8deaae99e6d042022f",
+    "src/kpca/train.py": "b8b56d7014213e74fd8f9b79cc6c6fa04a64e74ab67be105c98ee635295409a4",
+    "src/kpca/gpu_kpca.py": "9a780c20de3c40cd220b52f4aa975e453374017c772072418232258f307bac4c",
+    "paper/_NeurIPS26__kernelpca_steering.pdf": "abf9780fd1fd7be44c538d495f386a7a5fbc79ac4d975e85a824caf3e942a403",
+    "experiments/qwen_original_style_20261105/run.py": "a1ddd9852806f7d1a4af1d5d459f4b37c1560dd2076a48823e0572096f773cb7",
+    "experiments/qwen_original_style_20261105/check_cpu.py": "781c7c3f99c8e1bb6e0fb1948727d1ec30e8cc0871f4d32c7d54f0d93a3cac43",
+    "experiments/qwen_original_style_20261105/report.py": "959aa640d01398c12398541e2a471b1b9fb32296298392af98c0e3fe41bae58a",
+    "experiments/qwen_original_style_20261105/slurm.sh": "e5bddf755763d6081ed393c333249f32839429548eeee45505f16964992e9403",
+    "experiments/qwen_original_style_20261105/prepare.py": "164af713a77bd8e4ee2a0365e2ac24753e2519e1cf35bdcbcb97a31347e67fb2",
+    "results/qwen_seven_split_comparison_20261104/per_question.csv": "a95416d121b8fbb96403ef177b252181014a7f8ea334485dcfff8860153c11a6",
+    "results/qwen_seven_split_comparison_20261104/detailed_probabilities.csv": "265297b6901a47627c3fd5f8a79efd396c785e7864b89549e5c686ba633929e4",
+    "results/qwen_seven_split_comparison_20261104/main_table.tex": "0a253b04aa35a5acf805e986c1bef29f58fef8ee3e34e7739828108cdd59bafe"
+  },
+  "coherence_question_ids": {
+    "coordinate-other-ais": [
+      292,
+      319
+    ],
+    "corrigible-neutral-HHH": [
+      192,
+      183
+    ],
+    "hallucination": [
+      637,
+      887
+    ],
+    "myopic-reward": [
+      467,
+      733
+    ],
+    "survival-instinct": [
+      785,
+      740
+    ],
+    "sycophancy": [
+      786,
+      997
+    ],
+    "refusal": [
+      16,
+      117
+    ]
+  },
+  "matching": false,
+  "scope": "last token only for every method",
+  "precision": "FP32 model, TF32 off; FP64 KPCA; cast final activation back",
+  "scorer": "Unchanged all-option normalized target-label probability; next-token logits; native Qwen chat with thinking disabled; The answer is ( prefill",
+  "kernel": "1+2*s+w*s^2, s=0.01*x@y; same weight in forward and inverse",
+  "inverse": "sklearn latent polynomial KRR; uncentered inverse Gram; absolute ridge1; centered activation targets",
+  "direction": "unit latent matching-minus-nonmatching class mean difference",
+  "components": 20,
+  "strength_rule": "Reuse exact signed native steps frozen before the preceding seven-split study; no recalibration for last-token scope; no per-token normalization. Original steps came from fit-only lambda1 RMS probes, not behavioral outcomes.",
+  "linear_rule": "Reuse CAA fit-only calibrated vectors at +/-1, change only intervention scope to the shared last token",
+  "aggregation": "Row-weighted mean with 10000 paired source-group bootstrap resamples; seed20261104+concept_index*3+split_index, identical to prior study",
+  "validation_bridge": "Last-token matched-displacement comparison on all validation rows only; six conditions plus shared new Linear/nohook; isolates removal of matching at fixed scope; no selection",
+  "expected_main_rows": 46512,
+  "expected_bridge_rows": 5472,
+  "expected_main_cells": 84,
+  "coherence": "Two fixed distinct validation groups per behavior; greedy96-token explanation generation; all9 conditions; same last-token hook each forward with KV cache; no judge API",
+  "benchmark_status": "exploratory fixed-benchmark evaluation; official test previously examined",
+  "previous_comparison": "results/qwen_seven_split_comparison_20261104",
+  "historical_scope_confound": true,
+  "original_source_commit": "dfe3e8631d14703bfc69947bea05e6eb644f39dc",
+  "prior_cumulative_gpu_seconds": 2347,
+  "new_job_time_limit_seconds": 1500,
+  "new_job_count": 2,
+  "maximum_cumulative_gpu_seconds": 5347,
+  "full_budget_seconds": 5400,
+  "no_test_tuning": true,
+  "no_github_push": true
+}

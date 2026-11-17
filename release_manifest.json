@@ -1,0 +1,2179 @@
+{
+  "scope": [
+    "qwen3",
+    "llama3b",
+    "llama2"
+  ],
+  "excluded": [
+    "Gemma results/code",
+    "Phi results",
+    "LLM weights",
+    "training activation caches",
+    "large fitted objects",
+    "draft figures",
+    "scheduler logs",
+    "credentials"
+  ],
+  "files": [
+    {
+      "source": "TMLR_paper/data/response_curves/qwen3_response-1794453886724725470_16852828/replay_checks.json",
+      "destination": "TMLR_paper/data/response_checks/qwen3.json",
+      "source_sha256": "9f28708d44c88169a04b193075a74334a75b8276cd6542db627d537d42bfb03a",
+      "packaged_sha256": "9f28708d44c88169a04b193075a74334a75b8276cd6542db627d537d42bfb03a",
+      "bytes": 7724,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/response_curves/llama3b_response-1794526747596495264_16868125/replay_checks.json",
+      "destination": "TMLR_paper/data/response_checks/llama3b.json",
+      "source_sha256": "caff9017033a33caed579ccddd352a62edafd6bd6c2056660d8413d173bb1c40",
+      "packaged_sha256": "caff9017033a33caed579ccddd352a62edafd6bd6c2056660d8413d173bb1c40",
+      "bytes": 9191,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/response_curves/llama2_response-1794531279703098133_16868125/replay_checks.json",
+      "destination": "TMLR_paper/data/response_checks/llama2.json",
+      "source_sha256": "28edea921d02a3daa26a204cd14742eb6f701e7321614026e0659f62afdd99df",
+      "packaged_sha256": "28edea921d02a3daa26a204cd14742eb6f701e7321614026e0659f62afdd99df",
+      "bytes": 8073,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_llama2_fit.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_llama2_fit.tex",
+      "source_sha256": "40dd224148fdcb77bb5a539383da59584b4e7f0d0627df6608b3985932612e31",
+      "packaged_sha256": "40dd224148fdcb77bb5a539383da59584b4e7f0d0627df6608b3985932612e31",
+      "bytes": 1274,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_llama2_validation.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_llama2_validation.tex",
+      "source_sha256": "a7804037b36a12ddd30b78c9228bb63799456c3d33a47edf9f2b3dd2645a80e4",
+      "packaged_sha256": "a7804037b36a12ddd30b78c9228bb63799456c3d33a47edf9f2b3dd2645a80e4",
+      "bytes": 1288,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_llama3b_fit.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_llama3b_fit.tex",
+      "source_sha256": "d6260b16bad92d15938074fa860da32167c9a2b7b7bb49192b187212270fb047",
+      "packaged_sha256": "d6260b16bad92d15938074fa860da32167c9a2b7b7bb49192b187212270fb047",
+      "bytes": 1229,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_llama3b_validation.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_llama3b_validation.tex",
+      "source_sha256": "d52515887ebc7c65d0cb91f46653a35f496eeb4f88635681248126ed3b25fdb8",
+      "packaged_sha256": "d52515887ebc7c65d0cb91f46653a35f496eeb4f88635681248126ed3b25fdb8",
+      "bytes": 1243,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_qwen3_fit.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_qwen3_fit.tex",
+      "source_sha256": "14acb11fcf51f71bf89fd078f68184411055368e001b2a446ae9718aac88c78d",
+      "packaged_sha256": "14acb11fcf51f71bf89fd078f68184411055368e001b2a446ae9718aac88c78d",
+      "bytes": 1235,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_grid_qwen3_validation.tex",
+      "destination": "TMLR_paper/tables/appendix_grid_qwen3_validation.tex",
+      "source_sha256": "bb659d9f3c8bbaa26c8cee35969c93becd20d5e68800dc1d8f48073abc35bb82",
+      "packaged_sha256": "bb659d9f3c8bbaa26c8cee35969c93becd20d5e68800dc1d8f48073abc35bb82",
+      "bytes": 1254,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_splits_llama2.tex",
+      "destination": "TMLR_paper/tables/appendix_splits_llama2.tex",
+      "source_sha256": "3fee63b6c4eea546b5091f4efeebca00535f01e1d88dcc2a72a3e35f4ac3d586",
+      "packaged_sha256": "3fee63b6c4eea546b5091f4efeebca00535f01e1d88dcc2a72a3e35f4ac3d586",
+      "bytes": 1633,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_splits_llama3b.tex",
+      "destination": "TMLR_paper/tables/appendix_splits_llama3b.tex",
+      "source_sha256": "874f1c1467e0ab47bd7ea537cd683af6982269382cee0013b661d09d0237ed85",
+      "packaged_sha256": "874f1c1467e0ab47bd7ea537cd683af6982269382cee0013b661d09d0237ed85",
+      "bytes": 1591,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/appendix_splits_qwen3.tex",
+      "destination": "TMLR_paper/tables/appendix_splits_qwen3.tex",
+      "source_sha256": "0f2baaecbd7b00ac9cdece9358aac63ac1369c78a41a4746752979fdd63737e0",
+      "packaged_sha256": "0f2baaecbd7b00ac9cdece9358aac63ac1369c78a41a4746752979fdd63737e0",
+      "bytes": 1604,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/cross_prompt_consistency.tex",
+      "destination": "TMLR_paper/tables/cross_prompt_consistency.tex",
+      "source_sha256": "b9845a1e72f5d4dbd42308f24a6c9a9ca6abff531a0a1a716cde43573c055a65",
+      "packaged_sha256": "b9845a1e72f5d4dbd42308f24a6c9a9ca6abff531a0a1a716cde43573c055a65",
+      "bytes": 3938,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/cross_prompt_consistency_full.tex",
+      "destination": "TMLR_paper/tables/cross_prompt_consistency_full.tex",
+      "source_sha256": "dce5e9dea7bfe89c8e3096547eabdb09b6b8f5a0abdb68c52ed6d1fcaafcda5d",
+      "packaged_sha256": "dce5e9dea7bfe89c8e3096547eabdb09b6b8f5a0abdb68c52ed6d1fcaafcda5d",
+      "bytes": 3423,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/cross_prompt_consistency_main.tex",
+      "destination": "TMLR_paper/tables/cross_prompt_consistency_main.tex",
+      "source_sha256": "5bf92e4084da6b92634b0d8874e8738106bb51f31179079bc8906e756d459b26",
+      "packaged_sha256": "5bf92e4084da6b92634b0d8874e8738106bb51f31179079bc8906e756d459b26",
+      "bytes": 1128,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/dataset_statistics.tex",
+      "destination": "TMLR_paper/tables/dataset_statistics.tex",
+      "source_sha256": "a5e461c6f3c8b63531ad93ec2f069cab2ee1d7de491c910fa70bfbdd92e5d086",
+      "packaged_sha256": "a5e461c6f3c8b63531ad93ec2f069cab2ee1d7de491c910fa70bfbdd92e5d086",
+      "bytes": 1150,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/figure_includes.tex",
+      "destination": "TMLR_paper/tables/figure_includes.tex",
+      "source_sha256": "d658142716f473046411419237f054f5606f1efd6c9aff7b096aa71df811aa03",
+      "packaged_sha256": "d658142716f473046411419237f054f5606f1efd6c9aff7b096aa71df811aa03",
+      "bytes": 10082,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/fit_magnitude_correlation_full.tex",
+      "destination": "TMLR_paper/tables/fit_magnitude_correlation_full.tex",
+      "source_sha256": "bc9ee10520d1bf941cf46b87277542e5a313b22ef4096ebeb57573dc360d03cc",
+      "packaged_sha256": "bc9ee10520d1bf941cf46b87277542e5a313b22ef4096ebeb57573dc360d03cc",
+      "bytes": 5773,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/magnitude_correlation.tex",
+      "destination": "TMLR_paper/tables/magnitude_correlation.tex",
+      "source_sha256": "8bce2a21ada5ae7051f875534eda85a0eb0e102f89516e435085c613e1903c5d",
+      "packaged_sha256": "8bce2a21ada5ae7051f875534eda85a0eb0e102f89516e435085c613e1903c5d",
+      "bytes": 6644,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/magnitude_correlation_full.tex",
+      "destination": "TMLR_paper/tables/magnitude_correlation_full.tex",
+      "source_sha256": "ca74905ae3f5be390ea5bc0d4dd1324289d8ea0ce219b07591023a3175a412a2",
+      "packaged_sha256": "ca74905ae3f5be390ea5bc0d4dd1324289d8ea0ce219b07591023a3175a412a2",
+      "bytes": 5704,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/magnitude_correlation_selected.tex",
+      "destination": "TMLR_paper/tables/magnitude_correlation_selected.tex",
+      "source_sha256": "ccae7dae05969d36798b3df61733e71fa6b360e07d365cce829b5cd45ed4403b",
+      "packaged_sha256": "ccae7dae05969d36798b3df61733e71fa6b360e07d365cce829b5cd45ed4403b",
+      "bytes": 2213,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/main_results.tex",
+      "destination": "TMLR_paper/tables/main_results.tex",
+      "source_sha256": "1b43c42d0ede5a0e94290fd92dbc8a52471d3bcabcae9349f469b3fd1de09326",
+      "packaged_sha256": "1b43c42d0ede5a0e94290fd92dbc8a52471d3bcabcae9349f469b3fd1de09326",
+      "bytes": 2539,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/tables/negative_lambda_selected.tex",
+      "destination": "TMLR_paper/tables/negative_lambda_selected.tex",
+      "source_sha256": "3e7f6362ff0ff8e67261eaa041a1d8ec3ee1c993843e5ef8ac2b717b73422d5c",
+      "packaged_sha256": "3e7f6362ff0ff8e67261eaa041a1d8ec3ee1c993843e5ef8ac2b717b73422d5c",
+      "bytes": 2591,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_1.pdf",
+      "destination": "TMLR_paper/figures/figure_1.pdf",
+      "source_sha256": "65151fef7709a147ff5e461b7a4eae2e38ca4349e750a058063b6c2b15f71a89",
+      "packaged_sha256": "65151fef7709a147ff5e461b7a4eae2e38ca4349e750a058063b6c2b15f71a89",
+      "bytes": 36311,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_10.pdf",
+      "destination": "TMLR_paper/figures/figure_10.pdf",
+      "source_sha256": "1413673e4c6d785a296542a198d096f654ca864d7a2720b99c8c599e133bdb91",
+      "packaged_sha256": "1413673e4c6d785a296542a198d096f654ca864d7a2720b99c8c599e133bdb91",
+      "bytes": 36976,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_11.pdf",
+      "destination": "TMLR_paper/figures/figure_11.pdf",
+      "source_sha256": "705ad1053117afe835364c71224e3fa75775cbadb5d209bce8fb52f050c1b2eb",
+      "packaged_sha256": "705ad1053117afe835364c71224e3fa75775cbadb5d209bce8fb52f050c1b2eb",
+      "bytes": 38837,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_12.pdf",
+      "destination": "TMLR_paper/figures/figure_12.pdf",
+      "source_sha256": "48b9f77ea5dc29238f1bcd22b572b3dbb26c7b3ee7946710d607100b82acc662",
+      "packaged_sha256": "48b9f77ea5dc29238f1bcd22b572b3dbb26c7b3ee7946710d607100b82acc662",
+      "bytes": 43544,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_13.pdf",
+      "destination": "TMLR_paper/figures/figure_13.pdf",
+      "source_sha256": "742fdb9ac7692cbb994032756502241719fff3ca7789b2604d31a7c58c8a343a",
+      "packaged_sha256": "742fdb9ac7692cbb994032756502241719fff3ca7789b2604d31a7c58c8a343a",
+      "bytes": 49574,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_14.pdf",
+      "destination": "TMLR_paper/figures/figure_14.pdf",
+      "source_sha256": "7058cedfef0f5e737baa1c752ab6f88a1b83883544515d4309dd60b625177411",
+      "packaged_sha256": "7058cedfef0f5e737baa1c752ab6f88a1b83883544515d4309dd60b625177411",
+      "bytes": 53593,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_15.pdf",
+      "destination": "TMLR_paper/figures/figure_15.pdf",
+      "source_sha256": "0ab975fdc530a035feea150535cbe7d787739f3b1caa2aa8106a4722ef9a5d20",
+      "packaged_sha256": "0ab975fdc530a035feea150535cbe7d787739f3b1caa2aa8106a4722ef9a5d20",
+      "bytes": 65985,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_16.pdf",
+      "destination": "TMLR_paper/figures/figure_16.pdf",
+      "source_sha256": "3cd9bb6e9eafb181e134ace1aef56cfb3327f755ad490779f2312d19909bf1d7",
+      "packaged_sha256": "3cd9bb6e9eafb181e134ace1aef56cfb3327f755ad490779f2312d19909bf1d7",
+      "bytes": 60412,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_17.pdf",
+      "destination": "TMLR_paper/figures/figure_17.pdf",
+      "source_sha256": "d1b79dad4677770fc3d0b2fd0c324dcb409575a92cc00b4ac130577192e04f88",
+      "packaged_sha256": "d1b79dad4677770fc3d0b2fd0c324dcb409575a92cc00b4ac130577192e04f88",
+      "bytes": 68219,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_18.pdf",
+      "destination": "TMLR_paper/figures/figure_18.pdf",
+      "source_sha256": "3ebd19ba0862e3053a335b514c5b6335681e13087e90c088cb88691d71289d93",
+      "packaged_sha256": "3ebd19ba0862e3053a335b514c5b6335681e13087e90c088cb88691d71289d93",
+      "bytes": 76480,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_19.pdf",
+      "destination": "TMLR_paper/figures/figure_19.pdf",
+      "source_sha256": "472cd8bdac80011e35ef7e64b6ddb2f3c5935e6db014971a0dd0e5dce247f0c1",
+      "packaged_sha256": "472cd8bdac80011e35ef7e64b6ddb2f3c5935e6db014971a0dd0e5dce247f0c1",
+      "bytes": 46029,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_20.pdf",
+      "destination": "TMLR_paper/figures/figure_20.pdf",
+      "source_sha256": "92eeb57d01ab1442e72b8fce3cfd4b8589088f30d25074f3c02734574c7711d5",
+      "packaged_sha256": "92eeb57d01ab1442e72b8fce3cfd4b8589088f30d25074f3c02734574c7711d5",
+      "bytes": 27617,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_21.pdf",
+      "destination": "TMLR_paper/figures/figure_21.pdf",
+      "source_sha256": "e6b46f086c307156eb893ef2f09ba8b07dfa015511543df80aa80c573ea811f0",
+      "packaged_sha256": "e6b46f086c307156eb893ef2f09ba8b07dfa015511543df80aa80c573ea811f0",
+      "bytes": 37172,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_3.pdf",
+      "destination": "TMLR_paper/figures/figure_3.pdf",
+      "source_sha256": "e853eae20414bc39e2e7293c003b7224e575c73e443f358d0af0b0fc11108bd0",
+      "packaged_sha256": "e853eae20414bc39e2e7293c003b7224e575c73e443f358d0af0b0fc11108bd0",
+      "bytes": 28472,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_4.pdf",
+      "destination": "TMLR_paper/figures/figure_4.pdf",
+      "source_sha256": "f755621eb681e88a1ce9b2ca97479dd7f8012a1740d866c505cb76cb4cfad33c",
+      "packaged_sha256": "f755621eb681e88a1ce9b2ca97479dd7f8012a1740d866c505cb76cb4cfad33c",
+      "bytes": 33929,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_5.pdf",
+      "destination": "TMLR_paper/figures/figure_5.pdf",
+      "source_sha256": "04a98e945513d73d5ff0c2ff4d0ed580db84e3abbbdeb119be063d5550959b84",
+      "packaged_sha256": "04a98e945513d73d5ff0c2ff4d0ed580db84e3abbbdeb119be063d5550959b84",
+      "bytes": 31383,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_6.pdf",
+      "destination": "TMLR_paper/figures/figure_6.pdf",
+      "source_sha256": "f99fd1c9ec17480a4fb1f3b18127597a0c55aa9cd740ad9fd5d53c004afcb615",
+      "packaged_sha256": "f99fd1c9ec17480a4fb1f3b18127597a0c55aa9cd740ad9fd5d53c004afcb615",
+      "bytes": 27759,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_7.pdf",
+      "destination": "TMLR_paper/figures/figure_7.pdf",
+      "source_sha256": "ee8c737068d5ded90a49c36c70abb05185195140fb3c9e4c9b92136cdf883ead",
+      "packaged_sha256": "ee8c737068d5ded90a49c36c70abb05185195140fb3c9e4c9b92136cdf883ead",
+      "bytes": 48096,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_1.png",
+      "destination": "TMLR_paper/figures/figure_1.png",
+      "source_sha256": "71928e3da1cc17aaf61a93ebb39f4e1db6c1e9541b0a85eb025e63da98cde7cb",
+      "packaged_sha256": "71928e3da1cc17aaf61a93ebb39f4e1db6c1e9541b0a85eb025e63da98cde7cb",
+      "bytes": 136681,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_10.png",
+      "destination": "TMLR_paper/figures/figure_10.png",
+      "source_sha256": "45867e6e0dc0b41d8df9e96bde3d3f2f0d8c6b21ee3541409ff65bd740dd59a2",
+      "packaged_sha256": "45867e6e0dc0b41d8df9e96bde3d3f2f0d8c6b21ee3541409ff65bd740dd59a2",
+      "bytes": 199519,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_11.png",
+      "destination": "TMLR_paper/figures/figure_11.png",
+      "source_sha256": "b92b44f02dadd0ac0c110b6a1b5d807903cf0d7770855059bf2601af1333abd0",
+      "packaged_sha256": "b92b44f02dadd0ac0c110b6a1b5d807903cf0d7770855059bf2601af1333abd0",
+      "bytes": 161689,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_12.png",
+      "destination": "TMLR_paper/figures/figure_12.png",
+      "source_sha256": "3b3a7268afe2724a55b7497fb984e38c59c49fb383b914e4ec324e18112b05cd",
+      "packaged_sha256": "3b3a7268afe2724a55b7497fb984e38c59c49fb383b914e4ec324e18112b05cd",
+      "bytes": 208208,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_13.png",
+      "destination": "TMLR_paper/figures/figure_13.png",
+      "source_sha256": "f4fbde3dc6215e3c041541ddc5fd50195ef85c3a23a56557ebb934d9b7e373a8",
+      "packaged_sha256": "f4fbde3dc6215e3c041541ddc5fd50195ef85c3a23a56557ebb934d9b7e373a8",
+      "bytes": 227002,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_14.png",
+      "destination": "TMLR_paper/figures/figure_14.png",
+      "source_sha256": "68495009e5f476a2134de7a1b1ba147817abb8af1c0cfc23eedb79df05d84ac8",
+      "packaged_sha256": "68495009e5f476a2134de7a1b1ba147817abb8af1c0cfc23eedb79df05d84ac8",
+      "bytes": 227944,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_15.png",
+      "destination": "TMLR_paper/figures/figure_15.png",
+      "source_sha256": "2f6fbca7bed4e53a96b96d8bd89162d4c1e8bda49d2fb04cd87d738f471f1cd6",
+      "packaged_sha256": "2f6fbca7bed4e53a96b96d8bd89162d4c1e8bda49d2fb04cd87d738f471f1cd6",
+      "bytes": 243178,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_16.png",
+      "destination": "TMLR_paper/figures/figure_16.png",
+      "source_sha256": "267d5b784598595b37e21228a36c025bb8aa853b290f27e2bcb32f5a9f5de1d4",
+      "packaged_sha256": "267d5b784598595b37e21228a36c025bb8aa853b290f27e2bcb32f5a9f5de1d4",
+      "bytes": 241494,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_17.png",
+      "destination": "TMLR_paper/figures/figure_17.png",
+      "source_sha256": "abe543728034283c0c1c71eef4d3f2e8090438d854df3f5f72105e0aeec20b24",
+      "packaged_sha256": "abe543728034283c0c1c71eef4d3f2e8090438d854df3f5f72105e0aeec20b24",
+      "bytes": 235277,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_18.png",
+      "destination": "TMLR_paper/figures/figure_18.png",
+      "source_sha256": "d43161e08a318602472105025dc712c381665f8053b36b28b3315c3dd2f6aac6",
+      "packaged_sha256": "d43161e08a318602472105025dc712c381665f8053b36b28b3315c3dd2f6aac6",
+      "bytes": 244168,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_19.png",
+      "destination": "TMLR_paper/figures/figure_19.png",
+      "source_sha256": "b92a147185ece8d331abf02d1191f170e6fd6fa09a85ced3f32190f876cfbeb4",
+      "packaged_sha256": "b92a147185ece8d331abf02d1191f170e6fd6fa09a85ced3f32190f876cfbeb4",
+      "bytes": 230262,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_20.png",
+      "destination": "TMLR_paper/figures/figure_20.png",
+      "source_sha256": "1ed15b374cd19b7df787d3951d81784b81bb11d239fe63cb6386687cb2615661",
+      "packaged_sha256": "1ed15b374cd19b7df787d3951d81784b81bb11d239fe63cb6386687cb2615661",
+      "bytes": 114265,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_21.png",
+      "destination": "TMLR_paper/figures/figure_21.png",
+      "source_sha256": "44e43e170e4f09069b44fa5f6697ac19e2ba042af4ac1a4b4416943dd9d62ae5",
+      "packaged_sha256": "44e43e170e4f09069b44fa5f6697ac19e2ba042af4ac1a4b4416943dd9d62ae5",
+      "bytes": 185367,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_3.png",
+      "destination": "TMLR_paper/figures/figure_3.png",
+      "source_sha256": "62173ad4e47ae9263931fdd7620d80d9b426f0039f98e5d7beb25d574f2a3fb7",
+      "packaged_sha256": "62173ad4e47ae9263931fdd7620d80d9b426f0039f98e5d7beb25d574f2a3fb7",
+      "bytes": 104569,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_4.png",
+      "destination": "TMLR_paper/figures/figure_4.png",
+      "source_sha256": "1d79752576e43d48df36f00ebb702dfc19389ea4c7f848089a2bbed4950bef98",
+      "packaged_sha256": "1d79752576e43d48df36f00ebb702dfc19389ea4c7f848089a2bbed4950bef98",
+      "bytes": 189913,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_5.png",
+      "destination": "TMLR_paper/figures/figure_5.png",
+      "source_sha256": "6c23aaa28850168f174130d001cb08b3aea7cf07a5b811c96c34cfb0e039d89a",
+      "packaged_sha256": "6c23aaa28850168f174130d001cb08b3aea7cf07a5b811c96c34cfb0e039d89a",
+      "bytes": 102463,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_6.png",
+      "destination": "TMLR_paper/figures/figure_6.png",
+      "source_sha256": "161c3ccbf8c309c7bc4799e46715d56033f107d13d1419c98f8bfa006ba95ff8",
+      "packaged_sha256": "161c3ccbf8c309c7bc4799e46715d56033f107d13d1419c98f8bfa006ba95ff8",
+      "bytes": 92979,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/figures/figure_7.png",
+      "destination": "TMLR_paper/figures/figure_7.png",
+      "source_sha256": "7318c0520c0e3fa8d420f20273790c0bf81aeb64461933f7ffe63e85ed64f87d",
+      "packaged_sha256": "7318c0520c0e3fa8d420f20273790c0bf81aeb64461933f7ffe63e85ed64f87d",
+      "bytes": 205680,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/analysis_source_manifest.json",
+      "destination": "TMLR_paper/data/analysis_source_manifest.json",
+      "source_sha256": "17657ac9d719392cde8dd69ee2e4ef403c92d3a37625b01be941b6bddb418693",
+      "packaged_sha256": "17657ac9d719392cde8dd69ee2e4ef403c92d3a37625b01be941b6bddb418693",
+      "bytes": 3463,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/artifact_completion.csv",
+      "destination": "TMLR_paper/data/artifact_completion.csv",
+      "source_sha256": "771ef9ea9dad158f1f007da40e7d0fb8cceea70d61b63b2c4c2c0d7ed95c9719",
+      "packaged_sha256": "771ef9ea9dad158f1f007da40e7d0fb8cceea70d61b63b2c4c2c0d7ed95c9719",
+      "bytes": 1133,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/artifact_status.json",
+      "destination": "TMLR_paper/data/artifact_status.json",
+      "source_sha256": "4beb09207c57e0873f3f49dc372e6d89b457544e0ba96c0d63661436aaba9b0e",
+      "packaged_sha256": "4beb09207c57e0873f3f49dc372e6d89b457544e0ba96c0d63661436aaba9b0e",
+      "bytes": 1780,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/dataset_split_records.csv",
+      "destination": "TMLR_paper/data/dataset_split_records.csv",
+      "source_sha256": "c38e4f411c9af801bf77a969e67d23cd807702ebc86bef8158fe2fac662ac610",
+      "packaged_sha256": "c38e4f411c9af801bf77a969e67d23cd807702ebc86bef8158fe2fac662ac610",
+      "bytes": 2655271,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/dataset_statistics.csv",
+      "destination": "TMLR_paper/data/dataset_statistics.csv",
+      "source_sha256": "b868412a86e1df16e7cc683b077cdcb52618cf9a3104cda484098dcbaa09fdad",
+      "packaged_sha256": "b868412a86e1df16e7cc683b077cdcb52618cf9a3104cda484098dcbaa09fdad",
+      "bytes": 853,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/figure_6_plot_data.csv",
+      "destination": "TMLR_paper/data/figure_6_plot_data.csv",
+      "source_sha256": "dd9b8118a4c70a0e5752c986c2c4cb0e43a7e8e724362a0e94279c1383bf9bdb",
+      "packaged_sha256": "dd9b8118a4c70a0e5752c986c2c4cb0e43a7e8e724362a0e94279c1383bf9bdb",
+      "bytes": 106050,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/figure_routing.json",
+      "destination": "TMLR_paper/data/figure_routing.json",
+      "source_sha256": "c0894172a9ed9b90a351415c99acebb80dac57157ebb52e187a8b750aef3009a",
+      "packaged_sha256": "c0894172a9ed9b90a351415c99acebb80dac57157ebb52e187a8b750aef3009a",
+      "bytes": 69,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/figure_scientific_checks.json",
+      "destination": "TMLR_paper/data/figure_scientific_checks.json",
+      "source_sha256": "e8886dd0833580c17325039885c2052342e3c17a6eae5c719079a32fc937c808",
+      "packaged_sha256": "e8886dd0833580c17325039885c2052342e3c17a6eae5c719079a32fc937c808",
+      "bytes": 4992,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/figure_visual_review.json",
+      "destination": "TMLR_paper/data/figure_visual_review.json",
+      "source_sha256": "220be3d15d85f802583e727fc3c5c81f7d4098d416ce404aae6a4e5cc2d941dd",
+      "packaged_sha256": "220be3d15d85f802583e727fc3c5c81f7d4098d416ce404aae6a4e5cc2d941dd",
+      "bytes": 7508,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/global_split_leakage_check.json",
+      "destination": "TMLR_paper/data/global_split_leakage_check.json",
+      "source_sha256": "a0b7938352a3833ea298bb3773ac136b40aa029c5246ee1fd36c341adfbbf9d2",
+      "packaged_sha256": "a0b7938352a3833ea298bb3773ac136b40aa029c5246ee1fd36c341adfbbf9d2",
+      "bytes": 243,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/hallucination_case_sources.json",
+      "destination": "TMLR_paper/data/hallucination_case_sources.json",
+      "source_sha256": "707f53cc9f6a06234e855a25154df314c6abb73d6939cf37779680661a5f7fac",
+      "packaged_sha256": "707f53cc9f6a06234e855a25154df314c6abb73d6939cf37779680661a5f7fac",
+      "bytes": 480,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/integrity_checks.json",
+      "destination": "TMLR_paper/data/integrity_checks.json",
+      "source_sha256": "dbbd279e8e6749ceb15633d39942bb8219b3e3e02c9ed36ad8fc5a74513882f3",
+      "packaged_sha256": "dbbd279e8e6749ceb15633d39942bb8219b3e3e02c9ed36ad8fc5a74513882f3",
+      "bytes": 390,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/main_results.csv",
+      "destination": "TMLR_paper/data/main_results.csv",
+      "source_sha256": "2bf070a01e4fa02a1ced5861c96199cfe0492da3a07a3656249fb8aa38bbe8f1",
+      "packaged_sha256": "2bf070a01e4fa02a1ced5861c96199cfe0492da3a07a3656249fb8aa38bbe8f1",
+      "bytes": 6081,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/paired_validation_intervals.csv",
+      "destination": "TMLR_paper/data/paired_validation_intervals.csv",
+      "source_sha256": "707914dab752e3eb9e4b717b6da3d66af4a1abd900c198adfb4eeb6bfb48de94",
+      "packaged_sha256": "707914dab752e3eb9e4b717b6da3d66af4a1abd900c198adfb4eeb6bfb48de94",
+      "bytes": 25115,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/paper_artifact_inventory.csv",
+      "destination": "TMLR_paper/data/paper_artifact_inventory.csv",
+      "source_sha256": "4efb637976d18e498687164e74a29148ae7ecc638a4d334dc0a124b6a8e69005",
+      "packaged_sha256": "4efb637976d18e498687164e74a29148ae7ecc638a4d334dc0a124b6a8e69005",
+      "bytes": 8624,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/publication_checks.json",
+      "destination": "TMLR_paper/data/publication_checks.json",
+      "source_sha256": "921e3c9d1f919b5e793ae89b3716f924f6d17d14b130cd7cc6d2047126b4eb5e",
+      "packaged_sha256": "921e3c9d1f919b5e793ae89b3716f924f6d17d14b130cd7cc6d2047126b4eb5e",
+      "bytes": 120,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/qwen_factorial_contrasts.csv",
+      "destination": "TMLR_paper/data/qwen_factorial_contrasts.csv",
+      "source_sha256": "3808b193385199069b8bc36225ff516cdc854eb1b36d328ed65aa74020c7571f",
+      "packaged_sha256": "3808b193385199069b8bc36225ff516cdc854eb1b36d328ed65aa74020c7571f",
+      "bytes": 842,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/qwen_hallucination_displacement.csv",
+      "destination": "TMLR_paper/data/qwen_hallucination_displacement.csv",
+      "source_sha256": "2e1e1ea1813dc5ee912f33364d316a4eb8e5c93f274d37f17b75f202c1709e9a",
+      "packaged_sha256": "2e1e1ea1813dc5ee912f33364d316a4eb8e5c93f274d37f17b75f202c1709e9a",
+      "bytes": 1479,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/response_summary.csv",
+      "destination": "TMLR_paper/data/response_summary.csv",
+      "source_sha256": "98e720df5127d1e23bb3abdd5fc1232eb6ca9899a2e8eb9eb3b4e3acc820f221",
+      "packaged_sha256": "98e720df5127d1e23bb3abdd5fc1232eb6ca9899a2e8eb9eb3b4e3acc820f221",
+      "bytes": 54578,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/revision_config.json",
+      "destination": "TMLR_paper/data/revision_config.json",
+      "source_sha256": "ffeb87302e8dddc269a87094cf578c247d1038987c0a8c50122acc670751549b",
+      "packaged_sha256": "ffeb87302e8dddc269a87094cf578c247d1038987c0a8c50122acc670751549b",
+      "bytes": 44547,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/table_source_manifest.json",
+      "destination": "TMLR_paper/data/table_source_manifest.json",
+      "source_sha256": "3183bde2c86228363c40afa9461d4a642cc768370eb5f5d1d4d20da2c63f9e6e",
+      "packaged_sha256": "3183bde2c86228363c40afa9461d4a642cc768370eb5f5d1d4d20da2c63f9e6e",
+      "bytes": 651,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/training_validation_test.csv",
+      "destination": "TMLR_paper/data/training_validation_test.csv",
+      "source_sha256": "fdaf25e4af6afd4bbbe2c158b28df31e19102503a83e09537a6cf7679b5945be",
+      "packaged_sha256": "fdaf25e4af6afd4bbbe2c158b28df31e19102503a83e09537a6cf7679b5945be",
+      "bytes": 145069,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/cluster_target_label_audit.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/cluster_target_label_audit.csv",
+      "source_sha256": "eee1b64814fc152a29486e9d856c47e5c234c2f2bcc47d1fe65ee6689b581be7",
+      "packaged_sha256": "eee1b64814fc152a29486e9d856c47e5c234c2f2bcc47d1fe65ee6689b581be7",
+      "bytes": 9585,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/completion.json",
+      "destination": "TMLR_paper/data/geometric_diagnostics/completion.json",
+      "source_sha256": "3db85f43bbd8f7e504e4488c99a96eedea4335598a589f06dd2533adb818c878",
+      "packaged_sha256": "3db85f43bbd8f7e504e4488c99a96eedea4335598a589f06dd2533adb818c878",
+      "bytes": 6311,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/cross_prompt_consistency.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/cross_prompt_consistency.csv",
+      "source_sha256": "733bff140e0a4559efb79dd4778cc1a0656265ae77759affea0c29035743bbac",
+      "packaged_sha256": "733bff140e0a4559efb79dd4778cc1a0656265ae77759affea0c29035743bbac",
+      "bytes": 11323,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/direction_modality.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/direction_modality.csv",
+      "source_sha256": "876db72a1de4238c43e583882ae18cd0b596a1c35a7fa59ff9fea62aab67cd6d",
+      "packaged_sha256": "876db72a1de4238c43e583882ae18cd0b596a1c35a7fa59ff9fea62aab67cd6d",
+      "bytes": 16006,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/displacement_statistics.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/displacement_statistics.csv",
+      "source_sha256": "8919b732c2a66995b53e433a7219f194c954dd6c19f60d90bbff5602d4c6d28e",
+      "packaged_sha256": "8919b732c2a66995b53e433a7219f194c954dd6c19f60d90bbff5602d4c6d28e",
+      "bytes": 51480,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/fit_correlation_completion.json",
+      "destination": "TMLR_paper/data/geometric_diagnostics/fit_correlation_completion.json",
+      "source_sha256": "4fc33b7b6c6dead0854e6bcc1ebe12dea6f91beb820b8e9d5624b931930c50c5",
+      "packaged_sha256": "4fc33b7b6c6dead0854e6bcc1ebe12dea6f91beb820b8e9d5624b931930c50c5",
+      "bytes": 306,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/fit_magnitude_correlation.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/fit_magnitude_correlation.csv",
+      "source_sha256": "b2d5f34a7688342243c07f8b05150a418f31c26e2c1c0b79efa437a03465e67d",
+      "packaged_sha256": "b2d5f34a7688342243c07f8b05150a418f31c26e2c1c0b79efa437a03465e67d",
+      "bytes": 14681,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/fit_paired_activation_updates.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/fit_paired_activation_updates.csv",
+      "source_sha256": "70f75db83198fc325cda067bb70415607973e07be9e76d5f8b55e21061524cca",
+      "packaged_sha256": "70f75db83198fc325cda067bb70415607973e07be9e76d5f8b55e21061524cca",
+      "bytes": 5672288,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/kernel_variance_reconstruction.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/kernel_variance_reconstruction.csv",
+      "source_sha256": "ad0dfdc7ceb4822fe248996467ce5837f3f7b321094e13a34139841308562b79",
+      "packaged_sha256": "ad0dfdc7ceb4822fe248996467ce5837f3f7b321094e13a34139841308562b79",
+      "bytes": 17961,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_directions.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_directions.csv",
+      "source_sha256": "3fe9bd85d7eb5941ec9ea8e72f0fa9a8e6a3479a16ce5c1a3ff56a478ae37171",
+      "packaged_sha256": "3fe9bd85d7eb5941ec9ea8e72f0fa9a8e6a3479a16ce5c1a3ff56a478ae37171",
+      "bytes": 46028,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_coordinate-other-ais.npz",
+      "source_sha256": "ad92b0c582e0d1a1ef7e82ccdca1ce6803fc868be2bbe1b7c995b92d1b7bdcce",
+      "packaged_sha256": "ad92b0c582e0d1a1ef7e82ccdca1ce6803fc868be2bbe1b7c995b92d1b7bdcce",
+      "bytes": 245103,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_corrigible-neutral-HHH.npz",
+      "source_sha256": "7543c22ba5d8823bd6bf73d1b52858a923e25a50084a79c3918345b28da38fcc",
+      "packaged_sha256": "7543c22ba5d8823bd6bf73d1b52858a923e25a50084a79c3918345b28da38fcc",
+      "bytes": 238856,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_hallucination.npz",
+      "source_sha256": "7002f1e66d11f34771094db7b64c76e6ae8f0278e242657f4735874e1483934d",
+      "packaged_sha256": "7002f1e66d11f34771094db7b64c76e6ae8f0278e242657f4735874e1483934d",
+      "bytes": 278329,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_myopic-reward.npz",
+      "source_sha256": "f7e8667ab94217f6aafbc5cf0d3dff67323a517d6ffcc11174772471a43b681c",
+      "packaged_sha256": "f7e8667ab94217f6aafbc5cf0d3dff67323a517d6ffcc11174772471a43b681c",
+      "bytes": 282473,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_refusal.npz",
+      "source_sha256": "46369b394cc49dddf332e172eb65d88cabdb44c9db598ce6b18516fd66f5b3d3",
+      "packaged_sha256": "46369b394cc49dddf332e172eb65d88cabdb44c9db598ce6b18516fd66f5b3d3",
+      "bytes": 249829,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_survival-instinct.npz",
+      "source_sha256": "87c2521886fd431f7ef8cd70cfb1e4a7205c4c646d4006e2b2cded9ab18b87fc",
+      "packaged_sha256": "87c2521886fd431f7ef8cd70cfb1e4a7205c4c646d4006e2b2cded9ab18b87fc",
+      "bytes": 273714,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama2_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama2_sycophancy.npz",
+      "source_sha256": "dea7b3d11e6221ee5311c024be1b725b9c51eb80b380e2c9c07c583dcc6fe28e",
+      "packaged_sha256": "dea7b3d11e6221ee5311c024be1b725b9c51eb80b380e2c9c07c583dcc6fe28e",
+      "bytes": 279480,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_coordinate-other-ais.npz",
+      "source_sha256": "a0d4b6479ae90b1fa8afcbd6e0edd77a74e1556094f3e8c79b7358e1ce173951",
+      "packaged_sha256": "a0d4b6479ae90b1fa8afcbd6e0edd77a74e1556094f3e8c79b7358e1ce173951",
+      "bytes": 194643,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_corrigible-neutral-HHH.npz",
+      "source_sha256": "6e66772e393b4a4f1b3f31029103f0fd156bb6557cdaf56b1d74702fedee4889",
+      "packaged_sha256": "6e66772e393b4a4f1b3f31029103f0fd156bb6557cdaf56b1d74702fedee4889",
+      "bytes": 189984,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_hallucination.npz",
+      "source_sha256": "5eb19eff8a8b29fb71fabbfb0d22393d9200727bad21e34e53c4307fb8d9d2db",
+      "packaged_sha256": "5eb19eff8a8b29fb71fabbfb0d22393d9200727bad21e34e53c4307fb8d9d2db",
+      "bytes": 226115,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_myopic-reward.npz",
+      "source_sha256": "636740580cdba105da74f9eb739ccc131003114576bc7d443c96dbfe2fc7cd1e",
+      "packaged_sha256": "636740580cdba105da74f9eb739ccc131003114576bc7d443c96dbfe2fc7cd1e",
+      "bytes": 236601,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_refusal.npz",
+      "source_sha256": "13eaa3ba7d3dcb7757f559c867bda6e78d9ceecf6d5aec0742a741705de2bde2",
+      "packaged_sha256": "13eaa3ba7d3dcb7757f559c867bda6e78d9ceecf6d5aec0742a741705de2bde2",
+      "bytes": 199356,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_survival-instinct.npz",
+      "source_sha256": "a91694cd90fba65de18653db990595b8b544a426db6d6f86565a691ed92c9429",
+      "packaged_sha256": "a91694cd90fba65de18653db990595b8b544a426db6d6f86565a691ed92c9429",
+      "bytes": 222059,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_llama3b_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_llama3b_sycophancy.npz",
+      "source_sha256": "83fc2581f13f554418b64bdaf513a7601e1608a9474e3a4cc23932d7204906f1",
+      "packaged_sha256": "83fc2581f13f554418b64bdaf513a7601e1608a9474e3a4cc23932d7204906f1",
+      "bytes": 226746,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_coordinate-other-ais.npz",
+      "source_sha256": "e9607d61380502d98e25b30556fef373070d3618cea9dcd455b92fe6ad6f8136",
+      "packaged_sha256": "e9607d61380502d98e25b30556fef373070d3618cea9dcd455b92fe6ad6f8136",
+      "bytes": 145568,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_corrigible-neutral-HHH.npz",
+      "source_sha256": "4685a2f094fe7bf6d31af48f04d6b13c0b1c7e752c903067f9d4904643aa0a4b",
+      "packaged_sha256": "4685a2f094fe7bf6d31af48f04d6b13c0b1c7e752c903067f9d4904643aa0a4b",
+      "bytes": 142620,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_hallucination.npz",
+      "source_sha256": "93d6ce86f51d5d80bd55d4059601233b5bd1a5522461f54b27200333b58f1bd6",
+      "packaged_sha256": "93d6ce86f51d5d80bd55d4059601233b5bd1a5522461f54b27200333b58f1bd6",
+      "bytes": 176383,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_myopic-reward.npz",
+      "source_sha256": "14ef62455d9f2f87e87e454298de1294e556bbeb6191b261776315fc45586f22",
+      "packaged_sha256": "14ef62455d9f2f87e87e454298de1294e556bbeb6191b261776315fc45586f22",
+      "bytes": 175200,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_refusal.npz",
+      "source_sha256": "8486808dad1b92f548d85c600a4b4ced0916d95ada7580ad85cc28127a99489b",
+      "packaged_sha256": "8486808dad1b92f548d85c600a4b4ced0916d95ada7580ad85cc28127a99489b",
+      "bytes": 150118,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_survival-instinct.npz",
+      "source_sha256": "e78a1b42f2ca0a99f3893ea9b0741d3f727b5e8b73f1922663eff506bb687f85",
+      "packaged_sha256": "e78a1b42f2ca0a99f3893ea9b0741d3f727b5e8b73f1922663eff506bb687f85",
+      "bytes": 170427,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/local_qwen3_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/local_qwen3_sycophancy.npz",
+      "source_sha256": "20a070b59df41f5a0b9abd3d8efbe8d7853058cbcc1777634451b6f70bc7ab17",
+      "packaged_sha256": "20a070b59df41f5a0b9abd3d8efbe8d7853058cbcc1777634451b6f70bc7ab17",
+      "bytes": 176426,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/magnitude_correlation.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/magnitude_correlation.csv",
+      "source_sha256": "60fb6b431e90141f06e857b08d1022c96dd7efab76203c8f8f989883b1a65679",
+      "packaged_sha256": "60fb6b431e90141f06e857b08d1022c96dd7efab76203c8f8f989883b1a65679",
+      "bytes": 17366,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/mcq_displacements.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/mcq_displacements.csv",
+      "source_sha256": "9c949ae5d49ab522dad3d0f23c42545d8985cf7326f5e7f18624964868eb65a6",
+      "packaged_sha256": "9c949ae5d49ab522dad3d0f23c42545d8985cf7326f5e7f18624964868eb65a6",
+      "bytes": 5557244,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/paired_activation_updates.csv",
+      "destination": "TMLR_paper/data/geometric_diagnostics/paired_activation_updates.csv",
+      "source_sha256": "4b4dc4cafec3a1ce4972f48d3b9b751a18adc50cd42f912e37b7eab9f9c29866",
+      "packaged_sha256": "4b4dc4cafec3a1ce4972f48d3b9b751a18adc50cd42f912e37b7eab9f9c29866",
+      "bytes": 2780555,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/progress.json",
+      "destination": "TMLR_paper/data/geometric_diagnostics/progress.json",
+      "source_sha256": "dfccb6cb0541b2ee11d605a1676e978a5fff070c6b8c8956c3488ca81806d9e2",
+      "packaged_sha256": "dfccb6cb0541b2ee11d605a1676e978a5fff070c6b8c8956c3488ca81806d9e2",
+      "bytes": 125,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_coordinate-other-ais.npz",
+      "source_sha256": "3cb3a3fb59288e0442a9607448b368262efba54afaecc98c8fb5fce0d64804b8",
+      "packaged_sha256": "3cb3a3fb59288e0442a9607448b368262efba54afaecc98c8fb5fce0d64804b8",
+      "bytes": 3389115,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_corrigible-neutral-HHH.npz",
+      "source_sha256": "ff385bf5833f5d4bc6fa726f703e2bfd6e6d1723eb303cb84b4edc66616bb7fe",
+      "packaged_sha256": "ff385bf5833f5d4bc6fa726f703e2bfd6e6d1723eb303cb84b4edc66616bb7fe",
+      "bytes": 2847872,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_hallucination.npz",
+      "source_sha256": "7818fe963e39e4a591ca1bb9c4e045633f5d9d9cccfa0b74f91ae4414991aeba",
+      "packaged_sha256": "7818fe963e39e4a591ca1bb9c4e045633f5d9d9cccfa0b74f91ae4414991aeba",
+      "bytes": 10551843,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_myopic-reward.npz",
+      "source_sha256": "a56e27c909c08ceed1efa1dab0267d82464cb4a53a50d58f702da22b6152d384",
+      "packaged_sha256": "a56e27c909c08ceed1efa1dab0267d82464cb4a53a50d58f702da22b6152d384",
+      "bytes": 9897674,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_refusal.npz",
+      "source_sha256": "0eb0227c138525137c53a5c2fd9293d1540dcaee6aac8db7b8dbd7afd3d32db0",
+      "packaged_sha256": "0eb0227c138525137c53a5c2fd9293d1540dcaee6aac8db7b8dbd7afd3d32db0",
+      "bytes": 4094551,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_survival-instinct.npz",
+      "source_sha256": "ee7ad9c60349a0121d24b3568b41d1c41c7f6fac44ab84ba79dc8ea636caed13",
+      "packaged_sha256": "ee7ad9c60349a0121d24b3568b41d1c41c7f6fac44ab84ba79dc8ea636caed13",
+      "bytes": 13618904,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama2_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama2_sycophancy.npz",
+      "source_sha256": "eb1300f73be4f1a41e45a1799e6f49e3fae1f7aacc817b575a0d01190c10221d",
+      "packaged_sha256": "eb1300f73be4f1a41e45a1799e6f49e3fae1f7aacc817b575a0d01190c10221d",
+      "bytes": 14553564,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_coordinate-other-ais.npz",
+      "source_sha256": "c226ae6efbabde67f94ba942940be5c5cabf3e9044061a10d81f3abf72b9d5ae",
+      "packaged_sha256": "c226ae6efbabde67f94ba942940be5c5cabf3e9044061a10d81f3abf72b9d5ae",
+      "bytes": 2416512,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_corrigible-neutral-HHH.npz",
+      "source_sha256": "5623c484a877f2dfa6f138e2b3ec8d015712dfed8e38aaa2fba276c5e1de5c80",
+      "packaged_sha256": "5623c484a877f2dfa6f138e2b3ec8d015712dfed8e38aaa2fba276c5e1de5c80",
+      "bytes": 1520573,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_hallucination.npz",
+      "source_sha256": "6047fb1656fb508b2df78dccd888c82d8718731764a6bc677e33a5ff0bdcfe16",
+      "packaged_sha256": "6047fb1656fb508b2df78dccd888c82d8718731764a6bc677e33a5ff0bdcfe16",
+      "bytes": 8372798,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_myopic-reward.npz",
+      "source_sha256": "d534fd06e6c4d3ebfc99e723a904b33c026403b7ece0f3066aafdfab2c34d5a5",
+      "packaged_sha256": "d534fd06e6c4d3ebfc99e723a904b33c026403b7ece0f3066aafdfab2c34d5a5",
+      "bytes": 5550038,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_refusal.npz",
+      "source_sha256": "7922581fbe9ddf0cf49ec60106cfd21d85337fba5c922e0042347ee5a717fd06",
+      "packaged_sha256": "7922581fbe9ddf0cf49ec60106cfd21d85337fba5c922e0042347ee5a717fd06",
+      "bytes": 2296306,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_survival-instinct.npz",
+      "source_sha256": "1d1650f3ba09c2e9111ab61b89c39829770cb22c48d4cb392fe2f1c0852fabb6",
+      "packaged_sha256": "1d1650f3ba09c2e9111ab61b89c39829770cb22c48d4cb392fe2f1c0852fabb6",
+      "bytes": 8126166,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_llama3b_sycophancy.npz",
+      "source_sha256": "5c6c25a43d462daa401a83f2f1b72a71ae9cef7a2499b87f163f157fe1a3071a",
+      "packaged_sha256": "5c6c25a43d462daa401a83f2f1b72a71ae9cef7a2499b87f163f157fe1a3071a",
+      "bytes": 8707407,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_coordinate-other-ais.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_coordinate-other-ais.npz",
+      "source_sha256": "1e05f68d4ada66a4478b9a2c2b1d8d607315e38c678360eef527989de382cc0d",
+      "packaged_sha256": "1e05f68d4ada66a4478b9a2c2b1d8d607315e38c678360eef527989de382cc0d",
+      "bytes": 1264241,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_corrigible-neutral-HHH.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_corrigible-neutral-HHH.npz",
+      "source_sha256": "393ffb78550fe7870239b50fac48cc22b533d635c63dccc6daf3ef9374864042",
+      "packaged_sha256": "393ffb78550fe7870239b50fac48cc22b533d635c63dccc6daf3ef9374864042",
+      "bytes": 1102864,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_hallucination.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_hallucination.npz",
+      "source_sha256": "8467b46efb6764ef98345c86d2f91eeceab6becfaabdfc4334c082e6353ab584",
+      "packaged_sha256": "8467b46efb6764ef98345c86d2f91eeceab6becfaabdfc4334c082e6353ab584",
+      "bytes": 4202371,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_myopic-reward.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_myopic-reward.npz",
+      "source_sha256": "8ab0bc99214b7dc025a4ea17893b39ab01c04c5b94e005fa4f4964ca2921b210",
+      "packaged_sha256": "8ab0bc99214b7dc025a4ea17893b39ab01c04c5b94e005fa4f4964ca2921b210",
+      "bytes": 2896074,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_refusal.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_refusal.npz",
+      "source_sha256": "007be779c0a7dec6b1ae426393c1148d173651a9ce2fabeb84730ed53680dda0",
+      "packaged_sha256": "007be779c0a7dec6b1ae426393c1148d173651a9ce2fabeb84730ed53680dda0",
+      "bytes": 1634923,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_survival-instinct.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_survival-instinct.npz",
+      "source_sha256": "1b77f942c8fc51db09a4e20bcbe7ed25a7e1b0fb998fe9088eaee01dc577b0ab",
+      "packaged_sha256": "1b77f942c8fc51db09a4e20bcbe7ed25a7e1b0fb998fe9088eaee01dc577b0ab",
+      "bytes": 3761244,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_sycophancy.npz",
+      "destination": "TMLR_paper/data/geometric_diagnostics/updates_qwen3_sycophancy.npz",
+      "source_sha256": "fcd68ad40788a931156d8d0723798e1dc8989cb5d7f445152e9afd4432ae2455",
+      "packaged_sha256": "fcd68ad40788a931156d8d0723798e1dc8989cb5d7f445152e9afd4432ae2455",
+      "bytes": 6249619,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/paper_results_report.md",
+      "destination": "TMLR_paper/reports/paper_results_report.md",
+      "source_sha256": "f2734b26fe942bd4647477dcaa262da30723981e1746d5ee807351b433136087",
+      "packaged_sha256": "f2734b26fe942bd4647477dcaa262da30723981e1746d5ee807351b433136087",
+      "bytes": 10761,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/paper_results_report.html",
+      "destination": "TMLR_paper/reports/paper_results_report.html",
+      "source_sha256": "7af67bed9adaddacbe2d9e6860869be6277abcb9da7a69609eb38aa42abc35b2",
+      "packaged_sha256": "7af67bed9adaddacbe2d9e6860869be6277abcb9da7a69609eb38aa42abc35b2",
+      "bytes": 12496,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/paper_artifact_inventory.md",
+      "destination": "TMLR_paper/reports/paper_artifact_inventory.md",
+      "source_sha256": "2d4cee8f123d0cb8988902d0e55af5e7df65bb85f407e772adf441220b644673",
+      "packaged_sha256": "2d4cee8f123d0cb8988902d0e55af5e7df65bb85f407e772adf441220b644673",
+      "bytes": 12442,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/figure_captions.md",
+      "destination": "TMLR_paper/reports/figure_captions.md",
+      "source_sha256": "4019607283dd0fa939331cd0d552c0411db3a4f4e75ba952b19b21aa1e13fd80",
+      "packaged_sha256": "4019607283dd0fa939331cd0d552c0411db3a4f4e75ba952b19b21aa1e13fd80",
+      "bytes": 6674,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/figure_gallery.html",
+      "destination": "TMLR_paper/reports/figure_gallery.html",
+      "source_sha256": "b7ab5fb1ceb31f917b075b312b1135561370e83c22490c9227ed76cd73941782",
+      "packaged_sha256": "b7ab5fb1ceb31f917b075b312b1135561370e83c22490c9227ed76cd73941782",
+      "bytes": 9648,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/figure_refinement_review.md",
+      "destination": "TMLR_paper/reports/figure_refinement_review.md",
+      "source_sha256": "67efe4da4d9cdabe9baedb086ed140806fff1b7f399b8d9a57753832b03f8362",
+      "packaged_sha256": "67efe4da4d9cdabe9baedb086ed140806fff1b7f399b8d9a57753832b03f8362",
+      "bytes": 5056,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/figure_visual_review.md",
+      "destination": "TMLR_paper/reports/figure_visual_review.md",
+      "source_sha256": "f06955bd0bcd4a058b6be05aba2a107b87b966a639d6170b90ef377919149818",
+      "packaged_sha256": "f06955bd0bcd4a058b6be05aba2a107b87b966a639d6170b90ef377919149818",
+      "bytes": 730,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/geometric_findings.md",
+      "destination": "TMLR_paper/reports/geometric_findings.md",
+      "source_sha256": "dc3f5ec9c1c41d9e0b30116ca6cd513ebba2c9abe31c36be75df86a85f5e403f",
+      "packaged_sha256": "dc3f5ec9c1c41d9e0b30116ca6cd513ebba2c9abe31c36be75df86a85f5e403f",
+      "bytes": 3057,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/negative_lambda_protocol.md",
+      "destination": "TMLR_paper/reports/negative_lambda_protocol.md",
+      "source_sha256": "2e41dfa6227f45d3c0b7f5fb53f706ad06573b425c14c4d224b81c51999596d4",
+      "packaged_sha256": "2e41dfa6227f45d3c0b7f5fb53f706ad06573b425c14c4d224b81c51999596d4",
+      "bytes": 2110,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/negative_lambda_search.md",
+      "destination": "TMLR_paper/reports/negative_lambda_search.md",
+      "source_sha256": "12adf990f2d350e5664710009761ae22af60c62a32ea3590b830916d728e36c7",
+      "packaged_sha256": "12adf990f2d350e5664710009761ae22af60c62a32ea3590b830916d728e36c7",
+      "bytes": 3018,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/negative_lambda_search.html",
+      "destination": "TMLR_paper/reports/negative_lambda_search.html",
+      "source_sha256": "de448545d3daafd74556489c80f7c993eb680ad369bf6de47fce3459d13f3ddc",
+      "packaged_sha256": "de448545d3daafd74556489c80f7c993eb680ad369bf6de47fce3459d13f3ddc",
+      "bytes": 4924,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/reports/vae_resource_assessment.md",
+      "destination": "TMLR_paper/reports/vae_resource_assessment.md",
+      "source_sha256": "f3bd4013e92eeae1fd9bce1c894ab6a341c151a0fc410d9f5265f4908409d475",
+      "packaged_sha256": "f3bd4013e92eeae1fd9bce1c894ab6a341c151a0fc410d9f5265f4908409d475",
+      "bytes": 3271,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/README.md",
+      "destination": "TMLR_paper/reports/historical_readme.md",
+      "source_sha256": "879a89ecf98d93ea2e61ecef448b4d3de7fe8e9b97a502cb6c450e2ffcd7c227",
+      "packaged_sha256": "879a89ecf98d93ea2e61ecef448b4d3de7fe8e9b97a502cb6c450e2ffcd7c227",
+      "bytes": 6398,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/allocated_negative_controller.py",
+      "destination": "TMLR_paper/scripts/allocated_negative_controller.py",
+      "source_sha256": "070d5d77c27d365dab92045c6e2f58b8c2d4139416571217ae734e02a2c2ae1f",
+      "packaged_sha256": "070d5d77c27d365dab92045c6e2f58b8c2d4139416571217ae734e02a2c2ae1f",
+      "bytes": 7559,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/allocated_negative_controller.slurm",
+      "destination": "TMLR_paper/scripts/allocated_negative_controller.slurm",
+      "source_sha256": "05c5d771322c974fcbebaa5cb84bdfd15f868b45b86cf33bc2c9ceafd58f266e",
+      "packaged_sha256": "05c5d771322c974fcbebaa5cb84bdfd15f868b45b86cf33bc2c9ceafd58f266e",
+      "bytes": 437,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/artifact_common.py",
+      "destination": "TMLR_paper/scripts/artifact_common.py",
+      "source_sha256": "58b5244aad9e31379c9ace23a8d26f5835adbd7d4d12592bbcc1ba1e31cac9c1",
+      "packaged_sha256": "58b5244aad9e31379c9ace23a8d26f5835adbd7d4d12592bbcc1ba1e31cac9c1",
+      "bytes": 3788,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/audit_figures.py",
+      "destination": "TMLR_paper/scripts/audit_figures.py",
+      "source_sha256": "dc2dd1a6f9d5ebc39d347696b0a335bd82a867f138e3225429c4e9f702541636",
+      "packaged_sha256": "dc2dd1a6f9d5ebc39d347696b0a335bd82a867f138e3225429c4e9f702541636",
+      "bytes": 11279,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/build_tables.py",
+      "destination": "TMLR_paper/scripts/build_tables.py",
+      "source_sha256": "4f12a0dc84e1620a19897ace306c1a03852cd5018551b2762094a3ce383fe256",
+      "packaged_sha256": "4f12a0dc84e1620a19897ace306c1a03852cd5018551b2762094a3ce383fe256",
+      "bytes": 7292,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/extra_audit.py",
+      "destination": "TMLR_paper/scripts/extra_audit.py",
+      "source_sha256": "072e39abca11304be86dc3865e00ca06c7f945af32a53b08d4995f90bfa40509",
+      "packaged_sha256": "072e39abca11304be86dc3865e00ca06c7f945af32a53b08d4995f90bfa40509",
+      "bytes": 5956,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/fit_correlations.py",
+      "destination": "TMLR_paper/scripts/fit_correlations.py",
+      "source_sha256": "8b2de06807a8d5f16b098bf92408fc0e1c3755dcdc134e5b7f552f1e49dab2d0",
+      "packaged_sha256": "8b2de06807a8d5f16b098bf92408fc0e1c3755dcdc134e5b7f552f1e49dab2d0",
+      "bytes": 2821,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/format_tables.py",
+      "destination": "TMLR_paper/scripts/format_tables.py",
+      "source_sha256": "a2b384eea2603ccd67a01899d9f8ed12430f63a2b105d94c57d299a1846c1ae4",
+      "packaged_sha256": "a2b384eea2603ccd67a01899d9f8ed12430f63a2b105d94c57d299a1846c1ae4",
+      "bytes": 2175,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/freeze.py",
+      "destination": "TMLR_paper/scripts/freeze.py",
+      "source_sha256": "915016b18aa7810a4f7bba802112be30ddb1cce86b3fcb83962c37ed013be0f1",
+      "packaged_sha256": "915016b18aa7810a4f7bba802112be30ddb1cce86b3fcb83962c37ed013be0f1",
+      "bytes": 1985,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/geometry.py",
+      "destination": "TMLR_paper/scripts/geometry.py",
+      "source_sha256": "cc4a6712d9870ad86577fd3595373cc00f724ae2d5576c764b1d38020d02ecb5",
+      "packaged_sha256": "cc4a6712d9870ad86577fd3595373cc00f724ae2d5576c764b1d38020d02ecb5",
+      "bytes": 13448,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/inventory.py",
+      "destination": "TMLR_paper/scripts/inventory.py",
+      "source_sha256": "1ce72539fa13ceaa6604f68a3140822ab9b31cf3b6851953107875f44c9bca41",
+      "packaged_sha256": "1ce72539fa13ceaa6604f68a3140822ab9b31cf3b6851953107875f44c9bca41",
+      "bytes": 15890,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/llama2_responses.slurm",
+      "destination": "TMLR_paper/scripts/llama2_responses.slurm",
+      "source_sha256": "a51d99eda09b360f510276ef76e45ec265029d9cfcd5cc63a333f3f2b57e710a",
+      "packaged_sha256": "a51d99eda09b360f510276ef76e45ec265029d9cfcd5cc63a333f3f2b57e710a",
+      "bytes": 369,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_recovery.py",
+      "destination": "TMLR_paper/scripts/negative_recovery.py",
+      "source_sha256": "593ee791f9ea7cd4d0765b0e683554b7d4d9ba3bf7ef475017593552035b0fb5",
+      "packaged_sha256": "593ee791f9ea7cd4d0765b0e683554b7d4d9ba3bf7ef475017593552035b0fb5",
+      "bytes": 971,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_recovery.slurm",
+      "destination": "TMLR_paper/scripts/negative_recovery.slurm",
+      "source_sha256": "bc950794a287b987ec882116b81c92799a41e9fbdf0104e6c0fd7718daa2e1ab",
+      "packaged_sha256": "bc950794a287b987ec882116b81c92799a41e9fbdf0104e6c0fd7718daa2e1ab",
+      "bytes": 551,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_report.py",
+      "destination": "TMLR_paper/scripts/negative_report.py",
+      "source_sha256": "6c65e83d8234f1397a7e962b3b2fb675bb3a8e126a93e435cd8ae7f234cfcdf1",
+      "packaged_sha256": "6c65e83d8234f1397a7e962b3b2fb675bb3a8e126a93e435cd8ae7f234cfcdf1",
+      "bytes": 5621,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_resume.py",
+      "destination": "TMLR_paper/scripts/negative_resume.py",
+      "source_sha256": "28b8cdd660d6e08ec1c3c7ad84ea97683698f1e7f3a8a63b3f6dbbceb4262434",
+      "packaged_sha256": "28b8cdd660d6e08ec1c3c7ad84ea97683698f1e7f3a8a63b3f6dbbceb4262434",
+      "bytes": 214,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_search.py",
+      "destination": "TMLR_paper/scripts/negative_search.py",
+      "source_sha256": "b99a2ffa09ebcbb12f966873cd3b7fbaccf690d1bfd2a917179fef4e59c2787f",
+      "packaged_sha256": "b99a2ffa09ebcbb12f966873cd3b7fbaccf690d1bfd2a917179fef4e59c2787f",
+      "bytes": 17410,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/negative_search.slurm",
+      "destination": "TMLR_paper/scripts/negative_search.slurm",
+      "source_sha256": "42f0e2577e1ddbc929b55fa385699becfdcacd67508db1e60f326d1269c346fb",
+      "packaged_sha256": "42f0e2577e1ddbc929b55fa385699becfdcacd67508db1e60f326d1269c346fb",
+      "bytes": 734,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/overleaf_preview.tex",
+      "destination": "TMLR_paper/scripts/overleaf_preview.tex",
+      "source_sha256": "f6703d78f685d766a6758d693487df0a252b94806d7e7307c431d4a97e07b068",
+      "packaged_sha256": "f6703d78f685d766a6758d693487df0a252b94806d7e7307c431d4a97e07b068",
+      "bytes": 1505,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/package_artifacts.py",
+      "destination": "TMLR_paper/scripts/package_artifacts.py",
+      "source_sha256": "bf25315895a6c368f30f52ccf7de0cec7c5ea239a51528a937dfd6c4f00a20e8",
+      "packaged_sha256": "bf25315895a6c368f30f52ccf7de0cec7c5ea239a51528a937dfd6c4f00a20e8",
+      "bytes": 9155,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/phase1.sh",
+      "destination": "TMLR_paper/scripts/phase1.sh",
+      "source_sha256": "246cc7e27866cb4a72880d0f1e440298bc8fd434f05e86f185ce2ea9100a4bda",
+      "packaged_sha256": "246cc7e27866cb4a72880d0f1e440298bc8fd434f05e86f185ce2ea9100a4bda",
+      "bytes": 614,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/recovery_controller.py",
+      "destination": "TMLR_paper/scripts/recovery_controller.py",
+      "source_sha256": "ad2ab3c01a2c71ee89b880b59029fb0695b95c8cfb414e7e4199ac1b038218e6",
+      "packaged_sha256": "ad2ab3c01a2c71ee89b880b59029fb0695b95c8cfb414e7e4199ac1b038218e6",
+      "bytes": 6701,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/recovery_controller.slurm",
+      "destination": "TMLR_paper/scripts/recovery_controller.slurm",
+      "source_sha256": "aa817f33a8405755788874544c19088acaa56cb85d87001bf2d7f120247e202a",
+      "packaged_sha256": "aa817f33a8405755788874544c19088acaa56cb85d87001bf2d7f120247e202a",
+      "bytes": 555,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/refined_figures.py",
+      "destination": "TMLR_paper/scripts/refined_figures.py",
+      "source_sha256": "79688f67d1e30255e841d85bf4a6f638f5cbcfcc1d3948d759c59d8e0fbf35a2",
+      "packaged_sha256": "79688f67d1e30255e841d85bf4a6f638f5cbcfcc1d3948d759c59d8e0fbf35a2",
+      "bytes": 19242,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/render.py",
+      "destination": "TMLR_paper/scripts/render.py",
+      "source_sha256": "17c2dc9d50dcb8f7933fc21cc8000765c9cc054f591b185921d2d8c81b27b768",
+      "packaged_sha256": "17c2dc9d50dcb8f7933fc21cc8000765c9cc054f591b185921d2d8c81b27b768",
+      "bytes": 17286,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/reproduce.sh",
+      "destination": "TMLR_paper/scripts/reproduce.sh",
+      "source_sha256": "61e137c2c0ae4826f37976d9020a396b19c3929715a1be47ef1604b7bc6a76eb",
+      "packaged_sha256": "61e137c2c0ae4826f37976d9020a396b19c3929715a1be47ef1604b7bc6a76eb",
+      "bytes": 1361,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/response_gpu.py",
+      "destination": "TMLR_paper/scripts/response_gpu.py",
+      "source_sha256": "2f91fba2b08b9e93958f70b522e2e84b9708578de09821bb779d94f85b4d7c5c",
+      "packaged_sha256": "2f91fba2b08b9e93958f70b522e2e84b9708578de09821bb779d94f85b4d7c5c",
+      "bytes": 7663,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/responses.slurm",
+      "destination": "TMLR_paper/scripts/responses.slurm",
+      "source_sha256": "84f6b2612ff4a11924757b74bb3d268c9a870d374f3a16022d128259fc77b0fb",
+      "packaged_sha256": "84f6b2612ff4a11924757b74bb3d268c9a870d374f3a16022d128259fc77b0fb",
+      "bytes": 383,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/run_responses.sh",
+      "destination": "TMLR_paper/scripts/run_responses.sh",
+      "source_sha256": "e66dc90b98e03e41bfa0435403ba7745bf11423392d84c2384f30ec726e81e21",
+      "packaged_sha256": "e66dc90b98e03e41bfa0435403ba7745bf11423392d84c2384f30ec726e81e21",
+      "bytes": 767,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/test_allocated_negative_controller.py",
+      "destination": "TMLR_paper/scripts/test_allocated_negative_controller.py",
+      "source_sha256": "56cf9bc25efd2f47134166a298d8ec0a29fe73e5f4841478d589a0e750d940f2",
+      "packaged_sha256": "56cf9bc25efd2f47134166a298d8ec0a29fe73e5f4841478d589a0e750d940f2",
+      "bytes": 1176,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/test_negative_search.py",
+      "destination": "TMLR_paper/scripts/test_negative_search.py",
+      "source_sha256": "3a77c7480e1306f3fc6eb64bd819659b57a290ca0cea7a59b4d43ee3e27e5b48",
+      "packaged_sha256": "3a77c7480e1306f3fc6eb64bd819659b57a290ca0cea7a59b4d43ee3e27e5b48",
+      "bytes": 2090,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/test_recovery_controller.py",
+      "destination": "TMLR_paper/scripts/test_recovery_controller.py",
+      "source_sha256": "545cbf732c04ee353e53f77f109e6d8b1c8e388a4e1b8926dd9d43e4e63037eb",
+      "packaged_sha256": "545cbf732c04ee353e53f77f109e6d8b1c8e388a4e1b8926dd9d43e4e63037eb",
+      "bytes": 2064,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/scripts/verify_artifacts.py",
+      "destination": "TMLR_paper/scripts/verify_artifacts.py",
+      "source_sha256": "3d2dcba8a13914921394f8f193b115b5f0c2df6ed7f19b554e3bdaab7fea2270",
+      "packaged_sha256": "3d2dcba8a13914921394f8f193b115b5f0c2df6ed7f19b554e3bdaab7fea2270",
+      "bytes": 3362,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/summary.csv",
+      "destination": "TMLR_paper/data/negative_lambda_search/summary.csv",
+      "source_sha256": "2426e77af75b9029740b4d8ea1630565310d9dac27318e5616eb6f1a0577610a",
+      "packaged_sha256": "2426e77af75b9029740b4d8ea1630565310d9dac27318e5616eb6f1a0577610a",
+      "bytes": 129751,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/completion.json",
+      "destination": "TMLR_paper/data/negative_lambda_search/completion.json",
+      "source_sha256": "f12249e23808784f5b42e633a7a92b6383ab7e8f3cc44190341f7d434f74dcad",
+      "packaged_sha256": "f12249e23808784f5b42e633a7a92b6383ab7e8f3cc44190341f7d434f74dcad",
+      "bytes": 6746,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/experiment_config.json",
+      "destination": "TMLR_paper/data/negative_lambda_search/experiment_config.json",
+      "source_sha256": "640364805c2e2c96d3746c4d4f40b8bc67762e358f772573ea6acaeb8064f0fa",
+      "packaged_sha256": "640364805c2e2c96d3746c4d4f40b8bc67762e358f772573ea6acaeb8064f0fa",
+      "bytes": 33480,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/selected_qwen3.json",
+      "destination": "TMLR_paper/data/negative_lambda_search/selected_qwen3.json",
+      "source_sha256": "cd43a74fca26e05faf3506f09e7184df67bdec1b0a76ea80b4fc3a39b0047e56",
+      "packaged_sha256": "cd43a74fca26e05faf3506f09e7184df67bdec1b0a76ea80b4fc3a39b0047e56",
+      "bytes": 3782,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/selected_llama3b.json",
+      "destination": "TMLR_paper/data/negative_lambda_search/selected_llama3b.json",
+      "source_sha256": "cb594a9a3295072e9619658adea767afe3c6d8adc8051260ea43d76f15756982",
+      "packaged_sha256": "cb594a9a3295072e9619658adea767afe3c6d8adc8051260ea43d76f15756982",
+      "bytes": 3766,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/selected_llama2.json",
+      "destination": "TMLR_paper/data/negative_lambda_search/selected_llama2.json",
+      "source_sha256": "1a4595157ba0e872fd49732d6a4e8fc646e3104e2d8e9e2812aa225e3f722bac",
+      "packaged_sha256": "1a4595157ba0e872fd49732d6a4e8fc646e3104e2d8e9e2812aa225e3f722bac",
+      "bytes": 3776,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/data/negative_lambda_search/per_question.csv",
+      "destination": "TMLR_paper/data/negative_lambda_search/per_question.csv.gz",
+      "source_sha256": "670a35552ba5760891baa8a8bb2a2d6df49424e3cc6a8245a117c34a3b89f2ac",
+      "packaged_sha256": "5aff04f9a61b9d0f9a510e154a0c54f1ef185bcee63a45a548b7432572ac8cbb",
+      "bytes": 33350347,
+      "encoding": "gzip"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/summary.csv",
+      "destination": "results/small_lambda_positive_20261110/summary.csv",
+      "source_sha256": "d27ca2bcab07f32db184c9a77090f48990c272a0000a09cacf6df25b45b4299d",
+      "packaged_sha256": "d27ca2bcab07f32db184c9a77090f48990c272a0000a09cacf6df25b45b4299d",
+      "bytes": 81244,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/experiment_config.json",
+      "destination": "results/small_lambda_positive_20261110/experiment_config.json",
+      "source_sha256": "5b7638aef96a24c2253567d0c75284a5189f89f39376ecbb605aac980a3f1874",
+      "packaged_sha256": "5b7638aef96a24c2253567d0c75284a5189f89f39376ecbb605aac980a3f1874",
+      "bytes": 24638,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/per_question.csv",
+      "destination": "results/small_lambda_positive_20261110/per_question.csv.gz",
+      "source_sha256": "ad31a4d3f15bee0bc99a0870300072014a09d155ab8d79fcf8346b529c2afe40",
+      "packaged_sha256": "f94b96ee3dd237510f51d80053fb58518de05c52206fd0eb9b230f3070f105d1",
+      "bytes": 12456147,
+      "encoding": "gzip"
+    },
+    {
+      "source": "results/small_lambda_validation_test_20261110/test_summary.csv",
+      "destination": "results/small_lambda_validation_test_20261110/test_summary.csv",
+      "source_sha256": "c8b48c06c5f1b4a39c02a244a62ef92d3a938c14d620c9c2fcd4e9bb51ac28a3",
+      "packaged_sha256": "c8b48c06c5f1b4a39c02a244a62ef92d3a938c14d620c9c2fcd4e9bb51ac28a3",
+      "bytes": 12902,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_validation_test_20261110/frozen_config.json",
+      "destination": "results/small_lambda_validation_test_20261110/frozen_config.json",
+      "source_sha256": "4e89be98f7ffe25a96798731866a06504c8528c23263bc8d18e05a6ba2e1bf4b",
+      "packaged_sha256": "4e89be98f7ffe25a96798731866a06504c8528c23263bc8d18e05a6ba2e1bf4b",
+      "bytes": 31834,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_validation_test_20261110/test_per_question.csv",
+      "destination": "results/small_lambda_validation_test_20261110/test_per_question.csv.gz",
+      "source_sha256": "b46e6b49716ae5ffe75250d9c6520abedbe26be1551b62b6ceac3a84e5ab53ca",
+      "packaged_sha256": "a524696b1c0ebff58b8602bc1ada339ae91cf53e1accb40340e19fe75ccb0570",
+      "bytes": 317063,
+      "encoding": "gzip"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/summary.csv",
+      "destination": "results/llama2_small_lambda_positive_20261111/summary.csv",
+      "source_sha256": "0362fb11f8d5e19ea1c3ce1871cecf44811b70e1599081ab69ca0db394bd183d",
+      "packaged_sha256": "0362fb11f8d5e19ea1c3ce1871cecf44811b70e1599081ab69ca0db394bd183d",
+      "bytes": 46986,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/experiment_config.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/experiment_config.json",
+      "source_sha256": "46be1bf155321ce93af10ac8f75ff712ac302e68db07780f51dfc4c7f7ee2a6b",
+      "packaged_sha256": "46be1bf155321ce93af10ac8f75ff712ac302e68db07780f51dfc4c7f7ee2a6b",
+      "bytes": 20166,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/selected_configurations.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/selected_configurations.json",
+      "source_sha256": "bee4f78353457a0cf138bf204e70de52bd9f44962ca43562ce2f39adb862789e",
+      "packaged_sha256": "bee4f78353457a0cf138bf204e70de52bd9f44962ca43562ce2f39adb862789e",
+      "bytes": 17608,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/per_question.csv",
+      "destination": "results/llama2_small_lambda_positive_20261111/per_question.csv.gz",
+      "source_sha256": "0b2d6aad9c307b4a67de076c1d7e04da945c04db577fac260bb2cdcc1c6e67bd",
+      "packaged_sha256": "0978bbc96f066e7b80e96603a8acb82077a00620f83234bc4eb14a671925ea46",
+      "bytes": 6544304,
+      "encoding": "gzip"
+    },
+    {
+      "source": "results/qwen_quadratic_attenuation_20261103/experiment_config.json",
+      "destination": "results/qwen_quadratic_attenuation_20261103/experiment_config.json",
+      "source_sha256": "5d665af3682fde5d57210639727789f290eec0f7bcb7f4c4225d8c12207a3062",
+      "packaged_sha256": "5d665af3682fde5d57210639727789f290eec0f7bcb7f4c4225d8c12207a3062",
+      "bytes": 7630,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/qwen_quadratic_attenuation_20261103/split_manifest.json",
+      "destination": "results/qwen_quadratic_attenuation_20261103/split_manifest.json",
+      "source_sha256": "8abec176e05e0e2a85ca179cd85ef9caa1b67d3ce7579678a2aa3381e039d437",
+      "packaged_sha256": "8abec176e05e0e2a85ca179cd85ef9caa1b67d3ce7579678a2aa3381e039d437",
+      "bytes": 3247282,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/qwen_quadratic_attenuation_20261103/kernel_compatibility.json",
+      "destination": "results/qwen_quadratic_attenuation_20261103/kernel_compatibility.json",
+      "source_sha256": "27116bf80be795d73094dbe0cad00eceb6d3062f003993f93245e6425687e861",
+      "packaged_sha256": "27116bf80be795d73094dbe0cad00eceb6d3062f003993f93245e6425687e861",
+      "bytes": 303,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/qwen_original_style_20261105/experiment_config.json",
+      "destination": "results/qwen_original_style_20261105/experiment_config.json",
+      "source_sha256": "608c8237b7d9b38fbf5a2b61935bb015a48c94fd49deaa2bcf6d88f229f2eda6",
+      "packaged_sha256": "608c8237b7d9b38fbf5a2b61935bb015a48c94fd49deaa2bcf6d88f229f2eda6",
+      "bytes": 21380,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/qwen_original_style_20261105/protocol.md",
+      "destination": "results/qwen_original_style_20261105/protocol.md",
+      "source_sha256": "a3e46c74e3928145a015eb9602495d1e59edd54bda32508c3a84af7fecda14d2",
+      "packaged_sha256": "a3e46c74e3928145a015eb9602495d1e59edd54bda32508c3a84af7fecda14d2",
+      "bytes": 2837,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/execute.py",
+      "destination": "experiments/small_lambda_positive_20261110/execute.py",
+      "source_sha256": "c728a7e3a179315e4ed98de77fad7cec00b49e0d6a2da347911c3b21b8bdfc36",
+      "packaged_sha256": "c728a7e3a179315e4ed98de77fad7cec00b49e0d6a2da347911c3b21b8bdfc36",
+      "bytes": 12166,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/launch.sh",
+      "destination": "experiments/small_lambda_positive_20261110/launch.sh",
+      "source_sha256": "0e5bded9a8810a7bd1959c1e008695c5e5e2dac2eea10e782bb1fd7071e19700",
+      "packaged_sha256": "0e5bded9a8810a7bd1959c1e008695c5e5e2dac2eea10e782bb1fd7071e19700",
+      "bytes": 781,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/prepare.py",
+      "destination": "experiments/small_lambda_positive_20261110/prepare.py",
+      "source_sha256": "88f8627e89ce9eea0fa00ccc7db6d8f2df2783e01715a4528e87ed8a1f2ce30b",
+      "packaged_sha256": "88f8627e89ce9eea0fa00ccc7db6d8f2df2783e01715a4528e87ed8a1f2ce30b",
+      "bytes": 7627,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/report.py",
+      "destination": "experiments/small_lambda_positive_20261110/report.py",
+      "source_sha256": "11c63be17826ed8e133ac347078860de874b4d0abc61d2dcf7a39b39dfd89345",
+      "packaged_sha256": "11c63be17826ed8e133ac347078860de874b4d0abc61d2dcf7a39b39dfd89345",
+      "bytes": 10384,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/slurm.sh",
+      "destination": "experiments/small_lambda_positive_20261110/slurm.sh",
+      "source_sha256": "45177379cc8091e92af44f7d14b4a1aceacdcffaba6fdd3e3523830949cbbde5",
+      "packaged_sha256": "45177379cc8091e92af44f7d14b4a1aceacdcffaba6fdd3e3523830949cbbde5",
+      "bytes": 1088,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/study_common.py",
+      "destination": "experiments/small_lambda_positive_20261110/study_common.py",
+      "source_sha256": "6ab4ffd0644cb6175117fc9192f71b77227fa0dfa134375a05671372efb1f8aa",
+      "packaged_sha256": "6ab4ffd0644cb6175117fc9192f71b77227fa0dfa134375a05671372efb1f8aa",
+      "bytes": 1452,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_positive_20261110/weighted_small.py",
+      "destination": "experiments/small_lambda_positive_20261110/weighted_small.py",
+      "source_sha256": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+      "packaged_sha256": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+      "bytes": 3636,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/analyze.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/analyze.py",
+      "source_sha256": "ff7be537c7fc5e3b817ab9188ae307ee924ffcd741f62c8cb6f1122ccd18e50f",
+      "packaged_sha256": "ff7be537c7fc5e3b817ab9188ae307ee924ffcd741f62c8cb6f1122ccd18e50f",
+      "bytes": 9022,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/conclude.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/conclude.py",
+      "source_sha256": "de24b32dc1e880304687c60c2d8f1fa0ad425274c1de0cb55927b280b1ff8e72",
+      "packaged_sha256": "de24b32dc1e880304687c60c2d8f1fa0ad425274c1de0cb55927b280b1ff8e72",
+      "bytes": 6314,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/finish.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/finish.py",
+      "source_sha256": "b72306a926c52f23363bb310066c28727f33ea88462117651d4e53a206f9f491",
+      "packaged_sha256": "b72306a926c52f23363bb310066c28727f33ea88462117651d4e53a206f9f491",
+      "bytes": 13888,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/gpu.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/gpu.py",
+      "source_sha256": "618d8ce4f00a414f16d173ef54a6c088f7f50cd0add4e5e92e257716a51c1e8a",
+      "packaged_sha256": "618d8ce4f00a414f16d173ef54a6c088f7f50cd0add4e5e92e257716a51c1e8a",
+      "bytes": 9204,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/post_geometry.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/post_geometry.py",
+      "source_sha256": "d67ab9ac4e2fbce35a9b35d4f01bde5d97f5d613c6cf8d7087989333c0b587dc",
+      "packaged_sha256": "d67ab9ac4e2fbce35a9b35d4f01bde5d97f5d613c6cf8d7087989333c0b587dc",
+      "bytes": 3405,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/slurm.sh",
+      "destination": "experiments/small_lambda_validation_test_20261110/slurm.sh",
+      "source_sha256": "1c8fc1c1f909d33b736d54e443945764de06e99c5d3c3a95ef154dc4c59ec809",
+      "packaged_sha256": "1c8fc1c1f909d33b736d54e443945764de06e99c5d3c3a95ef154dc4c59ec809",
+      "bytes": 860,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/small_lambda_validation_test_20261110/support.py",
+      "destination": "experiments/small_lambda_validation_test_20261110/support.py",
+      "source_sha256": "5ede4701a66052f01c3e2043de7fdcb4dea47b8e9253b13ec82413cf738d5152",
+      "packaged_sha256": "5ede4701a66052f01c3e2043de7fdcb4dea47b8e9253b13ec82413cf738d5152",
+      "bytes": 589,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/execute.py",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/execute.py",
+      "source_sha256": "d48fc31f8c60fbb71062865b76b5a4ebe8d6b2fdcbc2aa71fd0105425b4c6793",
+      "packaged_sha256": "d48fc31f8c60fbb71062865b76b5a4ebe8d6b2fdcbc2aa71fd0105425b4c6793",
+      "bytes": 12668,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/prepare.py",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/prepare.py",
+      "source_sha256": "16c174bca2847641cf9724dea6ecd39f48dc88e40ec75472f7e4d8b0e75d6edf",
+      "packaged_sha256": "16c174bca2847641cf9724dea6ecd39f48dc88e40ec75472f7e4d8b0e75d6edf",
+      "bytes": 7086,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/report.py",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/report.py",
+      "source_sha256": "4f6149597cbf80c186044440178bcaf9199f3163f5afdb526e3ca47adc7218c7",
+      "packaged_sha256": "4f6149597cbf80c186044440178bcaf9199f3163f5afdb526e3ca47adc7218c7",
+      "bytes": 12858,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/slurm.sh",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/slurm.sh",
+      "source_sha256": "0bf3177193076cadbfacde39bae54dc7992baeecd58e6156333b33faebac02ce",
+      "packaged_sha256": "0bf3177193076cadbfacde39bae54dc7992baeecd58e6156333b33faebac02ce",
+      "bytes": 1195,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/study_common.py",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/study_common.py",
+      "source_sha256": "492791acf3a6ebcd3d39bcc6c6acf92f671432434fb9133eddb55fe3a9b9336c",
+      "packaged_sha256": "492791acf3a6ebcd3d39bcc6c6acf92f671432434fb9133eddb55fe3a9b9336c",
+      "bytes": 3968,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/llama2_small_lambda_positive_20261111/weighted_small.py",
+      "destination": "experiments/llama2_small_lambda_positive_20261111/weighted_small.py",
+      "source_sha256": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+      "packaged_sha256": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+      "bytes": 3636,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/qwen_quadratic_attenuation_20261103/run.py",
+      "destination": "experiments/qwen_quadratic_attenuation_20261103/run.py",
+      "source_sha256": "4547b372102ef8f6ed02f61dc57f9acad4d85e7b9287340b9393a659b597e7aa",
+      "packaged_sha256": "4547b372102ef8f6ed02f61dc57f9acad4d85e7b9287340b9393a659b597e7aa",
+      "bytes": 14454,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/qwen_quadratic_attenuation_20261103/weighted.py",
+      "destination": "experiments/qwen_quadratic_attenuation_20261103/weighted.py",
+      "source_sha256": "b304c7e8291304ed5b0023fa79712ed4f046cc0e04d7650082222d295f5795b8",
+      "packaged_sha256": "b304c7e8291304ed5b0023fa79712ed4f046cc0e04d7650082222d295f5795b8",
+      "bytes": 3615,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/qwen_quadratic_attenuation_20261103/focused_geometry.py",
+      "destination": "experiments/qwen_quadratic_attenuation_20261103/focused_geometry.py",
+      "source_sha256": "ba0532905a188139c4d75fd3ed03a0c64ae601a3bfc59e2348f383cea36be385",
+      "packaged_sha256": "ba0532905a188139c4d75fd3ed03a0c64ae601a3bfc59e2348f383cea36be385",
+      "bytes": 15084,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/qwen_original_style_20261105/run.py",
+      "destination": "experiments/qwen_original_style_20261105/run.py",
+      "source_sha256": "a1ddd9852806f7d1a4af1d5d459f4b37c1560dd2076a48823e0572096f773cb7",
+      "packaged_sha256": "a1ddd9852806f7d1a4af1d5d459f4b37c1560dd2076a48823e0572096f773cb7",
+      "bytes": 14282,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/methods_b.py",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/methods_b.py",
+      "source_sha256": "84919caf1be85fdc2545c6a0333fb0996e8e5ae0a52b60a977b5529e16e399fc",
+      "packaged_sha256": "84919caf1be85fdc2545c6a0333fb0996e8e5ae0a52b60a977b5529e16e399fc",
+      "bytes": 4884,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/scoring.py",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/scoring.py",
+      "source_sha256": "8fdc294a05b446e47da2517a695c6074f613b39b64fc5db802b668a054ed9cae",
+      "packaged_sha256": "8fdc294a05b446e47da2517a695c6074f613b39b64fc5db802b668a054ed9cae",
+      "bytes": 3097,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/runtime_b.py",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/runtime_b.py",
+      "source_sha256": "ce7405cc3ae3df2d812ee56ac214bbe6500536ee12496cbf2ac53ee20d44fe08",
+      "packaged_sha256": "ce7405cc3ae3df2d812ee56ac214bbe6500536ee12496cbf2ac53ee20d44fe08",
+      "bytes": 3766,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/run_stage_b.py",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/run_stage_b.py",
+      "source_sha256": "78338203ed8dc556d3fcd8623e5aea500ed5b7006d50182ac2af48ba33ef6f31",
+      "packaged_sha256": "78338203ed8dc556d3fcd8623e5aea500ed5b7006d50182ac2af48ba33ef6f31",
+      "bytes": 20814,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/audit_test_datasets.py",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/audit_test_datasets.py",
+      "source_sha256": "507edd6b93789fdad39d3d36dad95599af8ba2e1ea081e3ee1a2781a5fa49451",
+      "packaged_sha256": "507edd6b93789fdad39d3d36dad95599af8ba2e1ea081e3ee1a2781a5fa49451",
+      "bytes": 21592,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/stage_c_config.json",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/stage_c_config.json",
+      "source_sha256": "55e1c294c1859e7941e30497bac38a6a9059ccadaa0979f01c65a9914eebfd31",
+      "packaged_sha256": "55e1c294c1859e7941e30497bac38a6a9059ccadaa0979f01c65a9914eebfd31",
+      "bytes": 5802,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_official_seven_behaviors_four_models/source_manifest.json",
+      "destination": "experiments/caa_official_seven_behaviors_four_models/source_manifest.json",
+      "source_sha256": "df92683c98d25237e1f07ff4ff49f28cd216f4c032088541c696bddcd579a461",
+      "packaged_sha256": "df92683c98d25237e1f07ff4ff49f28cd216f4c032088541c696bddcd579a461",
+      "bytes": 3393,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_transfer_full_20261027/transfer_common.py",
+      "destination": "experiments/caa_transfer_full_20261027/transfer_common.py",
+      "source_sha256": "9fd5b9e96d22cf3dcf7616ade5f66f7af9b15024c1813b316284cca8e50b42c5",
+      "packaged_sha256": "9fd5b9e96d22cf3dcf7616ade5f66f7af9b15024c1813b316284cca8e50b42c5",
+      "bytes": 5106,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_transfer_full_20261027/initialize.py",
+      "destination": "experiments/caa_transfer_full_20261027/initialize.py",
+      "source_sha256": "04a69a4682160d8d408add0b6a88a911e8062733b3ada058179e5457712274a1",
+      "packaged_sha256": "04a69a4682160d8d408add0b6a88a911e8062733b3ada058179e5457712274a1",
+      "bytes": 6224,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_transfer_full_20261027/experiment_config.json",
+      "destination": "experiments/caa_transfer_full_20261027/experiment_config.json",
+      "source_sha256": "9294fe7758efd5a4fc37ac14f198d88334d1a2bc86e64a21f42185703841baf2",
+      "packaged_sha256": "9294fe7758efd5a4fc37ac14f198d88334d1a2bc86e64a21f42185703841baf2",
+      "bytes": 9825,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/audit_raw_data.py",
+      "destination": "experiments/curveball_table1_four_models_20261022/audit_raw_data.py",
+      "source_sha256": "75efce210150fa67b4748e4201ef988c9cef5f1c1cbb59f7febe77f360df4f4b",
+      "packaged_sha256": "75efce210150fa67b4748e4201ef988c9cef5f1c1cbb59f7febe77f360df4f4b",
+      "bytes": 7280,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/local_model_audit.json",
+      "destination": "experiments/curveball_table1_four_models_20261022/local_model_audit.json",
+      "source_sha256": "58b8973f8341b1a4f6b863f714f8efe948f768ee1c8949a922b244c11b75a885",
+      "packaged_sha256": "58b8973f8341b1a4f6b863f714f8efe948f768ee1c8949a922b244c11b75a885",
+      "bytes": 2746,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/common.py",
+      "destination": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/common.py",
+      "source_sha256": "e5fd821457648fe3ff8cafe7ff186713e8c8a19b38307171da0d8aee0d41c069",
+      "packaged_sha256": "e5fd821457648fe3ff8cafe7ff186713e8c8a19b38307171da0d8aee0d41c069",
+      "bytes": 3204,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/config.json",
+      "destination": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/config.json",
+      "source_sha256": "e50508ab2f4f4744cd72d3405963f8ed6b8a76d6f7714f987a6fbae62816a455",
+      "packaged_sha256": "e50508ab2f4f4744cd72d3405963f8ed6b8a76d6f7714f987a6fbae62816a455",
+      "bytes": 5665,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/corrigibility_rca_20261027/run.py",
+      "destination": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/corrigibility_rca_20261027/run.py",
+      "source_sha256": "cc74a094645c56c0bf08d1130ab1bc08b72d12487a4324c74abe2fa59b431689",
+      "packaged_sha256": "cc74a094645c56c0bf08d1130ab1bc08b72d12487a4324c74abe2fa59b431689",
+      "bytes": 17655,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/corrigibility_rca_20261027/prepare.py",
+      "destination": "experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/corrigibility_rca_20261027/prepare.py",
+      "source_sha256": "6af19ca304a6edf92de5afceb329e7d8fccca2acab41433d70d022fc14882c77",
+      "packaged_sha256": "6af19ca304a6edf92de5afceb329e7d8fccca2acab41433d70d022fc14882c77",
+      "bytes": 6182,
+      "encoding": "identity"
+    },
+    {
+      "source": "experiments/caa_reproduction/linear_eval.py",
+      "destination": "experiments/caa_reproduction/linear_eval.py",
+      "source_sha256": "2c488988326a169746874c637e3bfd350f66eeb85200c3dacab43c349f74572e",
+      "packaged_sha256": "2c488988326a169746874c637e3bfd350f66eeb85200c3dacab43c349f74572e",
+      "bytes": 2175,
+      "encoding": "identity"
+    },
+    {
+      "source": "src/__init__.py",
+      "destination": "src/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "encoding": "identity"
+    },
+    {
+      "source": "src/mcq_symmetrization.py",
+      "destination": "src/mcq_symmetrization.py",
+      "source_sha256": "59923b18301063d224979cf242572349358ca49d6a0a0eb66bf8ce23d5f8e799",
+      "packaged_sha256": "59923b18301063d224979cf242572349358ca49d6a0a0eb66bf8ce23d5f8e799",
+      "bytes": 3521,
+      "encoding": "identity"
+    },
+    {
+      "source": "src/kpca/__init__.py",
+      "destination": "src/kpca/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "encoding": "identity"
+    },
+    {
+      "source": "src/kpca/independent_decoder.py",
+      "destination": "src/kpca/independent_decoder.py",
+      "source_sha256": "7e466d460f2724512eddee6b8bfd771013a32a415ce82f59c6280c863fa0e835",
+      "packaged_sha256": "7e466d460f2724512eddee6b8bfd771013a32a415ce82f59c6280c863fa0e835",
+      "bytes": 13384,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/qwen3/freeze.json",
+      "destination": "results/small_lambda_positive_20261110/fits/qwen3/freeze.json",
+      "source_sha256": "6eceb10482598b259dea60398848c1039ae354a4b9a6844f648fd8d150d2e774",
+      "packaged_sha256": "6eceb10482598b259dea60398848c1039ae354a4b9a6844f648fd8d150d2e774",
+      "bytes": 10350,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/qwen3/linear_provenance.json",
+      "destination": "results/small_lambda_positive_20261110/fits/qwen3/linear_provenance.json",
+      "source_sha256": "42c736afb7fce158a712d50dd179435ff6223d6dcbf02b7fc1281bc0d55716c7",
+      "packaged_sha256": "42c736afb7fce158a712d50dd179435ff6223d6dcbf02b7fc1281bc0d55716c7",
+      "bytes": 959,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/qwen3/positive_steps.json",
+      "destination": "results/small_lambda_positive_20261110/fits/qwen3/positive_steps.json",
+      "source_sha256": "caeb4030421d96757d1bff6c4222384588a019b47cb6b541e3cfb4493bebe9b5",
+      "packaged_sha256": "caeb4030421d96757d1bff6c4222384588a019b47cb6b541e3cfb4493bebe9b5",
+      "bytes": 1157,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/llama3b/freeze.json",
+      "destination": "results/small_lambda_positive_20261110/fits/llama3b/freeze.json",
+      "source_sha256": "21c2e45ff8fc6c7ae2c32d8630175d64531b01c0764e9db51ba293fd6e219a8c",
+      "packaged_sha256": "21c2e45ff8fc6c7ae2c32d8630175d64531b01c0764e9db51ba293fd6e219a8c",
+      "bytes": 10480,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/llama3b/linear_provenance.json",
+      "destination": "results/small_lambda_positive_20261110/fits/llama3b/linear_provenance.json",
+      "source_sha256": "0223907bff766c6369726d3c6762079618dd542ea2ccbc46cddf3538e7ffbc0d",
+      "packaged_sha256": "0223907bff766c6369726d3c6762079618dd542ea2ccbc46cddf3538e7ffbc0d",
+      "bytes": 972,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/llama3b/positive_step_calibration.json",
+      "destination": "results/small_lambda_positive_20261110/fits/llama3b/positive_step_calibration.json",
+      "source_sha256": "51213a71b33bab9fe4dda588ec90e27fc6077a654225d6fe4c276a621ddc5dd0",
+      "packaged_sha256": "51213a71b33bab9fe4dda588ec90e27fc6077a654225d6fe4c276a621ddc5dd0",
+      "bytes": 51942,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/small_lambda_positive_20261110/fits/llama3b/positive_steps.json",
+      "destination": "results/small_lambda_positive_20261110/fits/llama3b/positive_steps.json",
+      "source_sha256": "dbbdaa8c8c1cd28ec3eebee001bd3c815eff3cf3672b481a10ddf64f65de01ad",
+      "packaged_sha256": "dbbdaa8c8c1cd28ec3eebee001bd3c815eff3cf3672b481a10ddf64f65de01ad",
+      "bytes": 1204,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/fits/llama2/freeze.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/fits/llama2/freeze.json",
+      "source_sha256": "97515035d0e172246c62c176070e892780d1c4b6e81027ca8ab4d16129d469b2",
+      "packaged_sha256": "97515035d0e172246c62c176070e892780d1c4b6e81027ca8ab4d16129d469b2",
+      "bytes": 10870,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/fits/llama2/linear_provenance.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/fits/llama2/linear_provenance.json",
+      "source_sha256": "3036e33fef094fd5d44efd39261e7c0b5c534224bd8e3b4aafe71b92a825185d",
+      "packaged_sha256": "3036e33fef094fd5d44efd39261e7c0b5c534224bd8e3b4aafe71b92a825185d",
+      "bytes": 959,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/fits/llama2/positive_step_calibration.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/fits/llama2/positive_step_calibration.json",
+      "source_sha256": "234b0fdec2427187faadc8297bfd0bf38ef400e1f1e1467e6afa7ab7635d57fe",
+      "packaged_sha256": "234b0fdec2427187faadc8297bfd0bf38ef400e1f1e1467e6afa7ab7635d57fe",
+      "bytes": 52316,
+      "encoding": "identity"
+    },
+    {
+      "source": "results/llama2_small_lambda_positive_20261111/fits/llama2/positive_steps.json",
+      "destination": "results/llama2_small_lambda_positive_20261111/fits/llama2/positive_steps.json",
+      "source_sha256": "479fab7ea66d9e1979af6c2c593ec2bfa60cd3de59a764757e0b200a48cc879f",
+      "packaged_sha256": "479fab7ea66d9e1979af6c2c593ec2bfa60cd3de59a764757e0b200a48cc879f",
+      "bytes": 1203,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/.gitignore",
+      "destination": ".gitignore",
+      "source_sha256": "835282336199c9da89d8a61b3cf838581f3a8f8671312b7a31443e2aed2cbb6e",
+      "packaged_sha256": "835282336199c9da89d8a61b3cf838581f3a8f8671312b7a31443e2aed2cbb6e",
+      "bytes": 101,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/README.md",
+      "destination": "README.md",
+      "source_sha256": "ab1dc50cfa13b3aa5834ba5f65bf9008ee410b59568331613fe8392700094e1b",
+      "packaged_sha256": "ab1dc50cfa13b3aa5834ba5f65bf9008ee410b59568331613fe8392700094e1b",
+      "bytes": 6347,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/RELEASE_AUDIT.md",
+      "destination": "RELEASE_AUDIT.md",
+      "source_sha256": "22164ebb7b28ca0533fce59ea1ea120f88aefd5a186e289b6e5d03a311f68158",
+      "packaged_sha256": "22164ebb7b28ca0533fce59ea1ea120f88aefd5a186e289b6e5d03a311f68158",
+      "bytes": 3815,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/REPRODUCING.md",
+      "destination": "REPRODUCING.md",
+      "source_sha256": "5e1d7be55c6afc3dce43b4d6b79de6c793cc37e4c01ffd786908492219dc2758",
+      "packaged_sha256": "5e1d7be55c6afc3dce43b4d6b79de6c793cc37e4c01ffd786908492219dc2758",
+      "bytes": 2937,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/requirements-analysis.txt",
+      "destination": "requirements-analysis.txt",
+      "source_sha256": "aa50158f4d72df91b184ba337f3c0ab2c7d813ff2599841f1ac12df0a9441897",
+      "packaged_sha256": "aa50158f4d72df91b184ba337f3c0ab2c7d813ff2599841f1ac12df0a9441897",
+      "bytes": 265,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/scripts/check_algorithm.py",
+      "destination": "scripts/check_algorithm.py",
+      "source_sha256": "ca9c095758201e7ababf4073a28cef4966462fdb60eae5f34405111e0760ef2c",
+      "packaged_sha256": "ca9c095758201e7ababf4073a28cef4966462fdb60eae5f34405111e0760ef2c",
+      "bytes": 1639,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/scripts/render_release.py",
+      "destination": "scripts/render_release.py",
+      "source_sha256": "63a88c2c07930978bf498ecc51284279ff548389ff15b808f386632aca8878fc",
+      "packaged_sha256": "63a88c2c07930978bf498ecc51284279ff548389ff15b808f386632aca8878fc",
+      "bytes": 1241,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/scripts/reproduce.sh",
+      "destination": "scripts/reproduce.sh",
+      "source_sha256": "93845a3a081805dd7b6e8dfaf25b3ded7fffe5e0fc52464cb30c05bce614fb6f",
+      "packaged_sha256": "93845a3a081805dd7b6e8dfaf25b3ded7fffe5e0fc52464cb30c05bce614fb6f",
+      "bytes": 202,
+      "encoding": "identity"
+    },
+    {
+      "source": "TMLR_paper/github_release/release_files/scripts/verify_release.py",
+      "destination": "scripts/verify_release.py",
+      "source_sha256": "23eb5ded57c80ef2f93ba247db63da6840b2e82b3ef2744cb247ce4e7a3e65f6",
+      "packaged_sha256": "23eb5ded57c80ef2f93ba247db63da6840b2e82b3ef2744cb247ce4e7a3e65f6",
+      "bytes": 5086,
+      "encoding": "identity"
+    }
+  ]
+}

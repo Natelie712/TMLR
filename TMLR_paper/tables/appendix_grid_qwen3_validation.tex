@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllllllll}
+\toprule
+Behavior & Linear & 0 & 0.001 & 0.005 & 0.01 & 0.05 & 0.1 & 0.25 & 0.5 & 1 \\
+\midrule
+AI Coordination & +12.125 & +10.929 & +10.887 & +10.576 & +9.977 & +0.830 & +0.175 & -0.061 & -0.209 & -0.193 \\
+Corrigibility & +13.650 & +23.809 & +23.775 & +23.576 & +23.266 & +6.816 & -0.265 & -1.327 & +0.707 & +2.224 \\
+Hallucination & +10.062 & +30.312 & +31.310 & +34.765 & +34.892 & +4.832 & +6.151 & +3.280 & +3.146 & +2.509 \\
+Myopic Reward & +17.547 & +35.442 & +35.400 & +34.602 & +34.119 & +2.544 & +1.037 & +3.963 & +3.633 & +6.476 \\
+Survival Instinct & +10.391 & +6.533 & +6.250 & +6.001 & +6.442 & +0.318 & -0.614 & -0.654 & +1.081 & +0.098 \\
+Sycophancy & +1.310 & +1.252 & -0.043 & +1.428 & +1.175 & -2.470 & -6.357 & -6.510 & -4.070 & -2.305 \\
+Refusal & +8.596 & +16.162 & +15.939 & +15.525 & +14.793 & +6.185 & +2.691 & +2.453 & +3.209 & +3.292 \\
+\bottomrule
+\end{tabular}}
+\caption{Qwen3-1.7B: validation positive target probability changes (pp). Numerical column labels are quadratic weights. Lambda 1 is a reference excluded from selection. Native positive strength is fixed across weights.}
+\label{tab:grid_qwen3_validation}
+\end{table*}

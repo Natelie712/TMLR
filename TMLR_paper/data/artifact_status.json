@@ -1,0 +1,77 @@
+{
+  "main_table_complete": true,
+  "main_conditions": 21,
+  "geometry_complete": true,
+  "response_complete": true,
+  "response_status": [
+    {
+      "model": "qwen3",
+      "status": "complete",
+      "completed": [
+        "coordinate-other-ais",
+        "corrigible-neutral-HHH",
+        "hallucination",
+        "myopic-reward",
+        "survival-instinct",
+        "sycophancy",
+        "refusal"
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/response_curves/qwen3_response-1794453886724725470_16852828"
+    },
+    {
+      "model": "llama3b",
+      "status": "complete",
+      "completed": [
+        "coordinate-other-ais",
+        "corrigible-neutral-HHH",
+        "hallucination",
+        "myopic-reward",
+        "survival-instinct",
+        "sycophancy",
+        "refusal"
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/response_curves/llama3b_response-1794526747596495264_16868125"
+    },
+    {
+      "model": "llama2",
+      "status": "complete",
+      "completed": [
+        "coordinate-other-ais",
+        "corrigible-neutral-HHH",
+        "hallucination",
+        "myopic-reward",
+        "survival-instinct",
+        "sycophancy",
+        "refusal"
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/response_curves/llama2_response-1794531279703098133_16868125"
+    }
+  ],
+  "figure2_reproduced": false,
+  "removed_original_figures": [
+    8,
+    9
+  ],
+  "generated_figures": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "draft_figures": [],
+  "historical_test_exploratory": true
+}

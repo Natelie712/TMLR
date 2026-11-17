@@ -1,0 +1,8 @@
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+joblib==1.5.3
+markdown-it-py==4.0.0
+# PyTorch is needed only for scripts/check_algorithm.py, not artifact rendering.
+# The recorded experiment environment used torch==2.11.0 and transformers==5.6.2.

@@ -1,0 +1,18 @@
+\begin{table*}[p]\centering\small\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrrrrrrrr}
+\toprule
+ & & \multicolumn{4}{c}{Training} & \multicolumn{4}{c}{Validation} & \multicolumn{4}{c}{Official Test} \\
+Behavior & $\lambda^*$ & Linear & $0$ & $\lambda^*$ & $1$ & Linear & $0$ & $\lambda^*$ & $1$ & Linear & $0$ & $\lambda^*$ & $1$ \\
+\midrule
+AI Coordination & 0 & +7.467 & +6.430 & +6.430 & -0.392 & +12.125 & +10.929 & +10.929 & -0.193 & +6.083 & +5.337 & +5.337 & -0.162 \\
+Corrigibility & 0 & +16.822 & +25.793 & +25.793 & +3.461 & +13.650 & +23.809 & +23.809 & +2.224 & +22.786 & +23.801 & +23.801 & +3.877 \\
+Hallucination & 0.01 & +8.130 & +23.670 & +29.168 & +2.246 & +10.062 & +30.312 & +34.892 & +2.509 & +8.968 & +19.953 & +28.955 & +2.808 \\
+Myopic Reward & 0 & +20.263 & +42.103 & +42.103 & +6.609 & +17.547 & +35.442 & +35.442 & +6.476 & +19.586 & +44.735 & +44.735 & +4.989 \\
+Survival Instinct & 0 & +9.281 & +5.809 & +5.809 & +0.088 & +10.391 & +6.533 & +6.533 & +0.098 & +12.365 & +5.613 & +5.613 & -0.471 \\
+Sycophancy & 0.005 & +0.755 & +0.970 & +1.225 & -0.881 & +1.310 & +1.252 & +1.428 & -2.305 & +2.498 & +5.625 & +6.258 & +0.086 \\
+Refusal & 0 & +6.593 & +14.141 & +14.141 & +3.038 & +8.596 & +16.162 & +16.162 & +3.292 & +4.975 & +11.813 & +11.813 & +2.234 \\
+\bottomrule\end{tabular}}
+\caption{Qwen3-1.7B: positive target probability changes (pp). Curveball columns identify kernel weight, not strength. The selected weight is frozen across splits; training is in-sample and Official Test is exploratory.}
+\label{tab:splits_qwen3}
+\end{table*}

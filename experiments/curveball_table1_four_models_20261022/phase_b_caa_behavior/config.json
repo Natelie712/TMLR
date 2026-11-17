@@ -1,0 +1,154 @@
+{
+  "protocol_id": "caa_behavior_four_models_v1_20261022",
+  "execution_scope": "pilot_only_no_full_sweep_no_github_push",
+  "seed": 42,
+  "concepts": [
+    "corrigible_more",
+    "power_seeking",
+    "self_awareness_general",
+    "wealth_seeking"
+  ],
+  "models": {
+    "llama2": {
+      "repo": "meta-llama/Llama-2-7b-chat-hf",
+      "revision": "f5db02db724555f92da89c216ac04704f23d4590",
+      "block": 13
+    },
+    "llama3b": {
+      "repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "block": 9
+    },
+    "phi": {
+      "repo": "microsoft/Phi-3.5-mini-instruct",
+      "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+      "block": 22
+    },
+    "qwen3": {
+      "repo": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "block": 18
+    }
+  },
+  "data": {
+    "source": "pinned shiv96 raw behavioral datasets only",
+    "split": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "unit": "canonical question including literal A/B swaps",
+    "local_legacy_eval_used": false,
+    "train_views": "all distinct valid question orientations",
+    "evaluation_views": "one canonical question and its actual text/label swap",
+    "quarantine": "entire group on invalid choice, invalid response, missing/complementary labels or conflicting target text"
+  },
+  "runtime": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "attention": "eager",
+    "tf32": false,
+    "model_eval": true,
+    "allow_cpu_model_inference": false
+  },
+  "prompt": {
+    "llama2": "exact validated CAA [INST] question [/INST] (",
+    "others": "native chat assistant prefix followed by (; no extra instruction or Answer: prefix",
+    "system_prompt": "No explicitly supplied system message; native template defaults are retained and rendered prompts saved",
+    "llama_date_string": "07 Jan 2026",
+    "qwen_enable_thinking": false,
+    "score_position": "immediate next answer-letter token",
+    "extraction_position": "that same answer-letter token in completed (A)/(B), no appended EOS",
+    "intervention_start": "last token of final user closing delimiter, inclusive; all following positions",
+    "baseline": "no hook",
+    "completion_tokenization": "Llama2/Phi whole completed string; Llama3B/Qwen stable inference prefix + singleton letter token + close parenthesis; whole-string BPE merge difference explicitly audited"
+  },
+  "linear": {
+    "vector": "mean paired positive minus negative answer-letter block outputs",
+    "normalization": "raw vector times mean raw norm across these four concepts at this model/block divided by its norm",
+    "normalization_scope_delta": "CAA official uses seven behaviors; this extension uses the four new-data behaviors",
+    "alphas": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "curveball": {
+    "kernel": "poly",
+    "degree": 2,
+    "gamma": 0.01,
+    "coef0": 1.0,
+    "n_components": 20,
+    "inverse": "sklearn KRR preimage with same poly parameters",
+    "ridge_alpha": 1.0,
+    "raw_activation_center": "training fit-pool mean",
+    "latent_direction": "unit positive-minus-negative latent mean",
+    "residual_weight": 1.0,
+    "primary_native_strengths": [
+      -1,
+      0,
+      1
+    ],
+    "zero": "explicit no-op",
+    "fit_pool_max_rows": 2000,
+    "selection": "pre-fixed parameters; no outcome-based selection"
+  },
+  "angular": {
+    "label": "Angular single-site adaptation",
+    "per_sample_normalize": true,
+    "plane": "shared-block b1; PCA0 of training-only candidate differences across block outputs",
+    "candidate_site_delta": "block outputs only, not official mid plus post sites",
+    "adaptive_mode": 1,
+    "negative_degrees": 180,
+    "baseline": "no hook",
+    "positive_degrees": 0,
+    "signed_condition_is_not_native_angle": true
+  },
+  "primary_metric": {
+    "name": "mean normalized probability of behavior-matching answer",
+    "formula": "sigmoid(FP64(FP32(logit_target))-FP64(FP32(logit_other)))",
+    "aggregation": "average original/swapped views within canonical group, then average groups",
+    "report": [
+      "negative",
+      "no_hook",
+      "positive",
+      "delta_positive",
+      "delta_negative"
+    ],
+    "probability_unit": "fraction",
+    "delta_unit": "probability difference; display pp separately",
+    "confidence_interval": "paired canonical-group bootstrap, 2000 draws, seed 42"
+  },
+  "matching_supplement": {
+    "primary_changed": false,
+    "reference": "CAA-normalized Linear L2 displacement at abs(alpha)=1",
+    "probes": "training prompts only, never validation/test",
+    "kpca": "separate signed native grids 0,0.0625,0.125,0.25,0.5,1,2,4,8,16,32,64; minimize absolute log median-displacement ratio; record unmatched if relative error > 0.1",
+    "angular": "positive-angle candidates with cos(theta)>=0 and negative with cos(theta)<0; 10-degree grid; same median-displacement matching tolerance, explicitly unmatched if unattainable",
+    "diagnostics": [
+      "absolute_l2",
+      "relative_l2",
+      "norm_ratio",
+      "cosine",
+      "angular_gate_fraction",
+      "nonfinite"
+    ]
+  },
+  "pilot": {
+    "train_groups_per_concept": 12,
+    "validation_groups_per_concept": 2,
+    "train_orientation_limit_per_group": 1,
+    "final_test_opened": false,
+    "gpu_job_minutes": 25,
+    "not_scientific_performance_estimate": true
+  },
+  "tone": {
+    "deferred": true,
+    "external_judge_api_required_for_behavior": false,
+    "future": "CAA-compatible hook plus separately defined open-ended generation and judge protocol"
+  },
+  "publication": {
+    "github_push": "await explicit user confirmation",
+    "branch_if_later_authorized": "linlin"
+  }
+}

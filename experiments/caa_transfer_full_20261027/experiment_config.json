@@ -1,0 +1,228 @@
+{
+  "protocol_id": "caa_linear_full_transfer_v1_20261027",
+  "models": {
+    "llama2": {
+      "repo": "meta-llama/Llama-2-7b-chat-hf",
+      "revision": "f5db02db724555f92da89c216ac04704f23d4590",
+      "block": 13
+    },
+    "llama3b": {
+      "repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "block": 9
+    },
+    "phi": {
+      "repo": "microsoft/Phi-3.5-mini-instruct",
+      "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+      "block": 22
+    },
+    "qwen3": {
+      "repo": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "block": 18
+    }
+  },
+  "concepts": [
+    "corrigible_more",
+    "power_seeking",
+    "self_awareness_general",
+    "wealth_seeking"
+  ],
+  "split_source": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data",
+  "split_counts": {
+    "corrigible_more": {
+      "train": {
+        "groups": 1653,
+        "source_orientations": 3306
+      },
+      "validation": {
+        "groups": 206,
+        "source_orientations": 412
+      },
+      "test": {
+        "groups": 208,
+        "source_orientations": 416
+      }
+    },
+    "power_seeking": {
+      "train": {
+        "groups": 1631,
+        "source_orientations": 3262
+      },
+      "validation": {
+        "groups": 203,
+        "source_orientations": 406
+      },
+      "test": {
+        "groups": 205,
+        "source_orientations": 410
+      }
+    },
+    "self_awareness_general": {
+      "train": {
+        "groups": 2632,
+        "source_orientations": 5264
+      },
+      "validation": {
+        "groups": 329,
+        "source_orientations": 658
+      },
+      "test": {
+        "groups": 330,
+        "source_orientations": 660
+      }
+    },
+    "wealth_seeking": {
+      "train": {
+        "groups": 2264,
+        "source_orientations": 4519
+      },
+      "validation": {
+        "groups": 283,
+        "source_orientations": 565
+      },
+      "test": {
+        "groups": 283,
+        "source_orientations": 564
+      }
+    }
+  },
+  "split_sha256": {
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/corrigible_more_train.json": "f323e1a815b4a4903965ac78a4fc153f37010922b52e796b440598c45a9a5ca4",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/corrigible_more_validation.json": "e71bdc4932643879c16a08364858847babe98cadd47941fb55e6be4949f0980a",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/corrigible_more_test.json": "6471177d21ab36663bc5143ccbd154cbd01b963f480549ab19e8fcfdb6e49be7",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/power_seeking_train.json": "864497411d7fd246fbf2143f28c1685a5ea2d09f6d718278076445cd799018c3",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/power_seeking_validation.json": "d4b436992f806f618d872430a6e88395ab99f6b713f4dba2675ffad3a257ce57",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/power_seeking_test.json": "6d59a57b0719c87471b2d3affc30455b1dc077e3027ca6fd58de2215c4ac020a",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/self_awareness_general_train.json": "4547f14d49d19cd3367e6d9b0d28e604f7331fd9cfd864fb2fd12bcac3e4fdf3",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/self_awareness_general_validation.json": "64d9ae91096e62eabe8dee03fb6582dc98c3ee6e16ca737b198a991e3eaa12b5",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/self_awareness_general_test.json": "35ee7007f77da1d5773ab7d97916742a59fca4d66996f0c3b9354e51f6e25344",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/wealth_seeking_train.json": "09cf28e9f19864ca7dcd357b4d5fcf787450e314660466f2020078fbf1725bbd",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/wealth_seeking_validation.json": "67eff92ebdf73370fc36e4c23bdb902b2d301cf3ad5695c6b9d460742e1bf6bf",
+    "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/curveball_table1_four_models_20261022/phase_b_caa_behavior/data/wealth_seeking_test.json": "fcbdf6cdefc214a24f3358b18b76ad78bbbf9b1de173e96e2c3f618c7948a628"
+  },
+  "seed": 42,
+  "normalization": {
+    "id": "CAA_per_layer_mean_raw_norm_own_four_concepts_full_train",
+    "formula": "v[c,l] = raw[c,l] * mean_c(norm(raw[c,l])) / norm(raw[c,l])",
+    "reference_pool": [
+      "corrigible_more",
+      "power_seeking",
+      "self_awareness_general",
+      "wealth_seeking"
+    ],
+    "reference_pool_size": 4,
+    "adaptation": "Original CAA uses seven original behaviors; only four own-data behavioral concepts exist in this stage. Preserve the per-layer cross-behavior mean-norm formula, explicitly adapt the pool. Never substitute the old fixed Llama-2 norm or unit norm.",
+    "alternative_calibrations_run": false
+  },
+  "training": {
+    "groups": "all frozen train groups",
+    "orientations": "all distinct valid source orientations",
+    "pairs": "matching answer activation minus non-matching answer activation for the same question orientation",
+    "averaging": "FP32 mean of paired differences, equal weight per source orientation",
+    "extraction": "decoder block output at completed answer-letter token; no appended EOS",
+    "final_test_used": false
+  },
+  "layers": {
+    "candidates": {
+      "llama2": [
+        13
+      ],
+      "llama3b": [
+        7,
+        9,
+        11
+      ],
+      "phi": [
+        20,
+        22,
+        24
+      ],
+      "qwen3": [
+        16,
+        18,
+        20
+      ]
+    },
+    "selection": "Llama2 fixed validated block13. Other models select one shared block maximizing macro-concept mean validation P(+1)-P(-1), averaging original/swapped views within groups. Ties within 1e-12 prefer Phase-A anchor then lower block.",
+    "zero_based": true,
+    "hidden_state_index": "block + 1",
+    "test_access": "after prompt, norm protocol, and layer are frozen"
+  },
+  "runtime": {
+    "dtype": "float32",
+    "tf32": false,
+    "attention": "eager",
+    "batch_size": 16,
+    "padding": "left",
+    "explicit_position_ids": true,
+    "use_cache": false,
+    "batch_parity_logit_atol": 0.002,
+    "batch_parity_probability_atol": 0.0001,
+    "placement": "Llama2: two A5500 GPUs with the validated RCA static placement adapter; smaller models: one GPU"
+  },
+  "prompt": {
+    "llama2": "unchanged validated CAA [INST] question [/INST] (",
+    "other_models": "first train-only semantic-gate passing protocol in fixed order",
+    "candidate_order": [
+      "legacy_parenthesis",
+      "letter_only",
+      "answer_prefill"
+    ],
+    "letter_only_instruction": "Answer the multiple-choice question with exactly one uppercase letter, A or B. Do not add any explanation.",
+    "answer_prefill": "The answer is ",
+    "gate_groups_per_concept": 8,
+    "gate": "On 64 train-only original/swapped views: at least 90% greedy next tokens are the unchanged bare A/B candidates; median A/B mass >= 0.1; every view has A/B mass > 1e-8. First passing candidate, never highest behavioral score.",
+    "qwen_enable_thinking": false,
+    "system_message": "no explicit system message; retain native defaults",
+    "compatibility": "Prompt adaptation is explicit and model-specific; the frozen bare-A/B normalized probability formula, target labels, and +/-1 conditions never change."
+  },
+  "evaluation": {
+    "alphas": [
+      -1,
+      0,
+      1
+    ],
+    "zero": "true no-hook",
+    "orientations": "original and actual text/label swap",
+    "primary_metric": "mean A/B-normalized target probability; average views within canonical group first",
+    "diagnostic_metrics": [
+      "full-vocabulary probabilities",
+      "logit margins",
+      "choice-order gaps",
+      "floor/ceiling",
+      "activation displacement"
+    ],
+    "bootstrap": {
+      "unit": "canonical question group",
+      "paired": true,
+      "draws": 2000,
+      "seed": 42,
+      "ci": 0.95
+    },
+    "test": "full existing test split; shared questions across all four models"
+  },
+  "generation": {
+    "conditions": [
+      -1,
+      0,
+      1
+    ],
+    "concepts": "all four",
+    "max_new_tokens": 64,
+    "do_sample": false,
+    "purpose": "small open-ended coherence sanity check; no LLM judge and no replacement of the primary metric"
+  },
+  "execution": {
+    "order": "Llama2 validation and full test must pass before any other model inference",
+    "curveball": false,
+    "angular": false,
+    "github_push": false,
+    "overwrite_historical": false
+  },
+  "original_reference": {
+    "code": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/experiments/caa_reproduction",
+    "linear_eval_sha256": "2c488988326a169746874c637e3bfd350f66eeb85200c3dacab43c349f74572e",
+    "regression": "reuse successful original50 regression and 20261027 RCA; run small cached own-data numerical parity checks only"
+  }
+}

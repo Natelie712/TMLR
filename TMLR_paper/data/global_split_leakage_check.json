@@ -1,0 +1,9 @@
+{
+  "group_overlaps": {
+    "fit_validation": 0,
+    "fit_benchmark": 0,
+    "validation_benchmark": 0
+  },
+  "passed": true,
+  "limitations": "Frozen grouping catches specified lexical/source overlap, not every possible semantic relation."
+}

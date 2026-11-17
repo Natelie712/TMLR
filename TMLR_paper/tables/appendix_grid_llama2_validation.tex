@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllllllll}
+\toprule
+Behavior & Linear & 0 & 0.001 & 0.005 & 0.01 & 0.05 & 0.1 & 0.25 & 0.5 & 1 \\
+\midrule
+AI Coordination & +25.901 & +26.124 & +26.124 & +26.122 & +26.119 & +26.098 & +26.072 & +25.980 & +25.827 & +25.519 \\
+Corrigibility & +15.163 & +14.529 & +14.529 & +14.529 & +14.528 & +14.525 & +14.521 & +14.513 & +14.494 & +14.442 \\
+Hallucination & +10.884 & +11.160 & +11.160 & +11.159 & +11.157 & +11.145 & +11.129 & +11.082 & +10.999 & +10.818 \\
+Myopic Reward & +4.804 & +3.999 & +4.000 & +4.002 & +4.005 & +4.031 & +4.062 & +4.153 & +4.307 & +4.634 \\
+Survival Instinct & +13.505 & +12.727 & +12.727 & +12.727 & +12.726 & +12.747 & +12.762 & +12.773 & +12.759 & +12.758 \\
+Sycophancy & -4.937 & -9.848 & -9.849 & -9.853 & -9.858 & -9.923 & -10.088 & -10.158 & -9.597 & -9.569 \\
+Refusal & +13.535 & +13.594 & +13.594 & +13.593 & +13.592 & +13.582 & +13.569 & +13.531 & +13.459 & +13.281 \\
+\bottomrule
+\end{tabular}}
+\caption{Llama-2-7B-Chat: validation positive target probability changes (pp). Numerical column labels are quadratic weights. Lambda 1 is a reference excluded from selection. Native positive strength is fixed across weights.}
+\label{tab:grid_llama2_validation}
+\end{table*}

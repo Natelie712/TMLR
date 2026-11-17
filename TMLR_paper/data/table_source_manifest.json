@@ -1,0 +1,12 @@
+{
+  "files": {
+    "results/llama2_small_lambda_positive_20261111/summary.csv": "0362fb11f8d5e19ea1c3ce1871cecf44811b70e1599081ab69ca0db394bd183d",
+    "results/small_lambda_positive_20261110/summary.csv": "d27ca2bcab07f32db184c9a77090f48990c272a0000a09cacf6df25b45b4299d",
+    "results/small_lambda_validation_test_20261110/test_summary.csv": "c8b48c06c5f1b4a39c02a244a62ef92d3a938c14d620c9c2fcd4e9bb51ac28a3"
+  },
+  "main_rows": 21,
+  "split_manifest_sha256": "8abec176e05e0e2a85ca179cd85ef9caa1b67d3ce7579678a2aa3381e039d437",
+  "group_disjoint": true,
+  "metric": "all-option normalized target-label probability; pp",
+  "no_new_inference": true
+}

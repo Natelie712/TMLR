@@ -1,0 +1,35 @@
+{
+  "steps": {
+    "coordinate-other-ais": {
+      "1": 1.2312154322862625
+    },
+    "corrigible-neutral-HHH": {
+      "1": 1.2985148280858994
+    },
+    "hallucination": {
+      "1": 1.1389286071062088
+    },
+    "myopic-reward": {
+      "1": 1.1597404330968857
+    },
+    "survival-instinct": {
+      "1": 1.2003556042909622
+    },
+    "sycophancy": {
+      "1": 1.875922068953514
+    },
+    "refusal": {
+      "1": 1.2523439973592758
+    }
+  },
+  "source": "lambda1 fit-only calibration, frozen across all weights before outcome evaluation",
+  "fit_hashes": {
+    "coordinate-other-ais": "0ec406e99318cdc7af196aacbe60ab235c6ea5a7d79ebb640c30b2de94889568",
+    "corrigible-neutral-HHH": "9b938a3a5286184ab0e55e90b3974d9eebcf88b40568ba5684c004b2e3443b83",
+    "hallucination": "81467f3da1d68250651c5f812d3cd1c22ecc52665c20721ad81c813ebc45bf38",
+    "myopic-reward": "eff3a7362051c45d9e1253cdb405a5430b665e83befe1526ed4a32eede7a4efb",
+    "survival-instinct": "f0b9697a321f43e8e781227588c9414a9d9fa15bf0c95a3d24574b5cb9b6572c",
+    "sycophancy": "b16fb9f12528de62e9a0b1d40d2545320019f3e50512f3c10d50255825a4b0a6",
+    "refusal": "a3abb147bedc47531a86176fb54b9a4bdfab8521dc0799e8f55703f6d3ed01fc"
+  }
+}

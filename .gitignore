@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+reproduced/
+.env
+.env.*
+*.log
+*.out
+*.err
+model_cache/
+*.safetensors
+*.bin

@@ -1,0 +1,7 @@
+{
+  "model": "llama2",
+  "concept": "refusal",
+  "elapsed_seconds": 76.70635223388672,
+  "completed": 21,
+  "expected": 21
+}

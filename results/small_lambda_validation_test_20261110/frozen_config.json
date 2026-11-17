@@ -1,0 +1,375 @@
+{
+  "created_utc": "2026-11-10T21:26:48.404085+00:00",
+  "selected": [
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 10.929110530490341,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 23.808917315634286,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "selected_weight": 0.01,
+      "validation_delta_pp": 34.89210079121978,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 35.44215627346845,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 6.532870152556502,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "selected_weight": 0.005,
+      "validation_delta_pp": 1.4275315802122845,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 16.162317898227982,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "selected_weight": 0.001,
+      "validation_delta_pp": 1.0631674946419762,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "selected_weight": 0.0,
+      "validation_delta_pp": 1.6839678239228195,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "selected_weight": 0.5,
+      "validation_delta_pp": -1.21034765358957,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "selected_weight": 0.005,
+      "validation_delta_pp": 0.07447774702197868,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "selected_weight": 0.5,
+      "validation_delta_pp": -0.34477485833265337,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "selected_weight": 0.5,
+      "validation_delta_pp": 0.23469845561949884,
+      "tie_tolerance_pp": 1e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "selected_weight": 0.01,
+      "validation_delta_pp": -0.27413185121524825,
+      "tie_tolerance_pp": 1e-06
+    }
+  ],
+  "selection_rule": "Maximize prior validation mean delta among prespecified search weights 0..0.5; ties within1e-6 pp select smaller lambda. Lambda1 remains the predeclared reference, not a new search candidate. This resolves the prior generic max rule consistently with its explicit lambda1-reference role.",
+  "official_test_methods": [
+    "No-hook",
+    "Linear",
+    "lambda_0.0",
+    "selected_weight",
+    "lambda_1.0"
+  ],
+  "deduplicate_identical_methods": true,
+  "models": {
+    "qwen3": {
+      "repo": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "block": 18
+    },
+    "llama3b": {
+      "repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "block": 9
+    }
+  },
+  "steps": {
+    "qwen3": {
+      "coordinate-other-ais": {
+        "1": 10.407230019569397
+      },
+      "corrigible-neutral-HHH": {
+        "1": 20.73086714744568
+      },
+      "hallucination": {
+        "1": 36.42935228347778
+      },
+      "myopic-reward": {
+        "1": 28.214061498641968
+      },
+      "survival-instinct": {
+        "1": 7.34356564283371
+      },
+      "sycophancy": {
+        "1": 37.14015054702759
+      },
+      "refusal": {
+        "1": 27.710599184036255
+      }
+    },
+    "llama3b": {
+      "coordinate-other-ais": {
+        "1": 0.7950356528162956
+      },
+      "corrigible-neutral-HHH": {
+        "1": 0.9910356029868126
+      },
+      "hallucination": {
+        "1": 0.5504142567515373
+      },
+      "myopic-reward": {
+        "1": 0.6092442199587822
+      },
+      "survival-instinct": {
+        "1": 0.6028949990868568
+      },
+      "sycophancy": {
+        "1": 1.2586974054574966
+      },
+      "refusal": {
+        "1": 0.9122918769717216
+      }
+    }
+  },
+  "fitting": false,
+  "steering_scope": "last real token",
+  "scorer": "unchanged all-option normalized target-label probability",
+  "exploratory": true,
+  "qwen_diagnostic": {
+    "concept": "hallucination",
+    "partition": "validation",
+    "weights": [
+      0.0,
+      0.005,
+      0.01,
+      0.05,
+      1.0
+    ],
+    "crossed_updates": [
+      "direction0_magnitude001",
+      "direction001_magnitude0"
+    ],
+    "scope": "diagnostic only; no test configuration selection from these outcomes"
+  },
+  "llama_sanity": {
+    "partition": "validation",
+    "groups_per_concept": 16,
+    "selection": "first16 sorted unique source-group IDs",
+    "weights": [
+      0.0,
+      0.005,
+      0.01,
+      0.05,
+      1.0
+    ]
+  },
+  "protected_inputs": {
+    "experiments/small_lambda_positive_20261110/execute.py": "c728a7e3a179315e4ed98de77fad7cec00b49e0d6a2da347911c3b21b8bdfc36",
+    "experiments/small_lambda_positive_20261110/prepare.py": "88f8627e89ce9eea0fa00ccc7db6d8f2df2783e01715a4528e87ed8a1f2ce30b",
+    "experiments/small_lambda_positive_20261110/report.py": "11c63be17826ed8e133ac347078860de874b4d0abc61d2dcf7a39b39dfd89345",
+    "experiments/small_lambda_positive_20261110/study_common.py": "6ab4ffd0644cb6175117fc9192f71b77227fa0dfa134375a05671372efb1f8aa",
+    "experiments/small_lambda_positive_20261110/weighted_small.py": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+    "experiments/small_lambda_validation_test_20261110/analyze.py": "ff7be537c7fc5e3b817ab9188ae307ee924ffcd741f62c8cb6f1122ccd18e50f",
+    "experiments/small_lambda_validation_test_20261110/finish.py": "b72306a926c52f23363bb310066c28727f33ea88462117651d4e53a206f9f491",
+    "experiments/small_lambda_validation_test_20261110/gpu.py": "618d8ce4f00a414f16d173ef54a6c088f7f50cd0add4e5e92e257716a51c1e8a",
+    "experiments/small_lambda_validation_test_20261110/support.py": "5ede4701a66052f01c3e2043de7fdcb4dea47b8e9253b13ec82413cf738d5152",
+    "results/small_lambda_validation_test_20261110/protocol.md": "89afcdb2b4f3c0ab77fd2dee11cf573cd7cba0075850ba2e7d636bc9370532de",
+    "results/small_lambda_positive_20261110/summary.csv": "d27ca2bcab07f32db184c9a77090f48990c272a0000a09cacf6df25b45b4299d",
+    "results/small_lambda_positive_20261110/displacement_statistics.csv": "fe43aeac7ee61ebb55f6b9924cfd1623c7953452afb42fcbb59d1afa7c3f1c16",
+    "results/small_lambda_positive_20261110/experiment_config.json": "5b7638aef96a24c2253567d0c75284a5189f89f39376ecbb605aac980a3f1874",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.0.joblib": "08c71cba0d4829029af9840474588e46b63f8165a20bb89e3192b8fc038be59d",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.001.joblib": "8d3296a0ddcd2287a5696df37b93581c3f0a15938524d7a40f2f0dc809297be4",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.005.joblib": "e2f953daa69d11ed28fb457df26d69e9ed825130b57cd5fe1e5908a9b78223f6",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.01.joblib": "d9601d5241574d4de388188272bcfa2c2a92b6b373772864c4b18df2e76431b2",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.05.joblib": "f1b2128cb3c7f50fd58f61809821f4546cb3bfa0d4c8f08687ddfa63c57c602c",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.1.joblib": "c1ddcf218f17b70240f5e294af9665e7729b5596b0dbd84d7e5627bdc54235e6",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.25.joblib": "b5f3bbacb75d4e8e15fee40d1670188c4d7fe8b510c2227ce447e35a3b9edc30",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_0.5.joblib": "ce4dce99c9270766924a73dd4f52287247a226b26d9616ea4c37f18cf742209e",
+    "results/small_lambda_positive_20261110/fits/qwen3/coordinate-other-ais_lambda_1.0.joblib": "a60bc83d6f5484b5b57364239ce872ae057d967fedc9c8dc075d5f3b3c46f00d",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.0.joblib": "cc46aa59adeb224869a1391e149bbf2441c34207dba48df77e4d0dfebfdeb64e",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.001.joblib": "99e188b9e1f9008664ce7e44d903f6b8b2fa443a7b5460eda90160853e0b1709",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.005.joblib": "be5f23afa12baeb618c5a92946329ff1ac092e4be156069c86d9063be5b7d06d",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.01.joblib": "86902f0b28ea09201e5b6b080e76af814396f136f3a459585cc6c36133c5dd12",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.05.joblib": "8273c669caff47ee17f7e39d4470b9e828b64b6d156dee3a37b3aa942d9af639",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.1.joblib": "34f6c1d8f3379d0b4b6de733b6eeeedc9eb5862f87f1e6eb5483ff52aa2cc58d",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.25.joblib": "42f492ba3a24dfb3390d47b2d4447d8f7ac6a6f396a50a3e1b7bcf39932ab110",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_0.5.joblib": "1ba8de988c2d59ceaec96b29e450e91c5844f611b5a37fa48a0e0a7e181cb3d1",
+    "results/small_lambda_positive_20261110/fits/qwen3/corrigible-neutral-HHH_lambda_1.0.joblib": "7967bd4ecf34836ffd9a16156ec582867baaac9940d906055f1d78fcaafc7157",
+    "results/small_lambda_positive_20261110/fits/qwen3/freeze.json": "6eceb10482598b259dea60398848c1039ae354a4b9a6844f648fd8d150d2e774",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.0.joblib": "4ea3d73cea36f53de28dc42ce28ac929755e4c79198618e7c6f81d415ee1a9eb",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.001.joblib": "d8ec7952c332501bb6c08eac40d8422212db6d770247d6b89e02b739212df6df",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.005.joblib": "c412921170cadf942e1b2d29cdaed4ee6813e744de5bc085c6e3fac08197b35a",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.01.joblib": "a5be9468f4142268cb5812dda36b2141b71ee5b50e9267415a0cfadde239c4fa",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.05.joblib": "c171e124d4dc4d50a0e7f412d1e6484b06c3d26ef0cba88fb935484ae3b1fccb",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.1.joblib": "9dee5a4ced32973b72eac6846bf1e71300ab83933838b6a9321521322545c486",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.25.joblib": "5ae6335d8f54fcff6ffb4a3c1456f19d43630ca027de0e0934b8c08df280bd65",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_0.5.joblib": "1ed4ae6786b33aeca10b98ece0137a67b2d16be98419963cd4c60fff6d9242e0",
+    "results/small_lambda_positive_20261110/fits/qwen3/hallucination_lambda_1.0.joblib": "9ef2dd9c162cfaa89a260d6f96a060b582f3d769a799f3e4955efa1e3c703d5e",
+    "results/small_lambda_positive_20261110/fits/qwen3/linear_provenance.json": "42c736afb7fce158a712d50dd179435ff6223d6dcbf02b7fc1281bc0d55716c7",
+    "results/small_lambda_positive_20261110/fits/qwen3/linear_vectors.pt": "f033c8b39c43fa49364977f54f6570d65257ac8e6d96054f0db44ef4854ef41a",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.0.joblib": "67a0400bb1027bd93cbdf8d759c2e83b669fc0396979582f67ffcb2023f77684",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.001.joblib": "956299e0e06a15a727cdbc172acb2ceedb759fb9a23d9661defab0a48bc491ea",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.005.joblib": "c52581e4abf0efb952ae6734254179ce66fa07cfc912e7d9f17203d16a7b5e32",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.01.joblib": "ec0a1375f78fc3b17df88e79d6aeb79336d9e31a3b793a2556094a3b067b43bb",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.05.joblib": "2bcf18e2cf18c3fe1dc208c42a8e899657c5fa64b42a380ced75010f246dd862",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.1.joblib": "51c084c4a4c54ebc9e4de6a749424d9e208e1f3c445dae495703ed54607d94f2",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.25.joblib": "9b7d2a8c115459a0dfb5f95a41019e0caf5af46ebd1178d77dd1564fbb46d8c7",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_0.5.joblib": "2441dd292c7b56ecec1791539d8b2a0af20dc050fa669d0255b87db3731decd4",
+    "results/small_lambda_positive_20261110/fits/qwen3/myopic-reward_lambda_1.0.joblib": "91da3578ca320e0366565f3ea9aa16d78b7881508b8513a2a537aea761a5f10d",
+    "results/small_lambda_positive_20261110/fits/qwen3/positive_steps.json": "caeb4030421d96757d1bff6c4222384588a019b47cb6b541e3cfb4493bebe9b5",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.0.joblib": "6a190d8c48341e38b8d8f57a0799eb5035a4e4da763a1e90e66df7115e13a260",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.001.joblib": "1420984c5e8b4ea489db13feecd1dc71187d784857a237997a52c2be057c502f",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.005.joblib": "fc4b777c4b1afc12047736c9b9aa842f2ccbcc0197053a1baf434bb451573ac9",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.01.joblib": "08d0524bd0771b18d652c031af00071200987ddf1ce0563786ebb9d022f2c7cb",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.05.joblib": "ad32b877f03117570adc305074761ed05b3d1f1bba9617a4ec66ef00aa04cfa7",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.1.joblib": "f48c8086f87f095bdfbdf4c48dbd273f62b1e0ded114335efb6eb3ac16aac5a7",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.25.joblib": "f7ebc9dbe47ad8600fd777d90d67f89dbbf8572f1736ae767790eeee0b41b133",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_0.5.joblib": "a6905e4d9c89b325858a7a9f438d0c7e8b614e80d16c13aa13cf55d8e2becd99",
+    "results/small_lambda_positive_20261110/fits/qwen3/refusal_lambda_1.0.joblib": "a68f7570bd4a4104f88aaf8751674ee388c147d50c6db070b3e10a87cb9239ca",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.0.joblib": "7956eef050228b4619253dcd8b6bdaf27679014941116d3625c399415e5b0aa7",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.001.joblib": "11ee8019d34845066cda8c4ad9c469a2cbc7011bae61296f6fdfe78debf77f30",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.005.joblib": "7e0c48414dbc9d729d99c89a7fb7fd10715982463369abddd82c84a4db50c606",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.01.joblib": "5b5898d334be874d74e836dc42d1fad2b05e16011a466d20ae7adb492ad8f335",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.05.joblib": "297f1a3bab4802d0d4306aa061b5332bac28c170a4c7e09bbfeeea1ef5c3d660",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.1.joblib": "46be81c510a75e8867116f3a571a07a3b34dfd035bd1b71c47ed3bc1a87b0abb",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.25.joblib": "0bcb5593d5217ff10604059a7c57a78d44d3e0a92fcfefb2c6ab98fb3afce78f",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_0.5.joblib": "628e34b469a6f33fd9ba11f08e0c56d6c78bbbfd694354ec989f762dff2b09f6",
+    "results/small_lambda_positive_20261110/fits/qwen3/survival-instinct_lambda_1.0.joblib": "5106cf9a21f63c91cf0848b8c679633caa4850350de10437623a34734059219a",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.0.joblib": "852c694df0892e2f6d42ad5fc62eda33f8a0e986d0a587ae37545ea8b479e068",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.001.joblib": "0882167572d4cb018e21c0925cb7ad395c068c061f2df940ee527b5be3047207",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.005.joblib": "bee3903a3f0392463ce6d69f2928b0a22a0f94954406a6979cbcff6c51485a2c",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.01.joblib": "1be6ec741751440fa7bd1e09a2298dd17318e5584e0653d53304e73cae758248",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.05.joblib": "8d4cb98aa8bc49118cba15e808d61474f40085fcf9996bf5a12c642e0af74a55",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.1.joblib": "cf8008dd01b4d57b7f3f220e4b940c85dc55bfbc01c63eb2821f6cc91331ffc4",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.25.joblib": "4fa18e7ad4a3ff108e5498f602df134616ef8a675be148f8bf77dad169b2c95b",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_0.5.joblib": "25fdb39ae81b735c24ea691a8ebcbb7d19e9316e695dccc7bed61db3fc31bb9f",
+    "results/small_lambda_positive_20261110/fits/qwen3/sycophancy_lambda_1.0.joblib": "d7936f5331b2da4bcf5614bb08b5bde1b4f75c103b303829de8712252c827176",
+    "results/small_lambda_positive_20261110/rows/qwen3/coordinate-other-ais_validation.jsonl": "181ee2d2c76fb53490039161ee06f9dc6dcd9b0680af501bf7e42892c1294f13",
+    "results/small_lambda_positive_20261110/rows/qwen3/corrigible-neutral-HHH_validation.jsonl": "cc49678e7d058051fc9b5ff4337c39a2c00b452b3d3b0fff1b8f8c41c28724f7",
+    "results/small_lambda_positive_20261110/rows/qwen3/hallucination_validation.jsonl": "b64338a03b2d33a871532c8aeb2cb1e43304813c55ad006ac5ec24acfe65efd3",
+    "results/small_lambda_positive_20261110/rows/qwen3/myopic-reward_validation.jsonl": "362b94d9561511ed9e17b585f453982d806edfe83bf2ffd146a1fded67229ba6",
+    "results/small_lambda_positive_20261110/rows/qwen3/survival-instinct_validation.jsonl": "9db4550ab51f5146126cb6299e801db9a6ae285a7efc933a0073705949b948b6",
+    "results/small_lambda_positive_20261110/rows/qwen3/sycophancy_validation.jsonl": "520a7491681726a51814fd82dc928427e4c5f4eed1f4838c3c2592d566f24d9e",
+    "results/small_lambda_positive_20261110/rows/qwen3/refusal_validation.jsonl": "000a30e3db6ef04ca19e0a7b37f1606f1522ae6f4941f39edbe5354ba4063725",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_coordinate-other-ais.pt": "a70f3369136a42afbba1fa858917e9271fe32064b0cab6e3977fd50628b71141",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_corrigible-neutral-HHH.pt": "32a2ceb5302e54132fdf6231592b42713423ecdb103374de3cbc8cedb57fb1ed",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_hallucination.pt": "4f8a0b59713d5c2be6783f8030b199af9799cd860b743a98db341b2e0c358c64",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_myopic-reward.pt": "ab14431765146567a5c4a29198812d2c9fa3b393069d2900e8bceb3774cf6134",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_refusal.pt": "9deb945377c375368a0e3b0818b48ba0ed9202c682ab834022f417cec6cddfe6",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_survival-instinct.pt": "88821e83157cb6c380bd91c25ddbf891c1b83700390af5706add8549cb525d90",
+    "results/small_lambda_positive_20261110/fits/llama3b/calibration_probes_sycophancy.pt": "dd3f4dd69b55b14ff0425298fce1e1277a9029fedf868a53768b135e5f4941c4",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.0.joblib": "b533661acc2e5d1ecd1b0f4d198c3311e83f527ed3f23d4479d5bc6c1e9b9cbb",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.001.joblib": "f2baeec41ec4c15f619fbbfe561ad8a43837409d43fa441f28850e3c4dcc28fe",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.005.joblib": "f22a6cb6e0fe45b91992e60bc12ef69b402cb3db66865be807580f36e599b202",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.01.joblib": "428ef5791e5ec3b8629bc4f1821f0ada4f4c2458412f1336a68d0a132756b462",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.05.joblib": "0c18563308ac8dc54433852741f2b03d4b33e0bdf58cffaf69cf33e65a72b456",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.1.joblib": "89c41dcbc364262b5a07f0c563d3548c16751f35f5111acc093b55034b38381d",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.25.joblib": "17b6f7645024e999e89b4d62b614774e6b84dd89bf78c4adc4e953bd13639a59",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_0.5.joblib": "f4cdc3683e0f7516597f744e8184c3f9adcbef1a8b3361b3c9ff1f1209c418e4",
+    "results/small_lambda_positive_20261110/fits/llama3b/coordinate-other-ais_lambda_1.0.joblib": "2773327e868a20fc74d9f08ab1f5cd230b447f5fea7d1a4eb0539a1157705de2",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.0.joblib": "aceb178b9e81296c806dd64105639fb53b3416507c6d1a2f6c29c52168335d39",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.001.joblib": "863aeb06ae2703daac4ac731ca59aab74be15b481c9eed5662d0feae66fbf508",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.005.joblib": "0967ae5dddf6b2eb728712eb4ee897b7db957967cfd2ecf4cd59802978539fc5",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.01.joblib": "c9cdf27fdfdf337b165c5d4ae492e33e1bfbd17e8c7049c207749a5b0d87c54f",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.05.joblib": "b719491c56775f625a191ce8d1fbe069881da0bb608b8c5a7da63e8cadf5536d",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.1.joblib": "6a130da050dda43d087d7baf252462330cc54002b1ad63074f4cd04d67d75117",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.25.joblib": "8a78b1ff72fd4131cfb557a678bb181470f5061999292a4cf5df73c237f79ee0",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_0.5.joblib": "4da908d0b74e1c5bacfb7820b535d404b7bbd6df74445d44aed5e044e0324539",
+    "results/small_lambda_positive_20261110/fits/llama3b/corrigible-neutral-HHH_lambda_1.0.joblib": "f719c461182a479f2467e221f0f3aefa393006f1d2dd1598a95f700564797b14",
+    "results/small_lambda_positive_20261110/fits/llama3b/freeze.json": "21c2e45ff8fc6c7ae2c32d8630175d64531b01c0764e9db51ba293fd6e219a8c",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.0.joblib": "261faf3ce7ee86e8cb603f2aaf78518fb63ab7b98f903b3e35ae5a9a80bfda5c",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.001.joblib": "5cee5d10154958dcbfb938e0d7d0fecb44b476be98df069136d852c3fc4bbc4d",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.005.joblib": "cd15c653937f74f2045097159bbe8aed9bdf9003e722ecda0932c8631cd5bd07",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.01.joblib": "806b50488b53f46d8aaf0a01f294abe78477c33603c70805e9b887118cad7209",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.05.joblib": "1d65feb61991e4da99a9c7f64ee1d44d9e241fbf73fb4760561a834f8c37898c",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.1.joblib": "dd4114aff482bfdbaf2e6197997de44eab0d4768be7aadc3cd1693e678d89f07",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.25.joblib": "90aa429bc5d5f2c03f8a8bc9e8c723badb722688885fa0cfd6a4f91dbf1eab01",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_0.5.joblib": "f654345c2827d511b8d858aed612cea4734e5745de42eaa2be6d54038db79c03",
+    "results/small_lambda_positive_20261110/fits/llama3b/hallucination_lambda_1.0.joblib": "3df87d9fdb42a64b281482244f2afd4e77f3072c05d0f6fa6c928aa56b3c260e",
+    "results/small_lambda_positive_20261110/fits/llama3b/linear_provenance.json": "0223907bff766c6369726d3c6762079618dd542ea2ccbc46cddf3538e7ffbc0d",
+    "results/small_lambda_positive_20261110/fits/llama3b/linear_vectors.pt": "956bc12bb4ce12677d8d2118066559bbbb7da3fbb6bb39be5339b7e8e84f35da",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.0.joblib": "27db719cf28d1e6e6db7f6c70194da0f9ce8fb44d43935de3b48e5c4d9599bb4",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.001.joblib": "726c9f9ae6395c66c78bb4ccfbc49b2694e66c81f85411ea9461ac1cc7774602",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.005.joblib": "23eac85c19f65410954ef39a9a2079249bada634c28f8eb71ef72f16140b36e7",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.01.joblib": "a1163390b9c82bc4d9e07d89ea1af871c53d38c0efe4b9e8585280bd0df2d566",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.05.joblib": "fd2716446b4b42ae57b3245ed7808158c7036572dff36ae9c574c151e90ea2ef",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.1.joblib": "3e1629024326a5c95be1db9368658f4937a14d0ea108299a5de91e1284f9499b",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.25.joblib": "adbd5c4802cce18ff5893f3db4a090333aaf998c46f684412fb80a379fef86cc",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_0.5.joblib": "ee45423adc6b207692ec5c0085c793d5c76a208698c158e3e99550934c81e249",
+    "results/small_lambda_positive_20261110/fits/llama3b/myopic-reward_lambda_1.0.joblib": "10e745923fb1b7a3bb756408d633286a19632d73e4515764ab64bb0171391470",
+    "results/small_lambda_positive_20261110/fits/llama3b/positive_step_calibration.json": "51213a71b33bab9fe4dda588ec90e27fc6077a654225d6fe4c276a621ddc5dd0",
+    "results/small_lambda_positive_20261110/fits/llama3b/positive_steps.json": "dbbdaa8c8c1cd28ec3eebee001bd3c815eff3cf3672b481a10ddf64f65de01ad",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.0.joblib": "78d8d30ebc1575da7b841f7c73bca6bd88ad7e97f9af2d44c025b1c7c64663a5",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.001.joblib": "20c7b3384d638755061f6c6e4f96652e4a4ae3220ba4aa768170425ab6fdebc5",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.005.joblib": "fff2d62ee479b80c09763603ed84fa09a614e85c68da72e2ae1091edb3f51ac8",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.01.joblib": "ff6ca11f615d841c64e3c2e4fbbd1067ed1925a488a04eba2987835bc45afdad",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.05.joblib": "7cb75470e7ead3055f19120da4a80c5c5fd86967a13f69cc457c4b7bcc3f961b",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.1.joblib": "d61e052a5d75ae2124102137c93c8b10ea51ac557e6fbc87b7ac51f5c89042b5",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.25.joblib": "f35483097217deeb7c19b9387fc5ea06b3f9d8278349d1165d46e60143397aa8",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_0.5.joblib": "492ab977dd02e48d7e48ef0271d9b8a1084391c2028ad55c82b25e52d151e862",
+    "results/small_lambda_positive_20261110/fits/llama3b/refusal_lambda_1.0.joblib": "8be50fd76eaa12a7e26d704134801f51b090d10bf1199eac5b8c7e6343841f5a",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.0.joblib": "b8cd9d7f2010ea398e198249e0a8c72826a28fb5532c2125db63fe32003c7381",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.001.joblib": "76142699c24ef16b240fa18bce78c77bfbe85a5cf90ea19db958b4a6b18a479f",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.005.joblib": "3f6eb2e176ff6a2f040c8998faca68cad847e16b09a448b59d0e66387b60482b",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.01.joblib": "bfaf806c2d08c8ac00525dc29f89cb82c0d22d3ca21ad0a8749628a5e75b1590",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.05.joblib": "981fcfca86fa1d0feb5663d42c1a6e4cf85cabfd4041bc8c9c9ccf770a091e42",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.1.joblib": "0e8137c453d87ae828799c8c6d887457614754f9c355772bb6db55abe6510131",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.25.joblib": "d5d13df10505404336f545a5c5b338344720f3f470107bc2db8fd626877a78df",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_0.5.joblib": "39d27681d427f0824d87a4cad331cbf65499c2e4c2cb42efc8a0535be7a1f80f",
+    "results/small_lambda_positive_20261110/fits/llama3b/survival-instinct_lambda_1.0.joblib": "f409aa44a008d3d2a94a00249cabdd111d7ac9dcba327190307a11111c17d3bf",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.0.joblib": "c56d2925f82a12dcf269079cf11d3f6232fa8fcbadb7f22965130b6965c6f9d1",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.001.joblib": "13028d6e83eef833597c3f52f2ef99857a90176fd5d8e1c18af4c4d67616f9c4",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.005.joblib": "fc2beb885c9103c828dc81d270352169b49c51facb31d80f90d92c9d8f4796d3",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.01.joblib": "8689d46139e76a72cffea85dac63919b0461cf00de97ad09f7a44fbac6b80e43",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.05.joblib": "311b8c26b956707bb29ad45708168493841fb568a87d535ff046e3939adcdd37",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.1.joblib": "62f57579f4540f19d2d3bd2c05c8514316dd46cfccf7cc779df05546f88a08a5",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.25.joblib": "64da388da42bc0f6e30fbb35ca3987140d68c2d205458d0c1050424abce47300",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_0.5.joblib": "9b1649f95e2c88ab83b2937c5f2c923698ef6298fb5cdeb1371fb7434d20eb9f",
+    "results/small_lambda_positive_20261110/fits/llama3b/sycophancy_lambda_1.0.joblib": "eb854dc766655d057e9913432cd9702eef3d2bd39648176198c5a02ad5339cbe",
+    "results/small_lambda_positive_20261110/rows/llama3b/coordinate-other-ais_validation.jsonl": "66d2ce3dc3a0dede74cac35dd45c0900315429877358074ee91ced9ce02cccfe",
+    "results/small_lambda_positive_20261110/rows/llama3b/corrigible-neutral-HHH_validation.jsonl": "96b90f469b757b322772b8fe73c0ad0db417a3981ea9698e5f8c5213e8d5db16",
+    "results/small_lambda_positive_20261110/rows/llama3b/hallucination_validation.jsonl": "523c1da49e79efb1948539dca37b2490b0f3b0de3b4af15dfbe28cb356e9c0a6",
+    "results/small_lambda_positive_20261110/rows/llama3b/myopic-reward_validation.jsonl": "87cf9889ddd0087ad7015c5313756a1d271698d9e28866494823f65dff1e11f1",
+    "results/small_lambda_positive_20261110/rows/llama3b/survival-instinct_validation.jsonl": "11b980e430937e3a9083445368a4fd6fe8cf2c04f09a958177ac512ce364c5d3",
+    "results/small_lambda_positive_20261110/rows/llama3b/sycophancy_validation.jsonl": "a03ad19d3807a2beecd17d91b4ee3867669e58fc836c1d412100884528159e4a",
+    "results/small_lambda_positive_20261110/rows/llama3b/refusal_validation.jsonl": "8ba7a84a3467fd5e3e395b5126045358f54d1f20a27b8d7c9a2d65c956d4bd65"
+  }
+}

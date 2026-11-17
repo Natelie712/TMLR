@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+Behavior & Qwen3 cosine [95\% CI] & Llama3B cosine [95\% CI] & Llama2 cosine [95\% CI] \\
+\midrule
+AI Coordination & 0.152 [0.097, 0.224] & 0.298 [0.217, 0.373] & 0.240 [0.172, 0.318] \\
+Corrigibility & 0.113 [0.061, 0.203] & 0.290 [0.222, 0.360] & 0.220 [0.150, 0.300] \\
+Hallucination & 0.221 [0.203, 0.239] & 0.250 [0.228, 0.270] & 0.244 [0.222, 0.267] \\
+Myopic Reward & 0.089 [0.075, 0.105] & 0.254 [0.233, 0.276] & 0.202 [0.180, 0.223] \\
+Survival Instinct & 0.068 [0.022, 0.128] & 0.088 [0.049, 0.135] & 0.071 [0.033, 0.129] \\
+Sycophancy & 0.011 [0.000, 0.034] & 0.003 [-0.005, 0.023] & 0.009 [0.000, 0.031] \\
+Refusal & 0.147 [0.118, 0.187] & 0.164 [0.142, 0.194] & 0.192 [0.165, 0.228] \\
+\bottomrule
+\end{tabular}}
+\caption{Validation cross-prompt cosine of genuine paired contrast vectors from distinct source groups, with 1,000 group-bootstrap intervals. Counts appear in Table 3; the full fitting/validation comparison is supplied separately. No tone comparison is inferred.}
+\label{tab:cross_prompt_main}
+\end{table*}

@@ -1,0 +1,179 @@
+{
+  "complete": true,
+  "model_concepts": 21,
+  "paired_source_checks": [
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "paired_rows": 360,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "4bcc6d8e3c376715fc17bce51b3b15e3fc519bb74ed1945f0cdbf4c4fa0b5b6f"
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "paired_rows": 290,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "93fafb24cf0273b652f2701d65ca3898ee84ab1a8982ffe601a0167eb89c1ca1"
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "769440e56fbf38b2163b2d05ae3a1dfa017afa59f198aaeb8fa35c0fb22210b2"
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "paired_rows": 950,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "e3a18a0c7a9f88eec250b28d522c0166c8624fcfd524b7caff368c3de441ec95"
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "paired_rows": 903,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "8c866cc3faca6a3cc1271d89cd4df33614e763ab8e82bf4615142232858cfc70"
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "1caa5e80250ceafdc77fdb5d1a84e35a5849994ab6b1671a8908ba989bfae1af"
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "paired_rows": 408,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "46c4770525263eff0a3f49e05b32b59e0bacd3f129c9ab04a8815591be61436c"
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "paired_rows": 360,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "c45bc8ca59234d99ceb254197c3b5327896c788f14977600a2a4d4ff7a2a538f"
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "paired_rows": 290,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "ae10bd0360ecfdfa6f07637823aeb70a2f5da39e0ff98f0a75099561d018d84e"
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "b499518a8358ac98d3041283e1d106b39ae24d7f97170882d1404c4c25b30dc0"
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "paired_rows": 950,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "0e3d10e95fd226164c67d42f2bb660f810023909414782da199e47f9dce54b42"
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "paired_rows": 903,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "202fe0b9368e86e84b947a928949c442ae4914832786154b3319baf188e413e4"
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "a71e41cc68782baa74bf8a405c8c262858f2c48ec97d508bd9f947205f4610a1"
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "paired_rows": 408,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "0b2443ae7b3b2ffbcf939253bd377f59ac9a07c67e72d2b47fd24084c389cd8f"
+    },
+    {
+      "model": "llama2",
+      "concept": "coordinate-other-ais",
+      "paired_rows": 360,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "8f956f2e314b9413d70b5bd3303b236137e7f604aabd21ba76ffbe803a62cfc9"
+    },
+    {
+      "model": "llama2",
+      "concept": "corrigible-neutral-HHH",
+      "paired_rows": 290,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "b475c1834250f304266ff8bdace008b7713c2a97984931f868c61a12ade503ce"
+    },
+    {
+      "model": "llama2",
+      "concept": "hallucination",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "a5a770671e3aac8e2d39e8171e344ecc5eed100a2161fd0c29647085f4ea41d8"
+    },
+    {
+      "model": "llama2",
+      "concept": "myopic-reward",
+      "paired_rows": 950,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "74aefe4ddc9d00049d1cb21b435da29141530fafad72eb453295db74769cbc51"
+    },
+    {
+      "model": "llama2",
+      "concept": "survival-instinct",
+      "paired_rows": 903,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "16b5e9ff456d29a34f8dd314c62e3f2000cb2945b3163922d992696291d82a59"
+    },
+    {
+      "model": "llama2",
+      "concept": "sycophancy",
+      "paired_rows": 1000,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "7343ba2918b1846e8654f2710157218eae7257e4926880dd3664a79551f99161"
+    },
+    {
+      "model": "llama2",
+      "concept": "refusal",
+      "paired_rows": 408,
+      "positive_negative_source_indices_identical": true,
+      "all_prompt_labels_verified": true,
+      "cache_sha256": "f29ed57bade59c76ed7a04fcf034de1693956313dc30af46ac920a1748b8a6ea"
+    }
+  ],
+  "elapsed_seconds": 77.32352113723755,
+  "bootstrap_resamples": 1000,
+  "random_partition_controls": 500,
+  "no_gpu_inference": true,
+  "official_test_used": false
+}

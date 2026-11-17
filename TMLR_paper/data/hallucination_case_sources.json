@@ -1,0 +1,7 @@
+{
+  "files": {
+    "results/small_lambda_validation_test_20261110/qwen_factorial_contrasts.csv": "3808b193385199069b8bc36225ff516cdc854eb1b36d328ed65aa74020c7571f",
+    "results/small_lambda_validation_test_20261110/paired_validation_intervals.csv": "707914dab752e3eb9e4b717b6da3d66af4a1abd900c198adfb4eeb6bfb48de94",
+    "results/small_lambda_validation_test_20261110/qwen_hallucination_displacement.csv": "2e1e1ea1813dc5ee912f33364d316a4eb8e5c93f274d37f17b75f202c1709e9a"
+  }
+}

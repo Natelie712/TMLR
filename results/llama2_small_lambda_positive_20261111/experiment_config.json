@@ -1,0 +1,285 @@
+{
+  "models": {
+    "llama2": {
+      "repo": "meta-llama/Llama-2-7b-chat-hf",
+      "revision": "f5db02db724555f92da89c216ac04704f23d4590",
+      "block": 13
+    }
+  },
+  "concepts": [
+    "coordinate-other-ais",
+    "corrigible-neutral-HHH",
+    "hallucination",
+    "myopic-reward",
+    "survival-instinct",
+    "sycophancy",
+    "refusal"
+  ],
+  "weights": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "partitions": [
+    "validation",
+    "fit",
+    "benchmark"
+  ],
+  "positive_only": true,
+  "scorer": "Fixed all-option normalized target-label probability",
+  "prompt_variant": "legacy_parenthesis",
+  "scope": "last real token",
+  "per_token_displacement_matching": false,
+  "precision": "float32 LLM, float64 KPCA, TF32 disabled",
+  "split_manifest": "results/qwen_quadratic_attenuation_20261103/split_manifest.json",
+  "counts": {
+    "coordinate-other-ais": {
+      "fit": {
+        "rows": 298,
+        "groups": 298
+      },
+      "validation": {
+        "rows": 62,
+        "groups": 62
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "corrigible-neutral-HHH": {
+      "fit": {
+        "rows": 238,
+        "groups": 238
+      },
+      "validation": {
+        "rows": 52,
+        "groups": 52
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "hallucination": {
+      "fit": {
+        "rows": 803,
+        "groups": 754
+      },
+      "validation": {
+        "rows": 195,
+        "groups": 184
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 2,
+        "groups": 2
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "myopic-reward": {
+      "fit": {
+        "rows": 723,
+        "groups": 565
+      },
+      "validation": {
+        "rows": 137,
+        "groups": 126
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 90,
+        "groups": 6
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 46
+      }
+    },
+    "survival-instinct": {
+      "fit": {
+        "rows": 714,
+        "groups": 714
+      },
+      "validation": {
+        "rows": 189,
+        "groups": 189
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "sycophancy": {
+      "fit": {
+        "rows": 797,
+        "groups": 793
+      },
+      "validation": {
+        "rows": 202,
+        "groups": 200
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 1,
+        "groups": 1
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    },
+    "refusal": {
+      "fit": {
+        "rows": 333,
+        "groups": 332
+      },
+      "validation": {
+        "rows": 75,
+        "groups": 75
+      },
+      "benchmark_overlap_excluded": {
+        "rows": 0,
+        "groups": 0
+      },
+      "benchmark": {
+        "rows": 50,
+        "groups": 50
+      }
+    }
+  },
+  "activation_sources": {
+    "llama2": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779"
+  },
+  "strength_rule": "Calibrate lambda=1 once against the fit-only seven-behavior calibrated Linear vector RMS, using prefix-boundary-to-end activations from the first 32 sorted fit groups. Fix this native positive step across all lambda values. Evaluate only at the last real token. No per-token displacement matching or behavioral strength tuning.",
+  "selection_rule": "After all validation results complete, choose the highest mean positive delta among lambda 0,.001,.005,.01,.05,.1,.25,.5; ties within 1e-6 pp choose the smaller lambda. Lambda=1 is a reference only. Freeze choices and hashes before official-test inference. Evaluate only Linear, lambda=0, selected lambda and lambda=1 on test.",
+  "selection_eligible_weights": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "budget": "User removed prior 90-minute cap. Use one adequate GPU with checkpointed execution.",
+  "formal_test_execution": true,
+  "exploratory_fixed_benchmark": true,
+  "bootstrap": {
+    "resamples": 10000,
+    "unit": "source group",
+    "point_estimate": "original-row mean",
+    "seed_rule": "20261104 + concept_index*3 + split_index (fit=0, validation=1, benchmark=2)"
+  },
+  "frozen_inputs": {
+    "experiments/caa_official_seven_behaviors_four_models/methods_b.py": "84919caf1be85fdc2545c6a0333fb0996e8e5ae0a52b60a977b5529e16e399fc",
+    "experiments/caa_official_seven_behaviors_four_models/runtime_b.py": "ce7405cc3ae3df2d812ee56ac214bbe6500536ee12496cbf2ac53ee20d44fe08",
+    "experiments/caa_official_seven_behaviors_four_models/scoring.py": "8fdc294a05b446e47da2517a695c6074f613b39b64fc5db802b668a054ed9cae",
+    "experiments/caa_reproduction/linear_eval.py": "2c488988326a169746874c637e3bfd350f66eeb85200c3dacab43c349f74572e",
+    "experiments/llama2_small_lambda_positive_20261111/execute.py": "d48fc31f8c60fbb71062865b76b5a4ebe8d6b2fdcbc2aa71fd0105425b4c6793",
+    "experiments/llama2_small_lambda_positive_20261111/prepare.py": "16c174bca2847641cf9724dea6ecd39f48dc88e40ec75472f7e4d8b0e75d6edf",
+    "experiments/llama2_small_lambda_positive_20261111/report.py": "4f6149597cbf80c186044440178bcaf9199f3163f5afdb526e3ca47adc7218c7",
+    "experiments/llama2_small_lambda_positive_20261111/slurm.sh": "0bf3177193076cadbfacde39bae54dc7992baeecd58e6156333b33faebac02ce",
+    "experiments/llama2_small_lambda_positive_20261111/study_common.py": "492791acf3a6ebcd3d39bcc6c6acf92f671432434fb9133eddb55fe3a9b9336c",
+    "experiments/llama2_small_lambda_positive_20261111/weighted_small.py": "28ea4065a10562bbb73ae944585f403b8c241a85ced733171795dde3c9b649e6",
+    "experiments/qwen_original_style_20261105/check_cpu.py": "781c7c3f99c8e1bb6e0fb1948727d1ec30e8cc0871f4d32c7d54f0d93a3cac43",
+    "experiments/qwen_original_style_20261105/prepare.py": "164af713a77bd8e4ee2a0365e2ac24753e2519e1cf35bdcbcb97a31347e67fb2",
+    "experiments/qwen_original_style_20261105/report.py": "959aa640d01398c12398541e2a471b1b9fb32296298392af98c0e3fe41bae58a",
+    "experiments/qwen_original_style_20261105/run.py": "a1ddd9852806f7d1a4af1d5d459f4b37c1560dd2076a48823e0572096f773cb7",
+    "experiments/qwen_original_style_20261105/slurm.sh": "e5bddf755763d6081ed393c333249f32839429548eeee45505f16964992e9403",
+    "experiments/qwen_quadratic_attenuation_20261103/focused_geometry.py": "ba0532905a188139c4d75fd3ed03a0c64ae601a3bfc59e2348f383cea36be385",
+    "experiments/qwen_quadratic_attenuation_20261103/run.py": "4547b372102ef8f6ed02f61dc57f9acad4d85e7b9287340b9393a659b597e7aa",
+    "experiments/qwen_quadratic_attenuation_20261103/seven_splits.py": "2623645c165d25cf2468ea516f6d82b65a89c3d2269c82b4884717441199b340",
+    "experiments/qwen_quadratic_attenuation_20261103/seven_splits.sh": "035798ddb8482fc5ea48c94c8556bf227cf61c0f35fa172f45d042691b85cdfd",
+    "experiments/qwen_quadratic_attenuation_20261103/weighted.py": "b304c7e8291304ed5b0023fa79712ed4f046cc0e04d7650082222d295f5795b8",
+    "paper/_NeurIPS26__kernelpca_steering.pdf": "abf9780fd1fd7be44c538d495f386a7a5fbc79ac4d975e85a824caf3e942a403",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/extraction_index_checks.json": "71428927388b8b6742ea3ade3fba00eaac638cd465672bbbfa21fb6a8f501179",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/manifest.json": "50bd79a1bc0ca64736d8c97f0d78384bde945b55e2151216b5808b57928c8d3e",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_coordinate-other-ais.pt": "8f956f2e314b9413d70b5bd3303b236137e7f604aabd21ba76ffbe803a62cfc9",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_corrigible-neutral-HHH.pt": "b475c1834250f304266ff8bdace008b7713c2a97984931f868c61a12ade503ce",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_hallucination.pt": "a5a770671e3aac8e2d39e8171e344ecc5eed100a2161fd0c29647085f4ea41d8",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_myopic-reward.pt": "74aefe4ddc9d00049d1cb21b435da29141530fafad72eb453295db74769cbc51",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_refusal.pt": "f29ed57bade59c76ed7a04fcf034de1693956313dc30af46ac920a1748b8a6ea",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_survival-instinct.pt": "16b5e9ff456d29a34f8dd314c62e3f2000cb2945b3163922d992696291d82a59",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/train_activations_sycophancy.pt": "7343ba2918b1846e8654f2710157218eae7257e4926880dd3664a79551f99161",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/llama2_three-method-comparison_16614779/training_prompts.jsonl": "08b50b99a71b1c9ab87594ad5c76bc9c5fb5ecd76d43fbd1fe02c504c2b0d7a2",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_coordinate-other-ais.pt": "4bcc6d8e3c376715fc17bce51b3b15e3fc519bb74ed1945f0cdbf4c4fa0b5b6f",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_corrigible-neutral-HHH.pt": "93fafb24cf0273b652f2701d65ca3898ee84ab1a8982ffe601a0167eb89c1ca1",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_hallucination.pt": "769440e56fbf38b2163b2d05ae3a1dfa017afa59f198aaeb8fa35c0fb22210b2",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_myopic-reward.pt": "e3a18a0c7a9f88eec250b28d522c0166c8624fcfd524b7caff368c3de441ec95",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_refusal.pt": "46c4770525263eff0a3f49e05b32b59e0bacd3f129c9ab04a8815591be61436c",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_survival-instinct.pt": "8c866cc3faca6a3cc1271d89cd4df33614e763ab8e82bf4615142232858cfc70",
+    "results/caa_official_seven_behaviors_four_models/staged_execution_20261030/qwen3_three-method-comparison_16614782/train_activations_sycophancy.pt": "1caa5e80250ceafdc77fdb5d1a84e35a5849994ab6b1671a8908ba989bfae1af",
+    "results/llama2_small_lambda_positive_20261111/protocol.md": "01e1f159fb14aaec4f41601a0594c095264d84e3f994a45e1edb6e5820584ae0",
+    "results/qwen_original_style_20261105/experiment_config.json": "608c8237b7d9b38fbf5a2b61935bb015a48c94fd49deaa2bcf6d88f229f2eda6",
+    "results/qwen_original_style_20261105/summary.csv": "e44d9c7a7f33f39c8a94e6178b8e717b4456cbcaf01c792f2a31325c2cad4dfb",
+    "results/qwen_quadratic_attenuation_20261103/experiment_config.json": "5d665af3682fde5d57210639727789f290eec0f7bcb7f4c4225d8c12207a3062",
+    "results/qwen_quadratic_attenuation_20261103/focused_diagnostics_20261103/qwen3_focused-geometry_2312028/rows.json": "a498f0d8f10f4a0a5db34bf1467a5d7bf9d7f0e22a8699c2ef4c6d3ebed04cfe",
+    "results/qwen_quadratic_attenuation_20261103/frozen_test_20261103/qwen3_frozen-test_2312840/rows.json": "928238e66f53524cc7bab8a23e82671476b1485f7349aebd30e9e218d1dca87e",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_0.0.joblib": "dd81643c4eccafff625abfb75f01d40869cb9ad986189b869dac01b3e7e09c4b",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_0.5.joblib": "5ed6ed127c5e7d099c2a5f9af47277c4fe8086b835c8f3957f19907884180333",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_corrigible-neutral-HHH_lambda_1.0.joblib": "026bcb0d0ce99d88e850737693c3700bb6b16c3daae3bb24067a1c4233862004",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_0.0.joblib": "0f178aff9e8d340358f954eaee8246decd41edf02071e722a591ee4c0c72b3d0",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_0.5.joblib": "124ba6f06cfe8a97ed992d39238ead31f75d941bbff73b22832c5784bd31dc4c",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_myopic-reward_lambda_1.0.joblib": "8a53ba25b1c0d76238b36e75dd43414b314a04e8da7c59f60454c03cf9da0b18",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_only_linear_vectors.pt": "a6840ece26e053ff792bba37bb132d21eab87f29d58d1b0325e5feb27e2f0652",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_corrigible-neutral-HHH.pt": "1f563a72fbf8160e38876bdccffa6838ee69d3f2b1e302126883e547982b645e",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_myopic-reward.pt": "1cc247700fc0c86d82d8632e343771e040389c4f4002ad9c6c5da1b4ca1cfc50",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_probes_survival-instinct.pt": "04402ac446c370cbf68d532ecf9e464bb6a88fdb62a62bff3be494ee84c7aa58",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_0.0.joblib": "6919cd32d8125f13dc1813656c3907362ce775f977cd6ef5c93597849d365622",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_0.5.joblib": "217fbbe6b6f3a383b2ee21ef19f98e34bcd7f93c511763b03936ef23d88b7ca3",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/fit_survival-instinct_lambda_1.0.joblib": "076a724c9becb5d9f862cd10bac93d772b9efb4f3b82be58468e175cc9583c20",
+    "results/qwen_quadratic_attenuation_20261103/qwen3_attenuation-validation_2311301/strength_parameters.json": "d0a9f048bf97915447ff6dcb31d8100a56d45db6d58b6ac80da0eceb0a0f1270",
+    "results/qwen_quadratic_attenuation_20261103/split_manifest.json": "8abec176e05e0e2a85ca179cd85ef9caa1b67d3ce7579678a2aa3381e039d437",
+    "results/qwen_seven_split_comparison_20261104/detailed_probabilities.csv": "265297b6901a47627c3fd5f8a79efd396c785e7864b89549e5c686ba633929e4",
+    "results/qwen_seven_split_comparison_20261104/main_table.tex": "0a253b04aa35a5acf805e986c1bef29f58fef8ee3e34e7739828108cdd59bafe",
+    "results/qwen_seven_split_comparison_20261104/per_question.csv": "a95416d121b8fbb96403ef177b252181014a7f8ea334485dcfff8860153c11a6",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.0.joblib": "d9641cee54c63431d08ab03aa8f336c8df411aa43e9833fabb29115d496ac602",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_0.5.joblib": "684532a083bacf2c0b112a6f7affae74507582d9a6bd43e1388c64b815e91fdc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_coordinate-other-ais_lambda_1.0.joblib": "442dd47344207e27ac0168668ccd3fcc91dd93680908106227bdbcc18fcb85f0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.0.joblib": "dd81643c4eccafff625abfb75f01d40869cb9ad986189b869dac01b3e7e09c4b",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_0.5.joblib": "5ed6ed127c5e7d099c2a5f9af47277c4fe8086b835c8f3957f19907884180333",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_corrigible-neutral-HHH_lambda_1.0.joblib": "026bcb0d0ce99d88e850737693c3700bb6b16c3daae3bb24067a1c4233862004",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.0.joblib": "53bf58d63334c2c820229120667a7d816da55c57c60f9c1f51b5ce3eda61b1dc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_0.5.joblib": "1f193a71fafa750f90b73d5bceff44efdd7e4fd50d0e8110631dbcbcc6a7c9bc",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_hallucination_lambda_1.0.joblib": "aef996a5f594d835b47ab04e6d870d9b6ad5e193b81c68a009541c7defc40a20",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.0.joblib": "6919cd32d8125f13dc1813656c3907362ce775f977cd6ef5c93597849d365622",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_0.5.joblib": "217fbbe6b6f3a383b2ee21ef19f98e34bcd7f93c511763b03936ef23d88b7ca3",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/fit_survival-instinct_lambda_1.0.joblib": "076a724c9becb5d9f862cd10bac93d772b9efb4f3b82be58468e175cc9583c20",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-0_2321869/native_parameters.json": "6b002f8dd2741efe3a213afbb2b8bbeb0c8ec33541cd20904f43f654c2a74bfe",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.0.joblib": "0f178aff9e8d340358f954eaee8246decd41edf02071e722a591ee4c0c72b3d0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_0.5.joblib": "124ba6f06cfe8a97ed992d39238ead31f75d941bbff73b22832c5784bd31dc4c",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_myopic-reward_lambda_1.0.joblib": "8a53ba25b1c0d76238b36e75dd43414b314a04e8da7c59f60454c03cf9da0b18",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.0.joblib": "eb6154e5936e6a03d7353731ec0e2b17d84ba9b0f4645ae9d7b214fe4b7f3b37",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_0.5.joblib": "f21e3219363b64ba957f61d8bd236ca445130878e8cb63489a5075b987fe4371",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_refusal_lambda_1.0.joblib": "cf5f1aaecc0153810e168d6af1485f21947ae50f96a859b5eac256a4e6182f05",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.0.joblib": "0aef7af0537b280e62cf04b42dd8e631bd4f75e3156c1c3c925459f3cf11e7d0",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_0.5.joblib": "1962d2c24e0e9610258efc1b56db1e4d1e2c45d24b90a0151456b4af418027b4",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/fit_sycophancy_lambda_1.0.joblib": "a22a90ba6d7a3f2bd32310996f6e96828dd8fe14c20d13ee54b0594b0d951a53",
+    "results/qwen_seven_split_comparison_20261104/qwen3_seven-splits-1_2322235/native_parameters.json": "e3976367eb361528846454fab212a94fb44cc8a2a0cc93fc7d3fbf12769d05b5",
+    "src/kpca/gpu_kpca.py": "9a780c20de3c40cd220b52f4aa975e453374017c772072418232258f307bac4c",
+    "src/kpca/independent_decoder.py": "7e466d460f2724512eddee6b8bfd771013a32a415ce82f59c6280c863fa0e835",
+    "src/kpca/train.py": "b8b56d7014213e74fd8f9b79cc6c6fa04a64e74ab67be105c98ee635295409a4",
+    "src/legacy/steering_eval_functions.py": "45795b3af319aa994c57c8de94bc3d1c812010c19aeaab8deaae99e6d042022f",
+    "src/steering/hooks.py": "492c6e6b3c234a2f3d745b39eb62dcf7b1d50d10fbe8b8cbc8fa7af7678b8fc7"
+  }
+}

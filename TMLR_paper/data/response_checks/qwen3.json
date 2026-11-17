@@ -1,0 +1,327 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 8.22533152700089e-11
+    },
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 3.738964693411617e-11
+    },
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 1.1563527912983318e-11
+    },
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "No-hook",
+      "probability_error": 5.457986574599249e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "Linear",
+      "probability_error": 4.1684353502898126e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "lambda_0.0",
+      "probability_error": 3.334843553777847e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "No-hook",
+      "probability_error": 3.8197021987160153e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "Linear",
+      "probability_error": 1.7146949534696532e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "lambda_0.0",
+      "probability_error": 6.285329334776435e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "No-hook",
+      "probability_error": 4.136998182843743e-07
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "Linear",
+      "probability_error": 3.7113395578991515e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "lambda_0.0",
+      "probability_error": 3.6563088728555626e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "No-hook",
+      "probability_error": 2.0187795873324128e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "Linear",
+      "probability_error": 3.949620846176172e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "lambda_0.0",
+      "probability_error": 2.9353576188606567e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "lambda_0.01",
+      "probability_error": 6.031304945475213e-07
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "No-hook",
+      "probability_error": 4.884981308350689e-15
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "Linear",
+      "probability_error": 4.440892098500626e-15
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "lambda_0.0",
+      "probability_error": 3.042011087472929e-14
+    },
+    {
+      "model": "qwen3",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "lambda_0.01",
+      "probability_error": 2.5091040356528538e-14
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "No-hook",
+      "probability_error": 2.5026742489373398e-14
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "Linear",
+      "probability_error": 7.21554000266175e-13
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "lambda_0.0",
+      "probability_error": 1.709525373194687e-05
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "No-hook",
+      "probability_error": 2.2455842283734023e-14
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "Linear",
+      "probability_error": 2.577616495521072e-13
+    },
+    {
+      "model": "qwen3",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "lambda_0.0",
+      "probability_error": 1.8952727255938662e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 0.0
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 1.6466729547137682e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 1.7914889725023642e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "No-hook",
+      "probability_error": 2.4986108902447235e-06
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "Linear",
+      "probability_error": 1.7171320216419206e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "lambda_0.0",
+      "probability_error": 2.6463747201943555e-07
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 4.647297041637799e-07
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 4.360273997416897e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 6.238495275923128e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "lambda_0.005",
+      "probability_error": 7.549164626752258e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "No-hook",
+      "probability_error": 1.9519941218959502e-12
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "Linear",
+      "probability_error": 2.724487302430134e-13
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "lambda_0.0",
+      "probability_error": 1.163513729807164e-13
+    },
+    {
+      "model": "qwen3",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "lambda_0.005",
+      "probability_error": 2.6556534749033744e-13
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 0,
+      "method": "No-hook",
+      "probability_error": 7.259756276596109e-11
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 0,
+      "method": "Linear",
+      "probability_error": 1.9055600083105195e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 0,
+      "method": "lambda_0.0",
+      "probability_error": 4.937993913767258e-08
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 5,
+      "method": "No-hook",
+      "probability_error": 3.4962584573755865e-10
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 5,
+      "method": "Linear",
+      "probability_error": 0.0
+    },
+    {
+      "model": "qwen3",
+      "concept": "refusal",
+      "index": 5,
+      "method": "lambda_0.0",
+      "probability_error": 1.8567868074028174e-08
+    }
+  ]
+}

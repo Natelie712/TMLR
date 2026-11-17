@@ -1,0 +1,34 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllll}
+\toprule
+Model & Behavior & lambda & Q / G & rho & 95\% CI & Holm p \\
+\midrule
+Qwen3-1.7B & AI Coordination & 0.0 & 62 / 62 & -- & [--, --] & -- \\
+Qwen3-1.7B & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Qwen3-1.7B & Hallucination & 0.01 & 195 / 184 & 0.038 & [-0.110, 0.175] & 1.000 \\
+Qwen3-1.7B & Myopic Reward & 0.0 & 137 / 126 & -- & [--, --] & -- \\
+Qwen3-1.7B & Survival Instinct & 0.0 & 189 / 189 & -- & [--, --] & -- \\
+Qwen3-1.7B & Sycophancy & 0.005 & 202 / 200 & -0.123 & [-0.255, 0.010] & 1.000 \\
+Qwen3-1.7B & Refusal & 0.0 & 75 / 75 & -- & [--, --] & -- \\
+Llama-3.2-3B-Instruct & AI Coordination & 0.001 & 62 / 62 & -- & [--, --] & -- \\
+Llama-3.2-3B-Instruct & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Llama-3.2-3B-Instruct & Hallucination & 0.5 & 195 / 184 & 0.312 & [0.169, 0.444] & 0.021 \\
+Llama-3.2-3B-Instruct & Myopic Reward & 0.005 & 137 / 126 & -- & [--, --] & -- \\
+Llama-3.2-3B-Instruct & Survival Instinct & 0.5 & 189 / 189 & -0.365 & [-0.497, -0.225] & 0.021 \\
+Llama-3.2-3B-Instruct & Sycophancy & 0.5 & 202 / 200 & 0.336 & [0.195, 0.464] & 0.021 \\
+Llama-3.2-3B-Instruct & Refusal & 0.01 & 75 / 75 & -- & [--, --] & -- \\
+Llama-2-7B-Chat & AI Coordination & 0.0 & 62 / 62 & -- & [--, --] & -- \\
+Llama-2-7B-Chat & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Llama-2-7B-Chat & Hallucination & 0.0 & 195 / 184 & -- & [--, --] & -- \\
+Llama-2-7B-Chat & Myopic Reward & 0.5 & 137 / 126 & -0.082 & [-0.263, 0.113] & 1.000 \\
+Llama-2-7B-Chat & Survival Instinct & 0.25 & 189 / 189 & -0.481 & [-0.587, -0.358] & 0.021 \\
+Llama-2-7B-Chat & Sycophancy & 0.5 & 202 / 200 & -0.177 & [-0.322, -0.043] & 0.216 \\
+Llama-2-7B-Chat & Refusal & 0.0 & 75 / 75 & -- & [--, --] & -- \\
+\bottomrule
+\end{tabular}}
+\caption{Validation-selected Curveball magnitude versus genuine paired activation distance. Source-group means; 1,000 group-bootstrap intervals; Holm adjustment over the complete tested geometry family. Near-constant magnitudes are undefined, shown as --. Full lambda 0/nonzero/lambda 1 comparisons accompany the data.}
+\label{tab:magnitude_selected}
+\end{table*}

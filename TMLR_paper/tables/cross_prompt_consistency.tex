@@ -1,0 +1,55 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\toprule
+Model & Behavior & Partition & Q / G & Mean cosine & 95\% CI \\
+\midrule
+Qwen3-1.7B & AI Coordination & fit & 298 / 298 & 0.158 & [0.138, 0.180] \\
+Qwen3-1.7B & AI Coordination & validation & 62 / 62 & 0.152 & [0.097, 0.224] \\
+Qwen3-1.7B & Corrigibility & fit & 238 / 238 & 0.122 & [0.107, 0.139] \\
+Qwen3-1.7B & Corrigibility & validation & 52 / 52 & 0.113 & [0.061, 0.203] \\
+Qwen3-1.7B & Hallucination & fit & 803 / 754 & 0.217 & [0.207, 0.226] \\
+Qwen3-1.7B & Hallucination & validation & 195 / 184 & 0.221 & [0.203, 0.239] \\
+Qwen3-1.7B & Myopic Reward & fit & 723 / 565 & 0.102 & [0.096, 0.107] \\
+Qwen3-1.7B & Myopic Reward & validation & 137 / 126 & 0.089 & [0.075, 0.105] \\
+Qwen3-1.7B & Survival Instinct & fit & 714 / 714 & 0.085 & [0.059, 0.117] \\
+Qwen3-1.7B & Survival Instinct & validation & 189 / 189 & 0.068 & [0.022, 0.128] \\
+Qwen3-1.7B & Sycophancy & fit & 797 / 793 & 0.013 & [0.010, 0.018] \\
+Qwen3-1.7B & Sycophancy & validation & 202 / 200 & 0.011 & [0.000, 0.034] \\
+Qwen3-1.7B & Refusal & fit & 333 / 332 & 0.181 & [0.165, 0.198] \\
+Qwen3-1.7B & Refusal & validation & 75 / 75 & 0.147 & [0.118, 0.187] \\
+Llama-3.2-3B-Instruct & AI Coordination & fit & 298 / 298 & 0.265 & [0.232, 0.296] \\
+Llama-3.2-3B-Instruct & AI Coordination & validation & 62 / 62 & 0.298 & [0.217, 0.373] \\
+Llama-3.2-3B-Instruct & Corrigibility & fit & 238 / 238 & 0.296 & [0.266, 0.320] \\
+Llama-3.2-3B-Instruct & Corrigibility & validation & 52 / 52 & 0.290 & [0.222, 0.360] \\
+Llama-3.2-3B-Instruct & Hallucination & fit & 803 / 754 & 0.234 & [0.224, 0.245] \\
+Llama-3.2-3B-Instruct & Hallucination & validation & 195 / 184 & 0.250 & [0.228, 0.270] \\
+Llama-3.2-3B-Instruct & Myopic Reward & fit & 723 / 565 & 0.266 & [0.254, 0.276] \\
+Llama-3.2-3B-Instruct & Myopic Reward & validation & 137 / 126 & 0.254 & [0.233, 0.276] \\
+Llama-3.2-3B-Instruct & Survival Instinct & fit & 714 / 714 & 0.097 & [0.074, 0.121] \\
+Llama-3.2-3B-Instruct & Survival Instinct & validation & 189 / 189 & 0.088 & [0.049, 0.135] \\
+Llama-3.2-3B-Instruct & Sycophancy & fit & 797 / 793 & 0.002 & [-0.000, 0.005] \\
+Llama-3.2-3B-Instruct & Sycophancy & validation & 202 / 200 & 0.003 & [-0.005, 0.023] \\
+Llama-3.2-3B-Instruct & Refusal & fit & 333 / 332 & 0.186 & [0.174, 0.202] \\
+Llama-3.2-3B-Instruct & Refusal & validation & 75 / 75 & 0.164 & [0.142, 0.194] \\
+Llama-2-7B-Chat & AI Coordination & fit & 298 / 298 & 0.224 & [0.199, 0.250] \\
+Llama-2-7B-Chat & AI Coordination & validation & 62 / 62 & 0.240 & [0.172, 0.318] \\
+Llama-2-7B-Chat & Corrigibility & fit & 238 / 238 & 0.233 & [0.212, 0.257] \\
+Llama-2-7B-Chat & Corrigibility & validation & 52 / 52 & 0.220 & [0.150, 0.300] \\
+Llama-2-7B-Chat & Hallucination & fit & 803 / 754 & 0.232 & [0.220, 0.244] \\
+Llama-2-7B-Chat & Hallucination & validation & 195 / 184 & 0.244 & [0.222, 0.267] \\
+Llama-2-7B-Chat & Myopic Reward & fit & 723 / 565 & 0.221 & [0.210, 0.231] \\
+Llama-2-7B-Chat & Myopic Reward & validation & 137 / 126 & 0.202 & [0.180, 0.223] \\
+Llama-2-7B-Chat & Survival Instinct & fit & 714 / 714 & 0.087 & [0.064, 0.117] \\
+Llama-2-7B-Chat & Survival Instinct & validation & 189 / 189 & 0.071 & [0.033, 0.129] \\
+Llama-2-7B-Chat & Sycophancy & fit & 797 / 793 & 0.010 & [0.007, 0.014] \\
+Llama-2-7B-Chat & Sycophancy & validation & 202 / 200 & 0.009 & [0.000, 0.031] \\
+Llama-2-7B-Chat & Refusal & fit & 333 / 332 & 0.211 & [0.199, 0.224] \\
+Llama-2-7B-Chat & Refusal & validation & 75 / 75 & 0.192 & [0.165, 0.228] \\
+\bottomrule
+\end{tabular}}
+\caption{Mean pairwise cosine between genuine paired contrast vectors from different source groups. Question pairs are equally weighted; intervals use 1,000 source-group bootstrap samples. Fit is in-sample. No tonal-versus-behavioral comparison is made because tone datasets are absent.}
+\label{tab:cross_prompt_consistency}
+\end{table*}

@@ -1,0 +1,86 @@
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lllllll}
+\caption{Validation genuine paired-target magnitude correlations. In-sample fit and out-of-fit validation families are corrected separately. Undefined near-constant magnitudes are shown as --.}\label{tab:magnitude_correlation_full}\\
+\toprule
+Model & Behavior & $\lambda$ & Q / G & $\rho$ & 95\% CI & Holm p \\
+\midrule
+\endfirsthead
+\toprule
+Model & Behavior & $\lambda$ & Q / G & $\rho$ & 95\% CI & Holm p \\
+\midrule
+\endhead
+Qwen3 & AI Coordination & 0.0 & 62 / 62 & -- & [--, --] & -- \\
+Qwen3 & AI Coordination & 0.01 & 62 / 62 & 0.104 & [-0.154, 0.389] & 1.000 \\
+Qwen3 & AI Coordination & 1.0 & 62 / 62 & 0.562 & [0.345, 0.735] & 0.021 \\
+Qwen3 & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Qwen3 & Corrigibility & 0.01 & 52 / 52 & -0.480 & [-0.655, -0.239] & 0.021 \\
+Qwen3 & Corrigibility & 1.0 & 52 / 52 & 0.603 & [0.331, 0.811] & 0.021 \\
+Qwen3 & Hallucination & 0.0 & 195 / 184 & -- & [--, --] & -- \\
+Qwen3 & Hallucination & 0.01 & 195 / 184 & 0.038 & [-0.110, 0.175] & 1.000 \\
+Qwen3 & Hallucination & 1.0 & 195 / 184 & 0.110 & [-0.019, 0.243] & 1.000 \\
+Qwen3 & Myopic Reward & 0.0 & 137 / 126 & -- & [--, --] & -- \\
+Qwen3 & Myopic Reward & 0.01 & 137 / 126 & 0.092 & [-0.099, 0.273] & 1.000 \\
+Qwen3 & Myopic Reward & 1.0 & 137 / 126 & 0.140 & [-0.031, 0.308] & 1.000 \\
+Qwen3 & Survival Instinct & 0.0 & 189 / 189 & -- & [--, --] & -- \\
+Qwen3 & Survival Instinct & 0.01 & 189 / 189 & 0.145 & [0.008, 0.285] & 0.765 \\
+Qwen3 & Survival Instinct & 1.0 & 189 / 189 & 0.196 & [0.057, 0.334] & 0.152 \\
+Qwen3 & Sycophancy & 0.0 & 202 / 200 & -- & [--, --] & -- \\
+Qwen3 & Sycophancy & 0.005 & 202 / 200 & -0.123 & [-0.255, 0.010] & 1.000 \\
+Qwen3 & Sycophancy & 0.01 & 202 / 200 & -0.070 & [-0.204, 0.071] & 1.000 \\
+Qwen3 & Sycophancy & 1.0 & 202 / 200 & 0.161 & [0.012, 0.300] & 0.417 \\
+Qwen3 & Refusal & 0.0 & 75 / 75 & -- & [--, --] & -- \\
+Qwen3 & Refusal & 0.01 & 75 / 75 & 0.084 & [-0.189, 0.353] & 1.000 \\
+Qwen3 & Refusal & 1.0 & 75 / 75 & 0.478 & [0.240, 0.671] & 0.021 \\
+Llama3B & AI Coordination & 0.0 & 62 / 62 & -- & [--, --] & -- \\
+Llama3B & AI Coordination & 0.001 & 62 / 62 & -- & [--, --] & -- \\
+Llama3B & AI Coordination & 0.01 & 62 / 62 & -- & [--, --] & -- \\
+Llama3B & AI Coordination & 1.0 & 62 / 62 & 0.448 & [0.184, 0.655] & 0.021 \\
+Llama3B & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Llama3B & Corrigibility & 0.01 & 52 / 52 & -- & [--, --] & -- \\
+Llama3B & Corrigibility & 1.0 & 52 / 52 & 0.275 & [0.002, 0.535] & 0.712 \\
+Llama3B & Hallucination & 0.0 & 195 / 184 & -- & [--, --] & -- \\
+Llama3B & Hallucination & 0.01 & 195 / 184 & -- & [--, --] & -- \\
+Llama3B & Hallucination & 0.5 & 195 / 184 & 0.312 & [0.169, 0.444] & 0.021 \\
+Llama3B & Hallucination & 1.0 & 195 / 184 & 0.318 & [0.176, 0.449] & 0.021 \\
+Llama3B & Myopic Reward & 0.0 & 137 / 126 & -- & [--, --] & -- \\
+Llama3B & Myopic Reward & 0.005 & 137 / 126 & -- & [--, --] & -- \\
+Llama3B & Myopic Reward & 0.01 & 137 / 126 & -- & [--, --] & -- \\
+Llama3B & Myopic Reward & 1.0 & 137 / 126 & 0.454 & [0.280, 0.611] & 0.021 \\
+Llama3B & Survival Instinct & 0.0 & 189 / 189 & -- & [--, --] & -- \\
+Llama3B & Survival Instinct & 0.01 & 189 / 189 & -- & [--, --] & -- \\
+Llama3B & Survival Instinct & 0.5 & 189 / 189 & -0.365 & [-0.497, -0.225] & 0.021 \\
+Llama3B & Survival Instinct & 1.0 & 189 / 189 & -0.365 & [-0.498, -0.227] & 0.021 \\
+Llama3B & Sycophancy & 0.0 & 202 / 200 & -- & [--, --] & -- \\
+Llama3B & Sycophancy & 0.01 & 202 / 200 & 0.335 & [0.193, 0.461] & 0.021 \\
+Llama3B & Sycophancy & 0.5 & 202 / 200 & 0.336 & [0.195, 0.464] & 0.021 \\
+Llama3B & Sycophancy & 1.0 & 202 / 200 & 0.339 & [0.198, 0.464] & 0.021 \\
+Llama3B & Refusal & 0.0 & 75 / 75 & -- & [--, --] & -- \\
+Llama3B & Refusal & 0.01 & 75 / 75 & -- & [--, --] & -- \\
+Llama3B & Refusal & 1.0 & 75 / 75 & 0.209 & [-0.024, 0.415] & 0.959 \\
+Llama2 & AI Coordination & 0.0 & 62 / 62 & -- & [--, --] & -- \\
+Llama2 & AI Coordination & 0.01 & 62 / 62 & -- & [--, --] & -- \\
+Llama2 & AI Coordination & 1.0 & 62 / 62 & 0.759 & [0.604, 0.862] & 0.021 \\
+Llama2 & Corrigibility & 0.0 & 52 / 52 & -- & [--, --] & -- \\
+Llama2 & Corrigibility & 0.01 & 52 / 52 & 0.735 & [0.526, 0.857] & 0.021 \\
+Llama2 & Corrigibility & 1.0 & 52 / 52 & 0.796 & [0.648, 0.876] & 0.021 \\
+Llama2 & Hallucination & 0.0 & 195 / 184 & -- & [--, --] & -- \\
+Llama2 & Hallucination & 0.01 & 195 / 184 & 0.456 & [0.329, 0.570] & 0.021 \\
+Llama2 & Hallucination & 1.0 & 195 / 184 & 0.547 & [0.434, 0.649] & 0.021 \\
+Llama2 & Myopic Reward & 0.0 & 137 / 126 & -- & [--, --] & -- \\
+Llama2 & Myopic Reward & 0.01 & 137 / 126 & -- & [--, --] & -- \\
+Llama2 & Myopic Reward & 0.5 & 137 / 126 & -0.082 & [-0.263, 0.113] & 1.000 \\
+Llama2 & Myopic Reward & 1.0 & 137 / 126 & -0.082 & [-0.264, 0.112] & 1.000 \\
+Llama2 & Survival Instinct & 0.0 & 189 / 189 & -- & [--, --] & -- \\
+Llama2 & Survival Instinct & 0.01 & 189 / 189 & -0.479 & [-0.588, -0.358] & 0.021 \\
+Llama2 & Survival Instinct & 0.25 & 189 / 189 & -0.481 & [-0.587, -0.358] & 0.021 \\
+Llama2 & Survival Instinct & 1.0 & 189 / 189 & -0.444 & [-0.551, -0.320] & 0.021 \\
+Llama2 & Sycophancy & 0.0 & 202 / 200 & -- & [--, --] & -- \\
+Llama2 & Sycophancy & 0.01 & 202 / 200 & -0.123 & [-0.267, 0.013] & 1.000 \\
+Llama2 & Sycophancy & 0.5 & 202 / 200 & -0.177 & [-0.322, -0.043] & 0.216 \\
+Llama2 & Sycophancy & 1.0 & 202 / 200 & -0.210 & [-0.347, -0.078] & 0.060 \\
+Llama2 & Refusal & 0.0 & 75 / 75 & -- & [--, --] & -- \\
+Llama2 & Refusal & 0.01 & 75 / 75 & 0.164 & [-0.041, 0.366] & 1.000 \\
+Llama2 & Refusal & 1.0 & 75 / 75 & 0.178 & [-0.030, 0.380] & 1.000 \\
+\bottomrule
+\end{longtable}
+\endgroup

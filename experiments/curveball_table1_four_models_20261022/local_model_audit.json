@@ -1,0 +1,54 @@
+{
+  "meta-llama/Llama-2-7b-chat-hf": {
+    "revision": "f5db02db724555f92da89c216ac04704f23d4590",
+    "local_snapshot": "/scratch/rai/vast1/u1557683/hf_cache/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/f5db02db724555f92da89c216ac04704f23d4590",
+    "files": {
+      "config.json": "c904bd84ff892a2a0a454a35a4031914ccb65a82974ac8ab0fe34d3744656fc2",
+      "tokenizer.json": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+      "tokenizer_config.json": "04aaa6eedd97412f3e63dd2493d2388b82347dd512b89192d3e9b4973a176417",
+      "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0"
+    },
+    "model_type": "llama",
+    "num_hidden_layers": 32,
+    "hidden_size": 4096,
+    "torch_dtype": "float16",
+    "safetensor_shards_present": 2
+  },
+  "meta-llama/Llama-3.2-3B-Instruct": {
+    "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+    "local_snapshot": "/scratch/rai/vast1/u1557683/hf_cache/hub/models--meta-llama--Llama-3.2-3B-Instruct/snapshots/0cb88a4f764b7a12671c53f0838cd831a0843b95",
+    "files": {
+      "config.json": "39fb36dc5416f445ebc4e71cb71fbcf6727e80a35836d8ba1a1474c318467b7a",
+      "tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "tokenizer_config.json": "9823dcfdc1121869029da45192238e85cf44f0b232a6d9dc20e4fe6f4242a14e",
+      "special_tokens_map.json": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+    },
+    "model_type": "llama",
+    "num_hidden_layers": 28,
+    "hidden_size": 3072,
+    "torch_dtype": "bfloat16",
+    "safetensor_shards_present": 2
+  },
+  "microsoft/Phi-3.5-mini-instruct": {
+    "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "local_snapshot": "/scratch/rai/vast1/u1557683/hf_cache/models--microsoft--Phi-3.5-mini-instruct/snapshots/2fe192450127e6a83f7441aef6e3ca586c338b77",
+    "files": {
+      "config.json": "224de4f6a15b9d2a89695ec04b7f7ab2dd93a008a506979925e5a88cb5804974",
+      "tokenizer.json": "9e2ae3d66819f163cdcfedba5078f3a3af8118c2712491ed60912f77886bda6f",
+      "tokenizer_config.json": "92a6e3f894075fda19f47d8755c6ce65b2a974716307d13ae5d79196011ebb44",
+      "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "special_tokens_map.json": "4e87d5e13d218af26da10a072490ebc08ccadddaef10ab0ec52b33204a49e918"
+    },
+    "model_type": "phi3",
+    "num_hidden_layers": 32,
+    "hidden_size": 3072,
+    "torch_dtype": "bfloat16",
+    "safetensor_shards_present": 2
+  },
+  "Qwen/Qwen3-1.7B": {
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "local_snapshot": null,
+    "files": {}
+  }
+}

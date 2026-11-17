@@ -1,0 +1,383 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 2.1488542648745446e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 8.106668066693024e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 1.4278643430259974e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 1,
+      "method": "lambda_0.001",
+      "probability_error": 1.6318437862511415e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "No-hook",
+      "probability_error": 2.347321461434738e-12
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "Linear",
+      "probability_error": 7.83240554390937e-11
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "lambda_0.0",
+      "probability_error": 1.9875953691752247e-11
+    },
+    {
+      "model": "llama3b",
+      "concept": "coordinate-other-ais",
+      "index": 3,
+      "method": "lambda_0.001",
+      "probability_error": 3.975173678852782e-11
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "No-hook",
+      "probability_error": 3.3779330266270335e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "Linear",
+      "probability_error": 6.82133730611767e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 3,
+      "method": "lambda_0.0",
+      "probability_error": 6.699235777229973e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "No-hook",
+      "probability_error": 3.0535351849825254e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "Linear",
+      "probability_error": 8.126684115025706e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "corrigible-neutral-HHH",
+      "index": 8,
+      "method": "lambda_0.0",
+      "probability_error": 5.849825012241294e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "No-hook",
+      "probability_error": 4.5233254163112857e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "Linear",
+      "probability_error": 2.2363569454966759e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "lambda_0.0",
+      "probability_error": 3.40639903232548e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 2,
+      "method": "lambda_0.5",
+      "probability_error": 2.407919625097704e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "No-hook",
+      "probability_error": 1.4384038404813282e-10
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "Linear",
+      "probability_error": 3.8614000885672795e-11
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "lambda_0.0",
+      "probability_error": 0.0
+    },
+    {
+      "model": "llama3b",
+      "concept": "hallucination",
+      "index": 5,
+      "method": "lambda_0.5",
+      "probability_error": 7.89804888157164e-11
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "No-hook",
+      "probability_error": 1.5747091145490444e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "Linear",
+      "probability_error": 1.8957373857375615e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "lambda_0.0",
+      "probability_error": 4.738132591830535e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 0,
+      "method": "lambda_0.005",
+      "probability_error": 4.738132591830535e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "No-hook",
+      "probability_error": 2.3526108399729573e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "Linear",
+      "probability_error": 1.9070704502799352e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "lambda_0.0",
+      "probability_error": 1.9069492680490185e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "myopic-reward",
+      "index": 20,
+      "method": "lambda_0.005",
+      "probability_error": 1.9069492680490185e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 6.31993245184953e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 2.5117089488997657e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 1.3462122405976523e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 1,
+      "method": "lambda_0.5",
+      "probability_error": 6.739134140749253e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "No-hook",
+      "probability_error": 1.8497531005801093e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "Linear",
+      "probability_error": 1.311657751634776e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "lambda_0.0",
+      "probability_error": 4.381335904080075e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "survival-instinct",
+      "index": 2,
+      "method": "lambda_0.5",
+      "probability_error": 1.3146770492244997e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "No-hook",
+      "probability_error": 2.0410390439984383e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "Linear",
+      "probability_error": 2.507532930184908e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "lambda_0.0",
+      "probability_error": 4.827190354106392e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 1,
+      "method": "lambda_0.5",
+      "probability_error": 7.277326703469811e-07
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "No-hook",
+      "probability_error": 8.62544613511318e-09
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "Linear",
+      "probability_error": 0.0
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "lambda_0.0",
+      "probability_error": 3.397660708337469e-09
+    },
+    {
+      "model": "llama3b",
+      "concept": "sycophancy",
+      "index": 17,
+      "method": "lambda_0.5",
+      "probability_error": 3.333416875861417e-09
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 0,
+      "method": "No-hook",
+      "probability_error": 1.3268252274656334e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 0,
+      "method": "Linear",
+      "probability_error": 4.5077315768971005e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 0,
+      "method": "lambda_0.0",
+      "probability_error": 2.149167699361243e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 0,
+      "method": "lambda_0.01",
+      "probability_error": 2.8655650963216317e-08
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 5,
+      "method": "No-hook",
+      "probability_error": 2.0523016387996584e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 5,
+      "method": "Linear",
+      "probability_error": 1.094565133870351e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 5,
+      "method": "lambda_0.0",
+      "probability_error": 1.160954497918254e-06
+    },
+    {
+      "model": "llama3b",
+      "concept": "refusal",
+      "index": 5,
+      "method": "lambda_0.01",
+      "probability_error": 1.0642091958779076e-06
+    }
+  ]
+}

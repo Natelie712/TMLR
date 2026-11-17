@@ -1,0 +1,35 @@
+{
+  "steps": {
+    "coordinate-other-ais": {
+      "1": 10.407230019569397
+    },
+    "corrigible-neutral-HHH": {
+      "1": 20.73086714744568
+    },
+    "hallucination": {
+      "1": 36.42935228347778
+    },
+    "myopic-reward": {
+      "1": 28.214061498641968
+    },
+    "survival-instinct": {
+      "1": 7.34356564283371
+    },
+    "sycophancy": {
+      "1": 37.14015054702759
+    },
+    "refusal": {
+      "1": 27.710599184036255
+    }
+  },
+  "source": "Unchanged prior fit-only Qwen strengths",
+  "fit_hashes": {
+    "coordinate-other-ais": "a60bc83d6f5484b5b57364239ce872ae057d967fedc9c8dc075d5f3b3c46f00d",
+    "corrigible-neutral-HHH": "7967bd4ecf34836ffd9a16156ec582867baaac9940d906055f1d78fcaafc7157",
+    "hallucination": "9ef2dd9c162cfaa89a260d6f96a060b582f3d769a799f3e4955efa1e3c703d5e",
+    "myopic-reward": "91da3578ca320e0366565f3ea9aa16d78b7881508b8513a2a537aea761a5f10d",
+    "survival-instinct": "5106cf9a21f63c91cf0848b8c679633caa4850350de10437623a34734059219a",
+    "sycophancy": "d7936f5331b2da4bcf5614bb08b5bde1b4f75c103b303829de8712252c827176",
+    "refusal": "a68f7570bd4a4104f88aaf8751674ee388c147d50c6db070b3e10a87cb9239ca"
+  }
+}

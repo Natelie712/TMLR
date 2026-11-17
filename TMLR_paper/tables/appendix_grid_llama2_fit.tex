@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllllllll}
+\toprule
+Behavior & Linear & 0 & 0.001 & 0.005 & 0.01 & 0.05 & 0.1 & 0.25 & 0.5 & 1 \\
+\midrule
+AI Coordination & +19.903 & +19.739 & +19.739 & +19.737 & +19.735 & +19.719 & +19.700 & +19.630 & +19.505 & +19.263 \\
+Corrigibility & +20.438 & +19.988 & +19.988 & +19.987 & +19.986 & +19.979 & +19.972 & +19.950 & +19.910 & +19.810 \\
+Hallucination & +11.129 & +11.444 & +11.443 & +11.442 & +11.440 & +11.427 & +11.411 & +11.362 & +11.278 & +11.098 \\
+Myopic Reward & +7.665 & +6.997 & +6.998 & +7.000 & +7.003 & +7.024 & +7.051 & +7.127 & +7.256 & +7.525 \\
+Survival Instinct & +13.889 & +13.229 & +13.229 & +13.228 & +13.227 & +13.253 & +13.270 & +13.275 & +13.223 & +13.190 \\
+Sycophancy & -3.542 & -9.679 & -9.681 & -9.687 & -9.694 & -9.782 & -10.005 & -10.085 & -9.339 & -9.399 \\
+Refusal & +16.989 & +17.212 & +17.212 & +17.211 & +17.210 & +17.198 & +17.183 & +17.137 & +17.055 & +16.876 \\
+\bottomrule
+\end{tabular}}
+\caption{Llama-2-7B-Chat: fit positive target probability changes (pp). Numerical column labels are quadratic weights. Lambda 1 is a reference excluded from selection. Native positive strength is fixed across weights.}
+\label{tab:grid_llama2_fit}
+\end{table*}

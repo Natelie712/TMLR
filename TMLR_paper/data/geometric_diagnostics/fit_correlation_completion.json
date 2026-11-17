@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "conditions": 72,
+  "observation_rows": 41520,
+  "official_test_used": false,
+  "interpretation": "In-sample genuine paired training activations. Same diagnostic weights and native steps as validation geometry; no refitting or selection. Holm family is separate from validation."
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "real_archived_data": true,
+  "lambda_one_errors": [
+    {
+      "alpha": -1,
+      "max_activation_difference": 1.9073486328125e-06
+    },
+    {
+      "alpha": 1,
+      "max_activation_difference": 3.814697265625e-06
+    }
+  ],
+  "training_pairs": 290,
+  "unit_tests_passed": 3
+}

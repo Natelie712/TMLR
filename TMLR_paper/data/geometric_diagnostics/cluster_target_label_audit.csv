@@ -1,0 +1,169 @@
+model,concept,cluster,question_records,target_label_counts,dominant_target_label_fraction
+qwen3,coordinate-other-ais,0,53,"{""(A)"": 53}",1.0
+qwen3,coordinate-other-ais,1,68,"{""(B)"": 68}",1.0
+qwen3,coordinate-other-ais,2,66,"{""(B)"": 66}",1.0
+qwen3,coordinate-other-ais,3,13,"{""(A)"": 13}",1.0
+qwen3,coordinate-other-ais,4,71,"{""(A)"": 71}",1.0
+qwen3,coordinate-other-ais,5,13,"{""(B)"": 13}",1.0
+qwen3,coordinate-other-ais,6,8,"{""(A)"": 8}",1.0
+qwen3,coordinate-other-ais,7,6,"{""(B)"": 6}",1.0
+qwen3,corrigible-neutral-HHH,0,13,"{""(B)"": 13}",1.0
+qwen3,corrigible-neutral-HHH,1,40,"{""(A)"": 40}",1.0
+qwen3,corrigible-neutral-HHH,2,29,"{""(A)"": 29}",1.0
+qwen3,corrigible-neutral-HHH,3,10,"{""(B)"": 10}",1.0
+qwen3,corrigible-neutral-HHH,4,55,"{""(B)"": 55}",1.0
+qwen3,corrigible-neutral-HHH,5,34,"{""(A)"": 34}",1.0
+qwen3,corrigible-neutral-HHH,6,41,"{""(B)"": 41}",1.0
+qwen3,corrigible-neutral-HHH,7,16,"{""(A)"": 16}",1.0
+qwen3,hallucination,0,132,"{""(A)"": 132}",1.0
+qwen3,hallucination,1,137,"{""(B)"": 137}",1.0
+qwen3,hallucination,2,88,"{""(A)"": 4, ""(B)"": 84}",0.9545454545454546
+qwen3,hallucination,3,90,"{""(A)"": 87, ""(B)"": 3}",0.9666666666666667
+qwen3,hallucination,4,133,"{""(A)"": 130, ""(B)"": 3}",0.9774436090225563
+qwen3,hallucination,5,106,"{""(A)"": 12, ""(B)"": 94}",0.8867924528301887
+qwen3,hallucination,6,81,"{""(A)"": 2, ""(B)"": 79}",0.9753086419753086
+qwen3,hallucination,7,36,"{""(A)"": 36}",1.0
+qwen3,myopic-reward,0,163,"{""(A)"": 150, ""(B)"": 13}",0.9202453987730062
+qwen3,myopic-reward,1,198,"{""(A)"": 36, ""(B)"": 162}",0.8181818181818182
+qwen3,myopic-reward,2,51,"{""(A)"": 51}",1.0
+qwen3,myopic-reward,3,100,"{""(A)"": 2, ""(B)"": 98}",0.98
+qwen3,myopic-reward,4,76,"{""(A)"": 6, ""(B)"": 70}",0.9210526315789473
+qwen3,myopic-reward,5,8,"{""(B)"": 8}",1.0
+qwen3,myopic-reward,6,42,"{""(A)"": 41, ""(B)"": 1}",0.9761904761904762
+qwen3,myopic-reward,7,85,"{""(A)"": 77, ""(B)"": 8}",0.9058823529411765
+qwen3,survival-instinct,0,240,"{""(A)"": 240}",1.0
+qwen3,survival-instinct,1,17,"{""(B)"": 2, ""(C)"": 4, ""(D)"": 5, ""(E)"": 3, ""(G)"": 3}",0.29411764705882354
+qwen3,survival-instinct,2,32,"{""(A)"": 32}",1.0
+qwen3,survival-instinct,3,135,"{""(A)"": 135}",1.0
+qwen3,survival-instinct,4,116,"{""(B)"": 84, ""(C)"": 28, ""(D)"": 4}",0.7241379310344828
+qwen3,survival-instinct,5,92,"{""(B)"": 89, ""(C)"": 3}",0.967391304347826
+qwen3,survival-instinct,6,45,"{""(B)"": 26, ""(C)"": 14, ""(D)"": 2, ""(E)"": 2, ""(F)"": 1}",0.5777777777777777
+qwen3,survival-instinct,7,37,"{""(A)"": 37}",1.0
+qwen3,sycophancy,0,59,"{""(B)"": 59}",1.0
+qwen3,sycophancy,1,195,"{""(A)"": 195}",1.0
+qwen3,sycophancy,2,205,"{""(B)"": 205}",1.0
+qwen3,sycophancy,3,62,"{""(A)"": 62}",1.0
+qwen3,sycophancy,4,108,"{""(A)"": 4, ""(B)"": 104}",0.9629629629629629
+qwen3,sycophancy,5,36,"{""(B)"": 36}",1.0
+qwen3,sycophancy,6,110,"{""(A)"": 110}",1.0
+qwen3,sycophancy,7,22,"{""(A)"": 22}",1.0
+qwen3,refusal,0,69,"{""(B)"": 69}",1.0
+qwen3,refusal,1,43,"{""(A)"": 43}",1.0
+qwen3,refusal,2,67,"{""(A)"": 67}",1.0
+qwen3,refusal,3,42,"{""(A)"": 42}",1.0
+qwen3,refusal,4,22,"{""(B)"": 22}",1.0
+qwen3,refusal,5,25,"{""(B)"": 25}",1.0
+qwen3,refusal,6,29,"{""(A)"": 1, ""(B)"": 28}",0.9655172413793104
+qwen3,refusal,7,36,"{""(B)"": 36}",1.0
+llama3b,coordinate-other-ais,0,6,"{""(B)"": 6}",1.0
+llama3b,coordinate-other-ais,1,56,"{""(A)"": 56}",1.0
+llama3b,coordinate-other-ais,2,50,"{""(B)"": 50}",1.0
+llama3b,coordinate-other-ais,3,31,"{""(B)"": 31}",1.0
+llama3b,coordinate-other-ais,4,73,"{""(A)"": 73}",1.0
+llama3b,coordinate-other-ais,5,13,"{""(B)"": 13}",1.0
+llama3b,coordinate-other-ais,6,16,"{""(A)"": 16}",1.0
+llama3b,coordinate-other-ais,7,53,"{""(B)"": 53}",1.0
+llama3b,corrigible-neutral-HHH,0,15,"{""(B)"": 15}",1.0
+llama3b,corrigible-neutral-HHH,1,60,"{""(A)"": 60}",1.0
+llama3b,corrigible-neutral-HHH,2,41,"{""(B)"": 41}",1.0
+llama3b,corrigible-neutral-HHH,3,50,"{""(A)"": 50}",1.0
+llama3b,corrigible-neutral-HHH,4,9,"{""(A)"": 9}",1.0
+llama3b,corrigible-neutral-HHH,5,11,"{""(B)"": 11}",1.0
+llama3b,corrigible-neutral-HHH,6,10,"{""(B)"": 10}",1.0
+llama3b,corrigible-neutral-HHH,7,42,"{""(B)"": 42}",1.0
+llama3b,hallucination,0,146,"{""(A)"": 146}",1.0
+llama3b,hallucination,1,50,"{""(B)"": 50}",1.0
+llama3b,hallucination,2,131,"{""(A)"": 131}",1.0
+llama3b,hallucination,3,137,"{""(B)"": 137}",1.0
+llama3b,hallucination,4,49,"{""(A)"": 25, ""(B)"": 24}",0.5102040816326531
+llama3b,hallucination,5,96,"{""(B)"": 96}",1.0
+llama3b,hallucination,6,93,"{""(B)"": 93}",1.0
+llama3b,hallucination,7,101,"{""(A)"": 101}",1.0
+llama3b,myopic-reward,0,115,"{""(A)"": 1, ""(B)"": 114}",0.991304347826087
+llama3b,myopic-reward,1,87,"{""(A)"": 86, ""(B)"": 1}",0.9885057471264368
+llama3b,myopic-reward,2,72,"{""(A)"": 68, ""(B)"": 4}",0.9444444444444444
+llama3b,myopic-reward,3,23,"{""(B)"": 23}",1.0
+llama3b,myopic-reward,4,48,"{""(A)"": 4, ""(B)"": 44}",0.9166666666666666
+llama3b,myopic-reward,5,104,"{""(A)"": 26, ""(B)"": 78}",0.75
+llama3b,myopic-reward,6,106,"{""(A)"": 21, ""(B)"": 85}",0.8018867924528302
+llama3b,myopic-reward,7,168,"{""(A)"": 157, ""(B)"": 11}",0.9345238095238095
+llama3b,survival-instinct,0,146,"{""(A)"": 146}",1.0
+llama3b,survival-instinct,1,102,"{""(B)"": 46, ""(C)"": 36, ""(D)"": 11, ""(E)"": 5, ""(F)"": 1, ""(G)"": 3}",0.45098039215686275
+llama3b,survival-instinct,2,169,"{""(A)"": 169}",1.0
+llama3b,survival-instinct,3,58,"{""(B)"": 55, ""(C)"": 3}",0.9482758620689655
+llama3b,survival-instinct,4,42,"{""(B)"": 39, ""(C)"": 3}",0.9285714285714286
+llama3b,survival-instinct,5,64,"{""(A)"": 64}",1.0
+llama3b,survival-instinct,6,68,"{""(B)"": 61, ""(C)"": 7}",0.8970588235294118
+llama3b,survival-instinct,7,65,"{""(A)"": 65}",1.0
+llama3b,sycophancy,0,205,"{""(B)"": 205}",1.0
+llama3b,sycophancy,1,195,"{""(A)"": 195}",1.0
+llama3b,sycophancy,2,52,"{""(A)"": 52}",1.0
+llama3b,sycophancy,3,113,"{""(B)"": 113}",1.0
+llama3b,sycophancy,4,61,"{""(A)"": 60, ""(B)"": 1}",0.9836065573770492
+llama3b,sycophancy,5,82,"{""(B)"": 82}",1.0
+llama3b,sycophancy,6,57,"{""(A)"": 57}",1.0
+llama3b,sycophancy,7,32,"{""(A)"": 29, ""(B)"": 3}",0.90625
+llama3b,refusal,0,46,"{""(A)"": 1, ""(B)"": 45}",0.9782608695652174
+llama3b,refusal,1,51,"{""(A)"": 51}",1.0
+llama3b,refusal,2,53,"{""(B)"": 53}",1.0
+llama3b,refusal,3,32,"{""(A)"": 32}",1.0
+llama3b,refusal,4,50,"{""(B)"": 50}",1.0
+llama3b,refusal,5,44,"{""(A)"": 44}",1.0
+llama3b,refusal,6,32,"{""(B)"": 32}",1.0
+llama3b,refusal,7,25,"{""(A)"": 25}",1.0
+llama2,coordinate-other-ais,0,72,"{""(B)"": 72}",1.0
+llama2,coordinate-other-ais,1,13,"{""(A)"": 13}",1.0
+llama2,coordinate-other-ais,2,63,"{""(B)"": 63}",1.0
+llama2,coordinate-other-ais,3,8,"{""(A)"": 8}",1.0
+llama2,coordinate-other-ais,4,18,"{""(B)"": 18}",1.0
+llama2,coordinate-other-ais,5,38,"{""(A)"": 38}",1.0
+llama2,coordinate-other-ais,6,33,"{""(A)"": 33}",1.0
+llama2,coordinate-other-ais,7,53,"{""(A)"": 53}",1.0
+llama2,corrigible-neutral-HHH,0,7,"{""(A)"": 7}",1.0
+llama2,corrigible-neutral-HHH,1,28,"{""(B)"": 28}",1.0
+llama2,corrigible-neutral-HHH,2,10,"{""(B)"": 10}",1.0
+llama2,corrigible-neutral-HHH,3,60,"{""(A)"": 60}",1.0
+llama2,corrigible-neutral-HHH,4,34,"{""(B)"": 34}",1.0
+llama2,corrigible-neutral-HHH,5,21,"{""(B)"": 21}",1.0
+llama2,corrigible-neutral-HHH,6,52,"{""(A)"": 52}",1.0
+llama2,corrigible-neutral-HHH,7,26,"{""(B)"": 26}",1.0
+llama2,hallucination,0,142,"{""(B)"": 142}",1.0
+llama2,hallucination,1,126,"{""(A)"": 126}",1.0
+llama2,hallucination,2,126,"{""(B)"": 126}",1.0
+llama2,hallucination,3,133,"{""(A)"": 133}",1.0
+llama2,hallucination,4,108,"{""(B)"": 108}",1.0
+llama2,hallucination,5,35,"{""(A)"": 35}",1.0
+llama2,hallucination,6,84,"{""(A)"": 84}",1.0
+llama2,hallucination,7,49,"{""(A)"": 25, ""(B)"": 24}",0.5102040816326531
+llama2,myopic-reward,0,82,"{""(B)"": 82}",1.0
+llama2,myopic-reward,1,62,"{""(A)"": 62}",1.0
+llama2,myopic-reward,2,64,"{""(A)"": 2, ""(B)"": 62}",0.96875
+llama2,myopic-reward,3,13,"{""(B)"": 13}",1.0
+llama2,myopic-reward,4,123,"{""(B)"": 123}",1.0
+llama2,myopic-reward,5,82,"{""(A)"": 82}",1.0
+llama2,myopic-reward,6,141,"{""(A)"": 141}",1.0
+llama2,myopic-reward,7,156,"{""(A)"": 76, ""(B)"": 80}",0.5128205128205128
+llama2,survival-instinct,0,57,"{""(A)"": 57}",1.0
+llama2,survival-instinct,1,86,"{""(B)"": 85, ""(C)"": 1}",0.9883720930232558
+llama2,survival-instinct,2,226,"{""(A)"": 226}",1.0
+llama2,survival-instinct,3,96,"{""(B)"": 42, ""(C)"": 43, ""(D)"": 7, ""(E)"": 4}",0.4479166666666667
+llama2,survival-instinct,4,72,"{""(B)"": 71, ""(C)"": 1}",0.9861111111111112
+llama2,survival-instinct,5,67,"{""(A)"": 67}",1.0
+llama2,survival-instinct,6,16,"{""(B)"": 3, ""(C)"": 4, ""(D)"": 4, ""(E)"": 1, ""(F)"": 1, ""(G)"": 3}",0.25
+llama2,survival-instinct,7,94,"{""(A)"": 94}",1.0
+llama2,sycophancy,0,195,"{""(A)"": 195}",1.0
+llama2,sycophancy,1,205,"{""(B)"": 205}",1.0
+llama2,sycophancy,2,82,"{""(B)"": 82}",1.0
+llama2,sycophancy,3,109,"{""(A)"": 109}",1.0
+llama2,sycophancy,4,61,"{""(A)"": 60, ""(B)"": 1}",0.9836065573770492
+llama2,sycophancy,5,59,"{""(B)"": 59}",1.0
+llama2,sycophancy,6,54,"{""(B)"": 54}",1.0
+llama2,sycophancy,7,32,"{""(A)"": 29, ""(B)"": 3}",0.90625
+llama2,refusal,0,35,"{""(A)"": 1, ""(B)"": 34}",0.9714285714285714
+llama2,refusal,1,15,"{""(A)"": 15}",1.0
+llama2,refusal,2,58,"{""(B)"": 58}",1.0
+llama2,refusal,3,48,"{""(A)"": 48}",1.0
+llama2,refusal,4,55,"{""(B)"": 55}",1.0
+llama2,refusal,5,62,"{""(A)"": 62}",1.0
+llama2,refusal,6,27,"{""(A)"": 27}",1.0
+llama2,refusal,7,33,"{""(B)"": 33}",1.0

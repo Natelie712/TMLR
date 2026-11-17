@@ -1,0 +1,26 @@
+kind,number,status,file
+table,1,complete,tables/main_results.tex
+table,2,complete,tables/magnitude_correlation_selected.tex
+table,3,complete,tables/dataset_statistics.tex
+table,4,complete,tables/cross_prompt_consistency_main.tex
+figure,1,complete,figures/figure_1.pdf
+figure,2,not reproduced: provenance / cost assessment only,
+figure,3,complete,figures/figure_3.pdf
+figure,4,complete,figures/figure_4.pdf
+figure,5,complete,figures/figure_5.pdf
+figure,6,complete,figures/figure_6.pdf
+figure,7,complete,figures/figure_7.pdf
+figure,8,removed: open-ended modality absent,
+figure,9,removed: open-ended modality absent,
+figure,10,complete,figures/figure_10.pdf
+figure,11,complete,figures/figure_11.pdf
+figure,12,complete,figures/figure_12.pdf
+figure,13,complete,figures/figure_13.pdf
+figure,14,complete,figures/figure_14.pdf
+figure,15,complete,figures/figure_15.pdf
+figure,16,complete,figures/figure_16.pdf
+figure,17,complete,figures/figure_17.pdf
+figure,18,complete,figures/figure_18.pdf
+figure,19,complete,figures/figure_19.pdf
+figure,20,complete,figures/figure_20.pdf
+figure,21,complete,figures/figure_21.pdf

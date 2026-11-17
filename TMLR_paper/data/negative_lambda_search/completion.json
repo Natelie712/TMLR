@@ -1,0 +1,278 @@
+{
+  "complete": true,
+  "models": [
+    {
+      "model": "qwen3",
+      "status": "complete",
+      "completed": [
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "validation"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "validation"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "validation"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "validation"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "validation"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "validation"
+        },
+        {
+          "concept": "refusal",
+          "partition": "validation"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "fit"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "fit"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "fit"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "fit"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "fit"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "fit"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "refusal",
+          "partition": "fit"
+        },
+        {
+          "concept": "refusal",
+          "partition": "benchmark"
+        }
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/negative_lambda_search/qwen3_response-1794861318287234249_17103461"
+    },
+    {
+      "model": "llama3b",
+      "status": "complete",
+      "completed": [
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "validation"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "validation"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "validation"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "validation"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "validation"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "validation"
+        },
+        {
+          "concept": "refusal",
+          "partition": "validation"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "fit"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "fit"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "fit"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "fit"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "fit"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "fit"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "refusal",
+          "partition": "fit"
+        },
+        {
+          "concept": "refusal",
+          "partition": "benchmark"
+        }
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/negative_lambda_search/llama3b_response-1794862310048413082_17103461"
+    },
+    {
+      "model": "llama2",
+      "status": "complete",
+      "completed": [
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "validation"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "validation"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "validation"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "validation"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "validation"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "validation"
+        },
+        {
+          "concept": "refusal",
+          "partition": "validation"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "fit"
+        },
+        {
+          "concept": "coordinate-other-ais",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "fit"
+        },
+        {
+          "concept": "corrigible-neutral-HHH",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "fit"
+        },
+        {
+          "concept": "hallucination",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "fit"
+        },
+        {
+          "concept": "myopic-reward",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "fit"
+        },
+        {
+          "concept": "survival-instinct",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "fit"
+        },
+        {
+          "concept": "sycophancy",
+          "partition": "benchmark"
+        },
+        {
+          "concept": "refusal",
+          "partition": "fit"
+        },
+        {
+          "concept": "refusal",
+          "partition": "benchmark"
+        }
+      ],
+      "path": "/uufs/chpc.utah.edu/common/home/u1557683/projectscode/kpca_steering/TMLR_paper/data/negative_lambda_search/llama2_response-1794864342055680789_17103461"
+    }
+  ]
+}

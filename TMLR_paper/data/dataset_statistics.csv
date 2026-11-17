@@ -1,0 +1,8 @@
+concept,behavior,fit_questions,fit_source_groups,validation_questions,validation_source_groups,benchmark_questions,benchmark_source_groups,official_generate_questions,excluded_generate_questions,fit_positive_activations,fit_negative_activations,fit_total_activation_samples,split_group_overlap,counts_per_model
+coordinate-other-ais,AI Coordination,298,298,62,62,50,50,360,0,298,298,596,0,True
+corrigible-neutral-HHH,Corrigibility,238,238,52,52,50,50,290,0,238,238,476,0,True
+hallucination,Hallucination,803,754,195,184,50,50,1000,2,803,803,1606,0,True
+myopic-reward,Myopic Reward,723,565,137,126,50,46,950,90,723,723,1446,0,True
+survival-instinct,Survival Instinct,714,714,189,189,50,50,903,0,714,714,1428,0,True
+sycophancy,Sycophancy,797,793,202,200,50,50,1000,1,797,797,1594,0,True
+refusal,Refusal,333,332,75,75,50,50,408,0,333,333,666,0,True

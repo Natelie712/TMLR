@@ -1,0 +1,1553 @@
+[
+  {
+    "concept": "coordinate-other-ais",
+    "groups": [
+      "02f9cad870f5b998171182f79d4dfe257b1b13c6ce7b9f4fbcf7898ff5db23e9",
+      "064bb07cf0e1a938cf7a7def5e4f898b1e764471adf70ba39b310948106b456e",
+      "06f0f15bf3faacb459d44e64841ce37b395aca5afb0330f682ede5569efca413",
+      "0856acecdd45021d168973e9faa05306c71073a205c99c0066a3cacd47268ab5",
+      "0ad10591c7226eb610ef1352fbc722ffec4451bd212410b85972e6d23d418b5a",
+      "0b3625afe0e23f7bde272040c8c742ad7995c5fd427bc6d2fb2c302a7776d86f",
+      "0c5a69ab572183da10f318890e7586a6a711b149b53e3d47aebeb44a98340020",
+      "0c609eb959dad1f51f79a5cb3b4a2e3d2074f58160b0fbecb13e4d215917a6fc",
+      "0cadaafdfe6c2c96c04784aa2fc442fc40813130677a0af51746f964f083d8e6",
+      "0e545a58e0f7ab35e2b318f3ba1a4d2f58aa65708cf959a0e284ac9eca1e4dcd",
+      "0f22031de86262de271aa2ccb7ce10305cf0eb3434b97bdb264bd1cbb6e39a74",
+      "10d0273cc0b6568c4b9522c10ac46a3b5efb6acbe35f138f1406c2a04d315b05",
+      "135e4ed00f68c2d24c4b1abbbaf6fb530bb8b0a1aa6406b099c39243cb4f590a",
+      "13c809f38ec6bc3ac223c043ac73c0392c2a1483a695b24347f32bea5ed51de4",
+      "14dac2d06d20c0d3b27f5ed94634cfc247a877105fb8911fe2eea183cd552b31",
+      "1552287886722fd64b8e3e563dfcce2f248aac3fc0557cea93ff364955d74530",
+      "15abf01f15e1344a666c0ae456ca33575dfddc657b43ce64eff388a745afff36",
+      "1a1462bed7d6d6b7616f8381314a404a0e4f5e4a3f548dfb56639e34f6295b39",
+      "1bc7a4d47e17e821d1eeaeaa7c6f52362acbc6062fcb956a15e9de68697fc5df",
+      "1d1dd0e4ecaffce6b93fb16cd35d391a3b7072a5d457860f65967d0a8911cd1c",
+      "1de053c86f3f27d5952b76294de6ec4d8cf23f9bd086ca89104ef49d1ec6bc16",
+      "1e99c7dd6098d6df247fb4d370fa3b99bd51af0c0f277931d55fc2d0ee853262",
+      "1ed262576619e2bbe8f66c8e82cf4b4de84311bae105270175f32dd5a97d6d27",
+      "1f3f750b168fc69236bcb6c1fa89a3b209933ee1c795bc56abb83c6bbc6d6816",
+      "1f4763b229d5f94e8b4837758c75b48125331fdeef4250c05173ef5cb4dda4c9",
+      "2021fc635a4a66d837efa85467bbf715b7454c0c35cf42886c6a2d337eab303d",
+      "20a0bcecc4ad848945a5ca6df19260116dc8a4d8a124d3e6aa0560f9e9a36253",
+      "213fe81ac32d488d87fcc48cbe0020052beaf8b0bb6978c113bc0f77591a1fcc",
+      "2408aba851c8bdb52eb291e3a43a56c8cc9ccb2fcd4238f7f2942a1f7b84fb17",
+      "2651440c8d3b3569ac1f67ac511e14c8cc60f44a5dd5b28bff750413748fce3f",
+      "26d0ac2a904d0bfc71b7cae646cbf9bf63cae4cb71090df85abf275c9779fff1",
+      "28652d4d647975e56aac26650112d53275433ff40305703d9b0da472d3e5b284"
+    ],
+    "native_parameter": 0.7950356528162956,
+    "target_rms_displacement": 2.523760344473405,
+    "actual_rms_displacement": 2.5237603675086207,
+    "relative_error": 9.127338720285976e-09,
+    "native_unit_rms_displacement": 3.174275664211137,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 4.844365241568536e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 9.688896070876064e-05
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.00019377818092495972
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.00038755807596342265
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0007751180651327041
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0015502328104331738
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.0031004644094921874
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.006200930877914049
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.012401855462397648
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.024803694073913196
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.049607313634849014
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.09921433375813912
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.1984274912721101
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.3968502797329197
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 0.7936817479776543
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 1.5872882622132147
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 3.174275664211137
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 2.380819560722746
+      },
+      {
+        "native_parameter": 0.875,
+        "rms_displacement": 2.7775570106626715
+      },
+      {
+        "native_parameter": 0.8125,
+        "rms_displacement": 2.5791906353090224
+      },
+      {
+        "native_parameter": 0.78125,
+        "rms_displacement": 2.4800056855302057
+      },
+      {
+        "native_parameter": 0.796875,
+        "rms_displacement": 2.5295983074812893
+      },
+      {
+        "native_parameter": 0.7890625,
+        "rms_displacement": 2.5048020331822145
+      },
+      {
+        "native_parameter": 0.79296875,
+        "rms_displacement": 2.5172001794774763
+      },
+      {
+        "native_parameter": 0.794921875,
+        "rms_displacement": 2.5233992458465306
+      },
+      {
+        "native_parameter": 0.7958984375,
+        "rms_displacement": 2.526498777043756
+      },
+      {
+        "native_parameter": 0.79541015625,
+        "rms_displacement": 2.5249490115870192
+      },
+      {
+        "native_parameter": 0.795166015625,
+        "rms_displacement": 2.524174128722191
+      },
+      {
+        "native_parameter": 0.7950439453125,
+        "rms_displacement": 2.523786687174088
+      },
+      {
+        "native_parameter": 0.79498291015625,
+        "rms_displacement": 2.523592966443204
+      },
+      {
+        "native_parameter": 0.795013427734375,
+        "rms_displacement": 2.5236898266979853
+      },
+      {
+        "native_parameter": 0.7950286865234375,
+        "rms_displacement": 2.5237382570710274
+      },
+      {
+        "native_parameter": 0.7950363159179688,
+        "rms_displacement": 2.523762472188503
+      },
+      {
+        "native_parameter": 0.7950325012207031,
+        "rms_displacement": 2.523750364516269
+      },
+      {
+        "native_parameter": 0.7950344085693359,
+        "rms_displacement": 2.5237564184979413
+      },
+      {
+        "native_parameter": 0.7950353622436523,
+        "rms_displacement": 2.523759445109967
+      },
+      {
+        "native_parameter": 0.7950358390808105,
+        "rms_displacement": 2.523760959083999
+      },
+      {
+        "native_parameter": 0.7950356006622314,
+        "rms_displacement": 2.5237602017172653
+      },
+      {
+        "native_parameter": 0.795035719871521,
+        "rms_displacement": 2.5237605802414214
+      },
+      {
+        "native_parameter": 0.7950356602668762,
+        "rms_displacement": 2.523760391233366
+      },
+      {
+        "native_parameter": 0.7950356304645538,
+        "rms_displacement": 2.5237602965767336
+      },
+      {
+        "native_parameter": 0.795035645365715,
+        "rms_displacement": 2.5237603438808103
+      },
+      {
+        "native_parameter": 0.7950356528162956,
+        "rms_displacement": 2.5237603675086207
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 3.174275664211137
+      }
+    ]
+  },
+  {
+    "concept": "corrigible-neutral-HHH",
+    "groups": [
+      "0057dad3d466e48ae65886caa26a9b47d912d6d134a439d2e30bff1777dee4c5",
+      "02771e34f4159e1f9b69acff452d6eb3543c19f80c213bbe6e65af35c41ef9d8",
+      "03a555820a4766f5554e28e99bdbdef5cb8ee9b20d79e448abdee147d4c04052",
+      "05249cbecd17a9e6b7a44fad2be9b83b8dafd2ee9ea46ed49e755e13f49ec872",
+      "07493c1da2ccb36d28f5beaae843eabfaafb4a8c024c9941ee3f96f0dfe61870",
+      "0766763f5140b53827b38459c0159398b6c135a5cac147f36f6c769530a29069",
+      "0766e72904c308c9f53012899964e71cb75188fa4e8ebab8332a67861f8e08a1",
+      "07b7ab6ddffa6440671dfd5c546963a95baa9d3521de1622f878a9f7c3d181d2",
+      "084add55514e62df539f8c23a77a71fabef970304b50b9fde6b39767395db427",
+      "0a0572e914f9d347f15aab3c84b0c72d5ab7955b50a4d0766bb91f0c4e1a6ba3",
+      "0a676fc7f61f9b6ee332683c25eb3d8a037845be7bbbcd1a443285dcd886c237",
+      "0ac4adbcda478ad417f133cb2b94eb69f4929a80aabb37252861d54ae2b4191e",
+      "0baf774d9ee2c4d66b6976bf589d34c33e748e0722a31b2e678553b84cccdc79",
+      "0bf0763897d6949a4cb3a69810d10ea65dc9111db2bd79b0616e98ef84d1c831",
+      "0c51b4fe2d5399c4d5365aff01e9ac8a51c386087725e2b1efbddb070f3a83a6",
+      "0cd3a1f1b74a74e94998b71f67a2aab8ce4fd4cb8e889b7826fd8b6b2e70536c",
+      "0e825adebfebc322f725915cd50460e35de9fb0b519d4a60a40a28a9c39a5ed1",
+      "0ecf42bd328ad5a1f3a7fb6d8c962557e7be680ee120c6235002da055067600a",
+      "1019dbdbb91259452915727785366f01f336148fe0ecec1eb0e13a6259e6198a",
+      "1082616800d69463abf2dc04164b1b729faaa56516b9b598063082e1adcd26db",
+      "111c94b1b8f5f929ab3455f8db1908b70a6888749d163e1420f349a2028e533c",
+      "128016d171c351aeaeea16914511e89feea294fe2ef8b03d20169617d0b5ac36",
+      "1291dc480fc83505584507778104bd8213f20c911311bd64153bb537a3e0da21",
+      "13037e52b56fdfe54ac829fb903853e4dde1eefaf5a46a2192b77fd4b09d7d3f",
+      "1356bd0141b9b49b49b763d0570fb9b728dd183f2437bfe1884f27307fcbfd61",
+      "15e0d82f10732d5c9da4b0ca865f545c7af859e398609efdce0568349e51c137",
+      "161bf54d5b2197cfcb4a209b92124900d4e43393fac899b7550eccabafa774f6",
+      "17848b7a3a2c08251287d76e1825e6b39349d61b4f6bf7d4f4c76ec29866c12b",
+      "17fc7130355672274eca9222cb4fe88cbaa29c0b4285ecd85c5607b03d6de4eb",
+      "1806a80925a1495af3f94149dee2135e3b73555dc76020850d2352967fd6bec0",
+      "18262031c8806529694e719c727ba4f2fe3a1851e11abd9e117477395b6d7063",
+      "18b4db8a1db1626cd2f245528dc53e4bb94963681ae380af263646befea90a3b"
+    ],
+    "native_parameter": 0.9910356029868126,
+    "target_rms_displacement": 2.5237603421486035,
+    "actual_rms_displacement": 2.5237603380410034,
+    "relative_error": 1.6275713542541363e-09,
+    "native_unit_rms_displacement": 2.5465871314651403,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 3.8861308735408806e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 7.772382434422595e-05
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.0001554445171323423
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.00031088830850680956
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0006217766474811332
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0012435490296592757
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.0024871015952857125
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.004974204879471109
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.009948406137631594
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.019896805271958345
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.03979358584533251
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.07958707139616199
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.1591737413527658
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.31834587531074887
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 0.636685323419939
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 1.273344945407521
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.5465871314651403
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 1.9099788777125428
+      },
+      {
+        "native_parameter": 0.875,
+        "rms_displacement": 2.228286213316478
+      },
+      {
+        "native_parameter": 0.9375,
+        "rms_displacement": 2.3874374743225366
+      },
+      {
+        "native_parameter": 0.96875,
+        "rms_displacement": 2.467012503582642
+      },
+      {
+        "native_parameter": 0.984375,
+        "rms_displacement": 2.506799867574237
+      },
+      {
+        "native_parameter": 0.9921875,
+        "rms_displacement": 2.5266935120550746
+      },
+      {
+        "native_parameter": 0.98828125,
+        "rms_displacement": 2.516746692916836
+      },
+      {
+        "native_parameter": 0.990234375,
+        "rms_displacement": 2.5217201032006784
+      },
+      {
+        "native_parameter": 0.9912109375,
+        "rms_displacement": 2.5242068076359176
+      },
+      {
+        "native_parameter": 0.99072265625,
+        "rms_displacement": 2.5229634551264013
+      },
+      {
+        "native_parameter": 0.990966796875,
+        "rms_displacement": 2.523585131503586
+      },
+      {
+        "native_parameter": 0.9910888671875,
+        "rms_displacement": 2.523895969485633
+      },
+      {
+        "native_parameter": 0.99102783203125,
+        "rms_displacement": 2.5237405505221004
+      },
+      {
+        "native_parameter": 0.991058349609375,
+        "rms_displacement": 2.5238182602388686
+      },
+      {
+        "native_parameter": 0.9910430908203125,
+        "rms_displacement": 2.5237794051000195
+      },
+      {
+        "native_parameter": 0.9910354614257812,
+        "rms_displacement": 2.523759977726716
+      },
+      {
+        "native_parameter": 0.9910392761230469,
+        "rms_displacement": 2.523769691751541
+      },
+      {
+        "native_parameter": 0.9910373687744141,
+        "rms_displacement": 2.5237648346611294
+      },
+      {
+        "native_parameter": 0.9910364151000977,
+        "rms_displacement": 2.5237624065679616
+      },
+      {
+        "native_parameter": 0.9910359382629395,
+        "rms_displacement": 2.5237611919490717
+      },
+      {
+        "native_parameter": 0.9910356998443604,
+        "rms_displacement": 2.523760585089731
+      },
+      {
+        "native_parameter": 0.9910355806350708,
+        "rms_displacement": 2.52376028126975
+      },
+      {
+        "native_parameter": 0.9910356402397156,
+        "rms_displacement": 2.5237604333295076
+      },
+      {
+        "native_parameter": 0.9910356104373932,
+        "rms_displacement": 2.5237603569245897
+      },
+      {
+        "native_parameter": 0.991035595536232,
+        "rms_displacement": 2.523760319177297
+      },
+      {
+        "native_parameter": 0.9910356029868126,
+        "rms_displacement": 2.5237603380410034
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.5465871314651403
+      }
+    ]
+  },
+  {
+    "concept": "hallucination",
+    "groups": [
+      "009aecd3533af26bdec753788dddb2cc987f44d0abb9ceefc65753f011cd4f04",
+      "009e1781c6c19b4482fdc3c4666d4c406d50ebfd99b7c497a099304a4c52abc0",
+      "0105bc3b9642f41da2c88b0d6aa6a8357bb9b7c706ca8dd58c5d228b85d6ec22",
+      "0149194b6312040bb8ceac756f560fe300e00046d3868c084157c82b8f1612bf",
+      "014d0e85d68a2f4cdd25c7586a14eab54253403efd53ed79a74df416d488b28f",
+      "015a9887d1570db1e37dad643207a88c90d0629007af6d740eeced4121f7ec39",
+      "0174e88b9d1fbfc9486e820faddc8d6b99832d75ebd211e9bd51eedfe95b173c",
+      "019abea91ee8d42af6088d8dc47db3719f2838beaef86b57c5b0c51711202f12",
+      "01f8f657b0a794dbc087798dfdc6a05d041ba9a0fad7e1b51760481c4377181d",
+      "0264b434352a559180972ace7af6b4dff782a35c9571a0371958783c73a6649d",
+      "03b33ba188ead9416b1ca7ce67c74ce8bd7a31850865c5297e1a224602803fa8",
+      "03d5fd01be58c779542dddb97bb4ff2baf312885996265b059fd5273e5b65a3a",
+      "03dc85adfdefb6403481fd845960b068b3eee518de95d2300e901353f089617e",
+      "03dd9a5eb4fcd9196dc9e0f8197524d5932de47d299df7e9b397bb21852e6f0a",
+      "045c90508279d03deb4ab6b05c0dbac683d5fb73eb7296d3f42541b80cf9342c",
+      "04659045c7d2b1ff638571c3f578d391ef164efa6fa76c3ee394e8b76ededdaf",
+      "04e1f6ed379643f87d55cf2c746f86ab5b4e663e18d28c359d430e2d0ba74506",
+      "0561391276025546d653a8c8490c091e5d11abf809f73f5d7a0e079792eb81f4",
+      "05704a3760c217204c636b6d66712851a3f4cf722e1b4ca244e716ca54bf7159",
+      "059cac6f2d1e341384dabd26a509419b70037bd9b213f30edddce6af11500cc3",
+      "05a0066f2d84c35d52866e3fb3907203839c4f8b5138652fb57f8ac5be3d6157",
+      "05a5db501842ed097e0816092cc0e87b00a396573b96b06a607c8e080fb462b1",
+      "05b7712f6e8027f47795b6a9e2155b2292e2c8b915c1832f3b92134d5e5ce381",
+      "0646feee12af93f2c6cfbb0989e3798288eaad668df54e4152c26b059bb1aea0",
+      "066beef7fad7b9182b7ec728b29bf5e28f9af9fbc10badcfed02954fc6203116",
+      "0688df2ce8a7795a2c96b0071fa3f0dee0c2db37ec19587968009537832adb39",
+      "06a0b42428635389f056cd36ee51083b5127847f4d528dfcfd7be6374fc8d5ec",
+      "0703989d973f0680ee2fb1785017bf01b4b5150c6a4731d5e080d16b62d45a3b",
+      "0743cedf685a7dc3ace253f23b9d75b91e8d19a1f3bc9f29e633a6fc20548ef6",
+      "0768701e26f333f336b5bef23ff8c829c158cefe1d36b1fbba79d5900d5f3a28",
+      "07925afa3a51c5e27d942f45127a52d5a910971f587b15ed50b1349e8b4282e0",
+      "080082ac0f677b95516ace5d65e35c6e3224c874ceb04208ed37f0d24f5e3acb"
+    ],
+    "native_parameter": 0.5504142567515373,
+    "target_rms_displacement": 2.523760703123586,
+    "actual_rms_displacement": 2.52376073514138,
+    "relative_error": 1.268654122162953e-08,
+    "native_unit_rms_displacement": 4.585406823535508,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 6.99599984965684e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 0.00013992611163703703
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.00027984450749082217
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.0005596837039032763
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0011193716580649427
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0022387459325733886
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.004477493140622355
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.00895498691239985
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.017909977201672693
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.03581996734925827
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.07163999098411743
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.1432802038013634
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.28656129384939555
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.5731261340419784
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 1.1462664587816116
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 2.2925897098941563
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.585406823535508
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 3.438969811889905
+      },
+      {
+        "native_parameter": 0.625,
+        "rms_displacement": 2.865772650371444
+      },
+      {
+        "native_parameter": 0.5625,
+        "rms_displacement": 2.579179403792688
+      },
+      {
+        "native_parameter": 0.53125,
+        "rms_displacement": 2.4358841123022312
+      },
+      {
+        "native_parameter": 0.546875,
+        "rms_displacement": 2.5075316465642716
+      },
+      {
+        "native_parameter": 0.5546875,
+        "rms_displacement": 2.5433554972783905
+      },
+      {
+        "native_parameter": 0.55078125,
+        "rms_displacement": 2.52544356528067
+      },
+      {
+        "native_parameter": 0.548828125,
+        "rms_displacement": 2.5164876046008904
+      },
+      {
+        "native_parameter": 0.5498046875,
+        "rms_displacement": 2.520965584811077
+      },
+      {
+        "native_parameter": 0.55029296875,
+        "rms_displacement": 2.5232045742413094
+      },
+      {
+        "native_parameter": 0.550537109375,
+        "rms_displacement": 2.524324069598732
+      },
+      {
+        "native_parameter": 0.5504150390625,
+        "rms_displacement": 2.523764322473896
+      },
+      {
+        "native_parameter": 0.55035400390625,
+        "rms_displacement": 2.5234844487149677
+      },
+      {
+        "native_parameter": 0.550384521484375,
+        "rms_displacement": 2.523624385080343
+      },
+      {
+        "native_parameter": 0.5503997802734375,
+        "rms_displacement": 2.5236943534996232
+      },
+      {
+        "native_parameter": 0.5504074096679688,
+        "rms_displacement": 2.523729338159777
+      },
+      {
+        "native_parameter": 0.5504112243652344,
+        "rms_displacement": 2.5237468296774486
+      },
+      {
+        "native_parameter": 0.5504131317138672,
+        "rms_displacement": 2.5237555764454385
+      },
+      {
+        "native_parameter": 0.5504140853881836,
+        "rms_displacement": 2.5237599491581415
+      },
+      {
+        "native_parameter": 0.5504145622253418,
+        "rms_displacement": 2.523762135700429
+      },
+      {
+        "native_parameter": 0.5504143238067627,
+        "rms_displacement": 2.52376104284023
+      },
+      {
+        "native_parameter": 0.5504142045974731,
+        "rms_displacement": 2.5237604959152495
+      },
+      {
+        "native_parameter": 0.5504142642021179,
+        "rms_displacement": 2.5237607694622732
+      },
+      {
+        "native_parameter": 0.5504142343997955,
+        "rms_displacement": 2.523760632430855
+      },
+      {
+        "native_parameter": 0.5504142493009567,
+        "rms_displacement": 2.5237607008490595
+      },
+      {
+        "native_parameter": 0.5504142567515373,
+        "rms_displacement": 2.52376073514138
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.585406823535508
+      }
+    ]
+  },
+  {
+    "concept": "myopic-reward",
+    "groups": [
+      "0056cae247eb73be0312bdfa765aef3b0eb5831a9993ee505c794c92aaa7ef7e",
+      "011779b12b05867412f87ee2976e95448493869c63dfac92c6bcf633e40d3720",
+      "0162329aaa897bcb9d5c63a9570c253e5cdbe5f06abcf4d8e542ec627d9460b8",
+      "01970e171c031434139ed743a0df8f658e7ec3279e18351ebb112a83386b854f",
+      "019bc8b3b455a67e69bcb41706b2092eb4cd7198e3eec5405abe1c38f37fe36f",
+      "025a7c6b1e67cf3e1b353bb85691c6d07fb20f1f8f9aa92a80d7628140ad9c96",
+      "027f5605b106b55b4412f145bc5fc2d2893617bb46425a24102e552a6184ace7",
+      "02ac49cb888682198aba60a443e79d8d7206d6c8c0dc9d86b3130da111bea3c7",
+      "0346c9dbd33100bc71fa2c12764574284d2636903d23cddb23e5c8effc698c08",
+      "04326d57ec09a187c3f65348020c35943c1a89960bda09bb4222939d2ab96cba",
+      "04e693ef59991c6eabc7a4600c8215a8fc2ea8c1aabd0ee1516ab94f558ad5f7",
+      "051b5d8e6bfb6153d9c9f1a9716a991f01a50e06df142a085f936de087565cc6",
+      "055f4601ccc711a080072115d079bc9870805b7d88ad7ef22a1918dc625141a3",
+      "05ba53a92b69e77917945945cf1a2b49c8fd51d429b30cab6e1d48b8f58d5e75",
+      "06367d3a9b3f0aaad44a0454b7818eb58ed151b33555d63f9da3562ed163105c",
+      "066cab113c13ffb6d9b3759b4f4dfa9b16cc29e2bd18d5a851581f560d5cd929",
+      "06d9a186e05e0e99f23f4391f0a4c0187a658cb742f9b1af090235c4ac6cdaec",
+      "0729a38bf97bb8b66b7201c6e5d4e9799b037b2fcf0c4e2ad545958fa86cb2c7",
+      "07835fb94b0f911a98f2c3925869eaacf4b45d047aac059e82b7ca294199e0b3",
+      "08480f3607a7a48e8354e393b96f0ae031a2e6d8a9804137ebc8ee7c71242ddc",
+      "0866dc8e5d5e62984c0cbbe61815111064d64bc588ed3479dcacccfa43fd43a1",
+      "08c1630f8123ceb42399b62a9a810ab98b2d1fb35d69a5d8f7566a21005a9444",
+      "09a3c2bf202d57d8ff42f7905686ea08ec4d61b8ee00e9e15899835de4fde23a",
+      "09d95a362c83ff1b87022db615bcbc124921a7daf5762bb85981413bdb89368a",
+      "09fa87412dfe2ac3d71ab3699cb3dfe52ff1e0e853d20584ceca8688c0a1fd3e",
+      "0a6e6b15692cc5a7203669bf9c4cd4fb20bd9dc681fa5839630f7a98171390d8",
+      "0aaaa2486351d6cf76dd1fc18be69deea1d94ac33617a38eb8346d8985d9f4be",
+      "0ae1b8555654058775732b0f46125952aec59269517a1571b95590a603c8fe0e",
+      "0bf52ad370c53c151b1864139e85ee01077a0f3a932e847c1abdcd5575bfda1d",
+      "0c7e724abec90508e408c8a9b64bd85f76375ca39864f2990ea15bf4434ecd0d",
+      "0cce72bffc94e6c90e7a16ea9f26befb99fce99061dbab7f3ebac2178992ffe5",
+      "0ccf8839477d91e5407a78b30111c8d6332f414f8406743a77e8cb6e490895e0"
+    ],
+    "native_parameter": 0.6092442199587822,
+    "target_rms_displacement": 2.5237604337062685,
+    "actual_rms_displacement": 2.5237604415291592,
+    "relative_error": 3.099696260836889e-09,
+    "native_unit_rms_displacement": 4.142435064085443,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 6.32084648022103e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 0.0001264189927091881
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.0002528374043296442
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.000505671387524068
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0010113427041176144
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0020226850017844443
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.004045370829886945
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.008090741401765713
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.016181481487516147
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.032362963839061495
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.06472592545590465
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.12945183823676992
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.25890362808117984
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.5178070634281701
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 1.0356133589489926
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 2.0712236488484326
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.142435064085443
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 3.1068308801669597
+      },
+      {
+        "native_parameter": 0.625,
+        "rms_displacement": 2.589027646403863
+      },
+      {
+        "native_parameter": 0.5625,
+        "rms_displacement": 2.3301257428429105
+      },
+      {
+        "native_parameter": 0.59375,
+        "rms_displacement": 2.4595767183848403
+      },
+      {
+        "native_parameter": 0.609375,
+        "rms_displacement": 2.52430218795561
+      },
+      {
+        "native_parameter": 0.6015625,
+        "rms_displacement": 2.4919394549987564
+      },
+      {
+        "native_parameter": 0.60546875,
+        "rms_displacement": 2.508120821801456
+      },
+      {
+        "native_parameter": 0.607421875,
+        "rms_displacement": 2.516211505395465
+      },
+      {
+        "native_parameter": 0.6083984375,
+        "rms_displacement": 2.5202568470279783
+      },
+      {
+        "native_parameter": 0.60888671875,
+        "rms_displacement": 2.52227951719193
+      },
+      {
+        "native_parameter": 0.609130859375,
+        "rms_displacement": 2.5232908530444145
+      },
+      {
+        "native_parameter": 0.6092529296875,
+        "rms_displacement": 2.523796520494125
+      },
+      {
+        "native_parameter": 0.60919189453125,
+        "rms_displacement": 2.5235436868381975
+      },
+      {
+        "native_parameter": 0.609222412109375,
+        "rms_displacement": 2.5236701031231368
+      },
+      {
+        "native_parameter": 0.6092376708984375,
+        "rms_displacement": 2.523733312574424
+      },
+      {
+        "native_parameter": 0.6092453002929688,
+        "rms_displacement": 2.52376491640867
+      },
+      {
+        "native_parameter": 0.6092414855957031,
+        "rms_displacement": 2.523749114362412
+      },
+      {
+        "native_parameter": 0.6092433929443359,
+        "rms_displacement": 2.5237570152131994
+      },
+      {
+        "native_parameter": 0.6092443466186523,
+        "rms_displacement": 2.5237609664079286
+      },
+      {
+        "native_parameter": 0.6092438697814941,
+        "rms_displacement": 2.5237589903569715
+      },
+      {
+        "native_parameter": 0.6092441082000732,
+        "rms_displacement": 2.5237599782968068
+      },
+      {
+        "native_parameter": 0.6092442274093628,
+        "rms_displacement": 2.5237604724982945
+      },
+      {
+        "native_parameter": 0.609244167804718,
+        "rms_displacement": 2.5237602247627837
+      },
+      {
+        "native_parameter": 0.6092441976070404,
+        "rms_displacement": 2.5237603484857716
+      },
+      {
+        "native_parameter": 0.6092442125082016,
+        "rms_displacement": 2.5237604105442473
+      },
+      {
+        "native_parameter": 0.6092442199587822,
+        "rms_displacement": 2.5237604415291592
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.142435064085443
+      }
+    ]
+  },
+  {
+    "concept": "survival-instinct",
+    "groups": [
+      "001a32bded69a9bb002d48032600a03ef90ca700b274c0af06e63f886fd888fd",
+      "005137bb27a9e4ee074ac9828e1b1fa4b42499914e35f0f11b26a9f8c71dfb8f",
+      "009fb9e1b1a9d48e0a6a6d15294f5b4ac784a7d52bcd69b3021207a7d361ab31",
+      "012fc0fd7671d59a89135e0b76eba828d27b6edbac07509427f818826fb5b62a",
+      "0180bc888e0d7e2f473d9e94cc024d49879a48891416b42f57d9d8d31295410a",
+      "026a947470e6ca6985cfa2926138b248a2c3d1b0a41eceac02844d15e8f710d6",
+      "0273ec222043940bf7e6888bf2134b4ed4175f3ea877cdd082ee10bb803c9048",
+      "0310b2aa74d848c3721c3c4b70526f2878d6fc27dc3c2598d846ddc1ac793a4c",
+      "0318620be359d7d68f448e408b04278cc1e4ff422add7a1c8a3204302ec29a50",
+      "035d22e8e3b4db81c01ab9d414736728c8ae58799a4d9c0e53a6f145185fc7f3",
+      "044b59e41d10de2b5a455a335ef17b7268fd374af531cb8d81eb9a9df779ebe7",
+      "046f769141c8f1ff679b804ca580254e8e653bc0180b3c07623f678c4f484a16",
+      "04fb291a88da719753f8ba306fb303f5ffe5929d19b942ecf5e804d9249036c6",
+      "05263f571daf509647e4751ca360b6655e65d2d201385de0a313d5b99e21d224",
+      "052fb9b9f779092bb65b6076110a8538f1ca45e51f30e7c8136583df27178053",
+      "0674a9d8d228308c9b139e1276890c3eb5059b9ae4623f322b1d76fd4da1b817",
+      "069937df629a9bc0826e5c6ecf2c2a0914823450fe66f50f5994b9db7962c1a6",
+      "06aa0c44fe685a0767397dff8d6366eedeffe652fae23bb899459b7f40d67bd2",
+      "06afee90587c3df3ab02dc3c1e701c13a2cf0a61e8d82ee1a3b5a240ff3ca08c",
+      "06e5e7d67a1535f0435b8f1fcff42f8a1f8c31c6c65e5f604a3ce714c520a369",
+      "072319c050ceba278b5e7ff09f9f0d5f6fda1dbf6abae5a887eff68ad5bd2301",
+      "074912ee711c3e8aa316bf0a0d27d42e97019e15033a28d982c7261867e5cd4f",
+      "07ab7b3866c650a65e20835553186474c8d8f32f1997c2785b8f8a426d03b388",
+      "07cc7e032b5953cc3d07ae8f7262eb53dc945c8c4691b1c07afca0637e5053b8",
+      "07f07f9b2a508931b496cf34c89d940e454b5f0b6e6a179bcdcf9614dd19b705",
+      "080fcfe01173277f3088a9fb61567218fe927211507cd0981ff9c47589c213d5",
+      "0820b9b7192eea396e6f7c9a1d59d281129dc85292028a9bcd5eaa759bcd66a1",
+      "0842308942a08694809c02069863c333dc3b7d2f8b691aae19a6facdc59828fc",
+      "08e5d066f7bb5431844c95ffead5182d8a62d5d640372fe962ef10b0244b5ec4",
+      "092139a14b2c1a378a6e1f68f50ab07b1b0a1e21ed71451bda011640ece5f61c",
+      "092d4b2335a5f256c9f7f7319ddaa9035f9a595805d81bd2430c98e20fce4f33",
+      "09c3e8298359bf92733ef20ea4ebbf7c9b63bccd8418eaef1cee9a0cdd5390c5"
+    ],
+    "native_parameter": 0.6028949990868568,
+    "target_rms_displacement": 2.523760586771226,
+    "actual_rms_displacement": 2.523760609913892,
+    "relative_error": 9.169913393167635e-09,
+    "native_unit_rms_displacement": 4.186064426588442,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 6.387498870865266e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 0.00012774879934852388
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.00025549725287848875
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.0005109950964235961
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0010219912247965573
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0020439831832812063
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.004087967660395349
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.008175934569692697
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.016351870222441698
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.032703739389525165
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.06540747751641851
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.13081494776762895
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.2616298651569629
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.523259612252369
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 1.0465187565704435
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 2.0930356857373584
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.186064426588442
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 3.1395508781575794
+      },
+      {
+        "native_parameter": 0.625,
+        "rms_displacement": 2.6162934933535875
+      },
+      {
+        "native_parameter": 0.5625,
+        "rms_displacement": 2.3546646428926823
+      },
+      {
+        "native_parameter": 0.59375,
+        "rms_displacement": 2.4854790815137227
+      },
+      {
+        "native_parameter": 0.609375,
+        "rms_displacement": 2.550886290475829
+      },
+      {
+        "native_parameter": 0.6015625,
+        "rms_displacement": 2.5181826869081623
+      },
+      {
+        "native_parameter": 0.60546875,
+        "rms_displacement": 2.5345344890797734
+      },
+      {
+        "native_parameter": 0.603515625,
+        "rms_displacement": 2.526358587700915
+      },
+      {
+        "native_parameter": 0.6025390625,
+        "rms_displacement": 2.522270637137976
+      },
+      {
+        "native_parameter": 0.60302734375,
+        "rms_displacement": 2.52431461295535
+      },
+      {
+        "native_parameter": 0.602783203125,
+        "rms_displacement": 2.5232926249882
+      },
+      {
+        "native_parameter": 0.6029052734375,
+        "rms_displacement": 2.523803619130129
+      },
+      {
+        "native_parameter": 0.60284423828125,
+        "rms_displacement": 2.52354812218166
+      },
+      {
+        "native_parameter": 0.602874755859375,
+        "rms_displacement": 2.5236758704048228
+      },
+      {
+        "native_parameter": 0.6028900146484375,
+        "rms_displacement": 2.5237397446811825
+      },
+      {
+        "native_parameter": 0.6028976440429688,
+        "rms_displacement": 2.523771681995739
+      },
+      {
+        "native_parameter": 0.6028938293457031,
+        "rms_displacement": 2.5237557135474544
+      },
+      {
+        "native_parameter": 0.6028957366943359,
+        "rms_displacement": 2.5237636968800414
+      },
+      {
+        "native_parameter": 0.6028947830200195,
+        "rms_displacement": 2.5237597049783074
+      },
+      {
+        "native_parameter": 0.6028952598571777,
+        "rms_displacement": 2.52376170151399
+      },
+      {
+        "native_parameter": 0.6028950214385986,
+        "rms_displacement": 2.5237607038705363
+      },
+      {
+        "native_parameter": 0.6028949022293091,
+        "rms_displacement": 2.523760204408679
+      },
+      {
+        "native_parameter": 0.6028949618339539,
+        "rms_displacement": 2.5237604540953362
+      },
+      {
+        "native_parameter": 0.6028949916362762,
+        "rms_displacement": 2.5237605786680843
+      },
+      {
+        "native_parameter": 0.6028950065374374,
+        "rms_displacement": 2.5237606409739572
+      },
+      {
+        "native_parameter": 0.6028949990868568,
+        "rms_displacement": 2.523760609913892
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 4.186064426588442
+      }
+    ]
+  },
+  {
+    "concept": "sycophancy",
+    "groups": [
+      "002393928c00cca5c6fddb8c45a587fa68e9deea66249971c19d3d5a47298fe2",
+      "0039ab954f67150511e97afc81421e26337d8df3b29005c1df4cc841e2c0101d",
+      "008b9d6df314aebb65d510e7602897bf6bcd52c58221aeed93aa1759757c3702",
+      "00c0adef6cd8a46f56f7181b098b5d9bfcda745749fb187601b02a99fc23930f",
+      "00ed478663e1225d11d6ea9cf4f7f3fbf6d50c05a4b08f34f0b4b4b8d5f5917d",
+      "00fbea7b3502c959c961d44edccbf1cdc5df44a53648c5863a3593bdbd5877d8",
+      "016cfb075b561b1b91dd4c287f00ce12d7ac60fbdf9cac8d0f2c4e73f43f086e",
+      "01972320138cc4ae289f14965b7de6accee6f83e90f48273c792152703f3fef6",
+      "019b9866a55a2229437722a8e0944aa30ad1d5f0b060ca8881cf6abb69b6b27a",
+      "01a25fc8790b15d7d14aed3e8f9fdbb336a4d950ebeebdf19fabedee226de94b",
+      "01e2134d9e65325045c9ab3a1063f06fb73f08f12049530c5fecdb09d2c43eac",
+      "01e57fd96a5be50956e4c9ff9a9158cc9c219fd7b5f9f40ae93de6db27bdd86f",
+      "026a3a41aba8fd52c7c6f01cbd9702202a9f90f126d8f64d551636c434b31819",
+      "02af4136574648efad554331f2e509e991cb85558511482db7286733dcc3ed34",
+      "02d858122add3d4d80d5feb2a3f129fe0d163a17b8dfebd14894312dc90dad04",
+      "03a9255005724df76e0a5a67a0238bcc31eb097b3dec98e466b0dc6c3f81e05e",
+      "03b9ceb7550346e0d285a412d6492831e0d5a2dcec1e5ad3cd4db782afb45824",
+      "03c11e0b6861d08954bc429f1ead2b0d17a180ab14ecf230092784a697f30a3d",
+      "03c20a86dec623969eaffe7d1641545e4780df7a1bc668695d35ace87c260d02",
+      "046ff543fc2c35cee94b9130d6c365c576110ecb382d3a7eddb9a78eea752857",
+      "04f5d28df5a9d0d0a7adf1fbac95d89dd05ca7808b47314cf4217286052010e7",
+      "05a333847d43ab8e399689cd1d44b3da5279b4dbb6d419f62fa7041151293336",
+      "05a8c1136db35508839a8a6154297a6be5651ce82ab6be930aa79175d9391f16",
+      "0626a43fa32d3d3f8a7723debf435337d4f2367ac2afc786aacf50686495bad1",
+      "062e6d6e82d7badb28a24d46818fabfb3d21a19bf869818bdb91d9b2f08429ee",
+      "06351e6ed1ced6dd01a08353aea062033aec365565c86ea5043f1662f1ecbea3",
+      "063562fa3e650cb9f1532467b9bc91df224c59ef4191c86661b3f77c29b1940b",
+      "06a3aaca1c56a988d15d19f13ffbd3e2da536676e72176f78cf170068d05252e",
+      "06b1839f1f8ebb6c3596cdf4a53978fdbc7184a3b4fbbbc9f10a98f2a879b61b",
+      "07131d7adde0aad56f6b4b705aac177e13a1e4d2bcab7e004a6e3edc08ffa96f",
+      "076c1bd0bd5634e68f3150777e1690bf36a69893a81e460aa77ac3bfbd747af8",
+      "0827d0ae5b8da3d0eabfd7d9338b3a2cf35cae9a13230ca185885c64178ad2ff"
+    ],
+    "native_parameter": 1.2586974054574966,
+    "target_rms_displacement": 2.523760560644389,
+    "actual_rms_displacement": 2.5237605698770467,
+    "relative_error": 3.658293854579768e-09,
+    "native_unit_rms_displacement": 2.004960245345615,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 3.05893662907966e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 6.117696015624059e-05
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.00012235204624110548
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.0002446995963058036
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0004894014493866892
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.000978801302896018
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.0019576020987038035
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.00391520593812768
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.007830416135547294
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.015660843052786904
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.03132173207739051
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.06264364726053971
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.12528802732990166
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.25057898399078854
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 0.5011696890320686
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 1.002386273801696
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.004960245345615
+      },
+      {
+        "native_parameter": 2.0,
+        "rms_displacement": 4.010672186336043
+      },
+      {
+        "native_parameter": 1.5,
+        "rms_displacement": 3.007722140676465
+      },
+      {
+        "native_parameter": 1.25,
+        "rms_displacement": 2.5063176878091458
+      },
+      {
+        "native_parameter": 1.375,
+        "rms_displacement": 2.7570140361357
+      },
+      {
+        "native_parameter": 1.3125,
+        "rms_displacement": 2.6316643935045474
+      },
+      {
+        "native_parameter": 1.28125,
+        "rms_displacement": 2.568990673064507
+      },
+      {
+        "native_parameter": 1.265625,
+        "rms_displacement": 2.5376540887051906
+      },
+      {
+        "native_parameter": 1.2578125,
+        "rms_displacement": 2.521985865328958
+      },
+      {
+        "native_parameter": 1.26171875,
+        "rms_displacement": 2.529819971435224
+      },
+      {
+        "native_parameter": 1.259765625,
+        "rms_displacement": 2.525902916775632
+      },
+      {
+        "native_parameter": 1.2587890625,
+        "rms_displacement": 2.5239443906786163
+      },
+      {
+        "native_parameter": 1.25830078125,
+        "rms_displacement": 2.5229651281713092
+      },
+      {
+        "native_parameter": 1.258544921875,
+        "rms_displacement": 2.523454759737199
+      },
+      {
+        "native_parameter": 1.2586669921875,
+        "rms_displacement": 2.5236995756384246
+      },
+      {
+        "native_parameter": 1.25872802734375,
+        "rms_displacement": 2.5238219827197637
+      },
+      {
+        "native_parameter": 1.258697509765625,
+        "rms_displacement": 2.5237607795605284
+      },
+      {
+        "native_parameter": 1.2586822509765625,
+        "rms_displacement": 2.52373017704063
+      },
+      {
+        "native_parameter": 1.2586898803710938,
+        "rms_displacement": 2.5237454779044852
+      },
+      {
+        "native_parameter": 1.2586936950683594,
+        "rms_displacement": 2.5237531284246817
+      },
+      {
+        "native_parameter": 1.2586956024169922,
+        "rms_displacement": 2.523756953799034
+      },
+      {
+        "native_parameter": 1.2586965560913086,
+        "rms_displacement": 2.5237588666751543
+      },
+      {
+        "native_parameter": 1.2586970329284668,
+        "rms_displacement": 2.5237598227953493
+      },
+      {
+        "native_parameter": 1.258697271347046,
+        "rms_displacement": 2.523760301007923
+      },
+      {
+        "native_parameter": 1.2586973905563354,
+        "rms_displacement": 2.523760540196272
+      },
+      {
+        "native_parameter": 1.2586974501609802,
+        "rms_displacement": 2.5237606597696463
+      },
+      {
+        "native_parameter": 1.2586974203586578,
+        "rms_displacement": 2.523760599744228
+      },
+      {
+        "native_parameter": 1.2586974054574966,
+        "rms_displacement": 2.5237605698770467
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.004960245345615
+      }
+    ]
+  },
+  {
+    "concept": "refusal",
+    "groups": [
+      "0060f6c3c59cd79651bdc89d1519dae5e20a7977c4b5aaf7f8211578c9561db1",
+      "008c325f701ec7263f4ec1b2a295b3706ecd251d203fabb5dc56e1e36f19836d",
+      "0213eeba5ff499e516e3f44fa3aa75ba8cb276f007de42363fe2ab4c5777ddde",
+      "0444dd955d3e5437bdcac10fee74047cd6351ac448893dc1b0ee1987b31f69b0",
+      "04ec436e86b7344a26203b477634b1fb85f2183cfa05fb7259b6734ca72c01da",
+      "0635f770b58630cc356ddeb3789ea04905641f4562dda22bc1d5f8f26eca6b0f",
+      "067ab497567d29cdd29a08a73fe91020bc09832cce541b4060fcd0f821cf0eaa",
+      "06ce07e38babd982aec8724a56a2f711ffe8d686a4c9138dd3c98436ce18dc82",
+      "077a96c4070f243a83a424dd7aba4f42397b70fbcba8a0a3912701c4f94d7dd2",
+      "07bbf09d4a7231e9044e7197af9f672d9aff4b386a6e3719fd023cfc51f78124",
+      "0807f925e2c7e3401a569a674f804f2ef65ab5896da8e382d0a835150f537d4d",
+      "08930643bad2e9704197bebce0035301ff1ab5e40880a874b19ce223a1c3cb52",
+      "08a894b5a5a7548d509473d02b813548e79130cf23b0ef25f2f839b5783ea046",
+      "08e8ea3e6a48e151f314f5c8ad6e3d81fd01503b60b4dde160233763a3d391e1",
+      "0aa8d9c0014dc8cefd68c37ca2f34ad36aa922880609abeb9e2c071c1c31b35d",
+      "0ae2a65747faf7960ea2630f297be5f63d12a210e7ae43d4c668603ab191ad2d",
+      "0b08f1ffdd127c38035368bfa9ff9279918c29e1ddbb929c51bb5d4b1fad178f",
+      "0bef32181a5c188fcf793bb444a045f6f5d1c2353a4f9b71d35c5558c58ca192",
+      "0c4e181fdbd0140751eb7716126c2b00aee9abd7ef10347552e8bd44381023bf",
+      "0d3b63ae8f0cfb535629fa0ffdb0a4858e9c6a4977e912c06c9a13b9b11d6287",
+      "0ea07abc628175770934112d0060546ca4f94a5c2228e7fb4cd01d19f3931698",
+      "0fc3f87753dcac3130bc90f2a3090ac313eb94c41d8af27edc134a97f90a475e",
+      "0fe06a1c5b846c08a4594a93a9b78f69fe67adb4a07f6a523407c5302c228612",
+      "104e81a75029708a957a0d282ef5b535c4197d3411060baa4594d7493ab3d451",
+      "11a1c48e3184a190b3ade128fdd325906f9a9d75790b57f847209a54a4135c89",
+      "1213cdfa1856e542fa22b57efa3e8d067f047427428f5e5e714cb3fd6c3f0c5c",
+      "12261981563f9aad0603bef5960844a97bdd8c54357976fb46f7fe3f53e0935f",
+      "1236c38b2b4efbd647330047475fec27a18a79cdbf977a97953cc85966731143",
+      "1266d93d21ed1481f7e35a33f25062e955a14cffe49c7022087972822c40afae",
+      "1366048fd9b8ed24e5309fcd6d290c4d2d1a5c892dafa0e987d37dc38d3a1e5e",
+      "13d809ce6724cfa928096faf615f3dd8d5a69e0bac84b4c77ee5ccf7695768f9",
+      "14388c99dc6cc1df75af65a5d2723e3cc196b88233985e1e17d7ecc96b48b152"
+    ],
+    "native_parameter": 0.9122918769717216,
+    "target_rms_displacement": 2.5237605646480774,
+    "actual_rms_displacement": 2.523760545313238,
+    "relative_error": 7.661122761825705e-09,
+    "native_unit_rms_displacement": 2.766376076791776,
+    "probe_positions": 288,
+    "trace": [
+      {
+        "native_parameter": 1.52587890625e-05,
+        "rms_displacement": 4.2212788199476216e-05
+      },
+      {
+        "native_parameter": 3.0517578125e-05,
+        "rms_displacement": 8.442609531151147e-05
+      },
+      {
+        "native_parameter": 6.103515625e-05,
+        "rms_displacement": 0.00016885637762255646
+      },
+      {
+        "native_parameter": 0.0001220703125,
+        "rms_displacement": 0.0003377231087701279
+      },
+      {
+        "native_parameter": 0.000244140625,
+        "rms_displacement": 0.0006754425027128754
+      },
+      {
+        "native_parameter": 0.00048828125,
+        "rms_displacement": 0.0013508803335036876
+      },
+      {
+        "native_parameter": 0.0009765625,
+        "rms_displacement": 0.0027017583091150116
+      },
+      {
+        "native_parameter": 0.001953125,
+        "rms_displacement": 0.005403521804465086
+      },
+      {
+        "native_parameter": 0.00390625,
+        "rms_displacement": 0.010807037712160352
+      },
+      {
+        "native_parameter": 0.0078125,
+        "rms_displacement": 0.021614071269370528
+      },
+      {
+        "native_parameter": 0.015625,
+        "rms_displacement": 0.04322811275981978
+      },
+      {
+        "native_parameter": 0.03125,
+        "rms_displacement": 0.08645611531322354
+      },
+      {
+        "native_parameter": 0.0625,
+        "rms_displacement": 0.1729117882235915
+      },
+      {
+        "native_parameter": 0.125,
+        "rms_displacement": 0.3458218034181781
+      },
+      {
+        "native_parameter": 0.25,
+        "rms_displacement": 0.6916365173496954
+      },
+      {
+        "native_parameter": 0.5,
+        "rms_displacement": 1.383244684804109
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.766376076791776
+      },
+      {
+        "native_parameter": 0.75,
+        "rms_displacement": 2.074824530957797
+      },
+      {
+        "native_parameter": 0.875,
+        "rms_displacement": 2.420603839520229
+      },
+      {
+        "native_parameter": 0.9375,
+        "rms_displacement": 2.5934908415870686
+      },
+      {
+        "native_parameter": 0.90625,
+        "rms_displacement": 2.50704756166107
+      },
+      {
+        "native_parameter": 0.921875,
+        "rms_displacement": 2.5502692574127526
+      },
+      {
+        "native_parameter": 0.9140625,
+        "rms_displacement": 2.5286584238169554
+      },
+      {
+        "native_parameter": 0.91015625,
+        "rms_displacement": 2.5178529961283735
+      },
+      {
+        "native_parameter": 0.912109375,
+        "rms_displacement": 2.523255709979476
+      },
+      {
+        "native_parameter": 0.9130859375,
+        "rms_displacement": 2.525957067147384
+      },
+      {
+        "native_parameter": 0.91259765625,
+        "rms_displacement": 2.5246063890930284
+      },
+      {
+        "native_parameter": 0.912353515625,
+        "rms_displacement": 2.5239310502263574
+      },
+      {
+        "native_parameter": 0.9122314453125,
+        "rms_displacement": 2.5235933799009693
+      },
+      {
+        "native_parameter": 0.91229248046875,
+        "rms_displacement": 2.5237622148784906
+      },
+      {
+        "native_parameter": 0.912261962890625,
+        "rms_displacement": 2.523677796737123
+      },
+      {
+        "native_parameter": 0.9122772216796875,
+        "rms_displacement": 2.523720006033441
+      },
+      {
+        "native_parameter": 0.9122848510742188,
+        "rms_displacement": 2.5237411104814695
+      },
+      {
+        "native_parameter": 0.9122886657714844,
+        "rms_displacement": 2.523751662609035
+      },
+      {
+        "native_parameter": 0.9122905731201172,
+        "rms_displacement": 2.5237569396277695
+      },
+      {
+        "native_parameter": 0.9122915267944336,
+        "rms_displacement": 2.5237595773078456
+      },
+      {
+        "native_parameter": 0.9122920036315918,
+        "rms_displacement": 2.523760895661291
+      },
+      {
+        "native_parameter": 0.9122917652130127,
+        "rms_displacement": 2.5237602363015017
+      },
+      {
+        "native_parameter": 0.9122918844223022,
+        "rms_displacement": 2.523760565764054
+      },
+      {
+        "native_parameter": 0.9122918248176575,
+        "rms_displacement": 2.5237604016956294
+      },
+      {
+        "native_parameter": 0.9122918546199799,
+        "rms_displacement": 2.523760483600763
+      },
+      {
+        "native_parameter": 0.912291869521141,
+        "rms_displacement": 2.5237605247552
+      },
+      {
+        "native_parameter": 0.9122918769717216,
+        "rms_displacement": 2.523760545313238
+      },
+      {
+        "native_parameter": 1.0,
+        "rms_displacement": 2.766376076791776
+      }
+    ]
+  }
+]

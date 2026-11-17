@@ -1,0 +1,73 @@
+model,concept,behavior,partition,weight,selected,questions,groups,sample_unit,row_spearman,group_spearman,ci_low,ci_high,permutation_p,near_constant_magnitude,bootstrap_resamples,permutation_resamples,holm_adjusted_p
+qwen3,coordinate-other-ais,AI Coordination,fit,0.0,True,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,coordinate-other-ais,AI Coordination,fit,0.01,False,298,298,source-group means of genuine paired question distances and update norms,-0.009923254451996792,-0.009923254451996792,-0.1312637769561731,0.10799614343820503,0.865,False,1000,1999,1.0
+qwen3,coordinate-other-ais,AI Coordination,fit,1.0,False,298,298,source-group means of genuine paired question distances and update norms,0.5595251294113271,0.5595251294113271,0.4511576355033795,0.6597140571376443,0.0005,False,1000,1999,0.021
+qwen3,corrigible-neutral-HHH,Corrigibility,fit,0.0,True,238,238,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,corrigible-neutral-HHH,Corrigibility,fit,0.01,False,238,238,source-group means of genuine paired question distances and update norms,-0.15876393457653176,-0.15876393457653176,-0.2757743888768902,-0.025927666637838576,0.012,False,1000,1999,0.108
+qwen3,corrigible-neutral-HHH,Corrigibility,fit,1.0,False,238,238,source-group means of genuine paired question distances and update norms,0.5379766863580346,0.5379766863580346,0.4398138955092841,0.63419237341043,0.0005,False,1000,1999,0.021
+qwen3,hallucination,Hallucination,fit,0.0,False,803,754,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,hallucination,Hallucination,fit,0.01,True,803,754,source-group means of genuine paired question distances and update norms,-0.04966920907059316,-0.03381204571983816,-0.11024769467089794,0.033170801362995106,0.3565,False,1000,1999,1.0
+qwen3,hallucination,Hallucination,fit,1.0,False,803,754,source-group means of genuine paired question distances and update norms,0.2631554466373981,0.2670780366859717,0.20091379396841058,0.3299048192533941,0.0005,False,1000,1999,0.021
+qwen3,myopic-reward,Myopic Reward,fit,0.0,True,723,565,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,myopic-reward,Myopic Reward,fit,0.01,False,723,565,source-group means of genuine paired question distances and update norms,-0.014015810194853286,0.02131585022884034,-0.06372872357205273,0.10272236158075627,0.6005,False,1000,1999,1.0
+qwen3,myopic-reward,Myopic Reward,fit,1.0,False,723,565,source-group means of genuine paired question distances and update norms,0.22223676097963185,0.24197495297778532,0.15932123793978245,0.31724382210935137,0.0005,False,1000,1999,0.021
+qwen3,survival-instinct,Survival Instinct,fit,0.0,True,714,714,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,survival-instinct,Survival Instinct,fit,0.01,False,714,714,source-group means of genuine paired question distances and update norms,0.11194430517918678,0.11194430517918678,0.03622186268950825,0.18256949145166151,0.0035,False,1000,1999,0.035
+qwen3,survival-instinct,Survival Instinct,fit,1.0,False,714,714,source-group means of genuine paired question distances and update norms,0.24904159449163984,0.24904159449163984,0.17567452374534676,0.3178285195097391,0.0005,False,1000,1999,0.021
+qwen3,sycophancy,Sycophancy,fit,0.0,False,797,793,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,sycophancy,Sycophancy,fit,0.005,True,797,793,source-group means of genuine paired question distances and update norms,-0.26030834354032595,-0.26095976328251175,-0.3232068772447011,-0.19542104120850146,0.0005,False,1000,1999,0.021
+qwen3,sycophancy,Sycophancy,fit,0.01,False,797,793,source-group means of genuine paired question distances and update norms,-0.2095608370813227,-0.21280113191786804,-0.2784972867939126,-0.13704655849425704,0.0005,False,1000,1999,0.021
+qwen3,sycophancy,Sycophancy,fit,1.0,False,797,793,source-group means of genuine paired question distances and update norms,0.11197279877752173,0.10819962820623512,0.03491238564101629,0.1829415314712523,0.002,False,1000,1999,0.022
+qwen3,refusal,Refusal,fit,0.0,True,333,332,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+qwen3,refusal,Refusal,fit,0.01,False,333,332,source-group means of genuine paired question distances and update norms,-0.0581146401433538,-0.057162429418826606,-0.17164083276204603,0.05182364151807115,0.299,False,1000,1999,1.0
+qwen3,refusal,Refusal,fit,1.0,False,333,332,source-group means of genuine paired question distances and update norms,0.703110873661339,0.7006348247566898,0.6272245632981528,0.7622099509806345,0.0005,False,1000,1999,0.021
+llama3b,coordinate-other-ais,AI Coordination,fit,0.0,False,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,coordinate-other-ais,AI Coordination,fit,0.001,True,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,coordinate-other-ais,AI Coordination,fit,0.01,False,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,coordinate-other-ais,AI Coordination,fit,1.0,False,298,298,source-group means of genuine paired question distances and update norms,0.3870912668694985,0.3870912668694985,0.27841512098102766,0.482017201184857,0.0005,False,1000,1999,0.021
+llama3b,corrigible-neutral-HHH,Corrigibility,fit,0.0,True,238,238,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,corrigible-neutral-HHH,Corrigibility,fit,0.01,False,238,238,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,corrigible-neutral-HHH,Corrigibility,fit,1.0,False,238,238,source-group means of genuine paired question distances and update norms,0.24916738582515263,0.24916738582515263,0.12381664557423587,0.3732413231828397,0.0005,False,1000,1999,0.021
+llama3b,hallucination,Hallucination,fit,0.0,False,803,754,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,hallucination,Hallucination,fit,0.01,False,803,754,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,hallucination,Hallucination,fit,0.5,True,803,754,source-group means of genuine paired question distances and update norms,0.26703280923358413,0.2559758751632499,0.17705235248964998,0.32687206648671746,0.0005,False,1000,1999,0.021
+llama3b,hallucination,Hallucination,fit,1.0,False,803,754,source-group means of genuine paired question distances and update norms,0.2741205804099072,0.26243710316917374,0.1837035342636954,0.3329704252200015,0.0005,False,1000,1999,0.021
+llama3b,myopic-reward,Myopic Reward,fit,0.0,False,723,565,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,myopic-reward,Myopic Reward,fit,0.005,True,723,565,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,myopic-reward,Myopic Reward,fit,0.01,False,723,565,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,myopic-reward,Myopic Reward,fit,1.0,False,723,565,source-group means of genuine paired question distances and update norms,0.51448071880294,0.4765606152441796,0.40580682649186606,0.5455488381288869,0.0005,False,1000,1999,0.021
+llama3b,survival-instinct,Survival Instinct,fit,0.0,False,714,714,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,survival-instinct,Survival Instinct,fit,0.01,False,714,714,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,survival-instinct,Survival Instinct,fit,0.5,True,714,714,source-group means of genuine paired question distances and update norms,-0.49483091778281935,-0.49483091778281935,-0.5475311462436258,-0.43430496522416795,0.0005,False,1000,1999,0.021
+llama3b,survival-instinct,Survival Instinct,fit,1.0,False,714,714,source-group means of genuine paired question distances and update norms,-0.4952832333906502,-0.4952832333906502,-0.548083317938167,-0.4357400288304322,0.0005,False,1000,1999,0.021
+llama3b,sycophancy,Sycophancy,fit,0.0,False,797,793,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,sycophancy,Sycophancy,fit,0.01,False,797,793,source-group means of genuine paired question distances and update norms,0.26274038658685267,0.26497803995016694,0.19940802647859443,0.329112270640995,0.0005,False,1000,1999,0.021
+llama3b,sycophancy,Sycophancy,fit,0.5,True,797,793,source-group means of genuine paired question distances and update norms,0.26408883788381826,0.2662743032524591,0.20074688352359243,0.33115057958650823,0.0005,False,1000,1999,0.021
+llama3b,sycophancy,Sycophancy,fit,1.0,False,797,793,source-group means of genuine paired question distances and update norms,0.26710985802305176,0.26916324649322126,0.20361528890557853,0.3341205565177842,0.0005,False,1000,1999,0.021
+llama3b,refusal,Refusal,fit,0.0,False,333,332,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,refusal,Refusal,fit,0.01,True,333,332,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama3b,refusal,Refusal,fit,1.0,False,333,332,source-group means of genuine paired question distances and update norms,0.07638289035735109,0.0736716769912999,-0.03664774877648225,0.1840366081117533,0.178,False,1000,1999,1.0
+llama2,coordinate-other-ais,AI Coordination,fit,0.0,True,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,coordinate-other-ais,AI Coordination,fit,0.01,False,298,298,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,coordinate-other-ais,AI Coordination,fit,1.0,False,298,298,source-group means of genuine paired question distances and update norms,0.704153836631222,0.704153836631222,0.6262144513047113,0.7749887531836407,0.0005,False,1000,1999,0.021
+llama2,corrigible-neutral-HHH,Corrigibility,fit,0.0,True,238,238,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,corrigible-neutral-HHH,Corrigibility,fit,0.01,False,238,238,source-group means of genuine paired question distances and update norms,0.766800380445595,0.766800380445595,0.7161716934874374,0.8019552389899476,0.0005,False,1000,1999,0.021
+llama2,corrigible-neutral-HHH,Corrigibility,fit,1.0,False,238,238,source-group means of genuine paired question distances and update norms,0.7934173298576357,0.7934173298576357,0.7431989165276863,0.8294958495778164,0.0005,False,1000,1999,0.021
+llama2,hallucination,Hallucination,fit,0.0,True,803,754,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,hallucination,Hallucination,fit,0.01,False,803,754,source-group means of genuine paired question distances and update norms,0.4641809446384597,0.44246102000906024,0.3790078755580179,0.5011236870567429,0.0005,False,1000,1999,0.021
+llama2,hallucination,Hallucination,fit,1.0,False,803,754,source-group means of genuine paired question distances and update norms,0.5442887085366452,0.5430692708639155,0.48767641972871434,0.5955077672519345,0.0005,False,1000,1999,0.021
+llama2,myopic-reward,Myopic Reward,fit,0.0,False,723,565,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,myopic-reward,Myopic Reward,fit,0.01,False,723,565,source-group means of genuine paired question distances and update norms,-0.1811341979240602,-0.085136988169763,-0.1684323483062938,0.00795034318265736,0.04,False,1000,1999,0.32
+llama2,myopic-reward,Myopic Reward,fit,0.5,True,723,565,source-group means of genuine paired question distances and update norms,-0.14908760494973672,-0.06450210344155373,-0.14819970971202795,0.028289542477948515,0.1225,False,1000,1999,0.8574999999999999
+llama2,myopic-reward,Myopic Reward,fit,1.0,False,723,565,source-group means of genuine paired question distances and update norms,-0.11988834700001226,-0.04919910872361051,-0.13224846495702045,0.04426809235140712,0.257,False,1000,1999,1.0
+llama2,survival-instinct,Survival Instinct,fit,0.0,False,714,714,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,survival-instinct,Survival Instinct,fit,0.01,False,714,714,source-group means of genuine paired question distances and update norms,-0.4248571657696316,-0.4248571657696316,-0.48660765240073256,-0.3595814846527097,0.0005,False,1000,1999,0.021
+llama2,survival-instinct,Survival Instinct,fit,0.25,True,714,714,source-group means of genuine paired question distances and update norms,-0.42510765366965353,-0.42510765366965353,-0.4835918236328877,-0.3619263913500262,0.0005,False,1000,1999,0.021
+llama2,survival-instinct,Survival Instinct,fit,1.0,False,714,714,source-group means of genuine paired question distances and update norms,-0.39925564081986814,-0.39925564081986814,-0.45657343002993866,-0.33460224678891476,0.0005,False,1000,1999,0.021
+llama2,sycophancy,Sycophancy,fit,0.0,False,797,793,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,sycophancy,Sycophancy,fit,0.01,False,797,793,source-group means of genuine paired question distances and update norms,-0.14935063426679535,-0.1497980141288561,-0.21170788410824073,-0.08532516452344156,0.0005,False,1000,1999,0.021
+llama2,sycophancy,Sycophancy,fit,0.5,True,797,793,source-group means of genuine paired question distances and update norms,-0.21326792261701905,-0.20956444417236422,-0.2687032106429584,-0.1462050995818303,0.0005,False,1000,1999,0.021
+llama2,sycophancy,Sycophancy,fit,1.0,False,797,793,source-group means of genuine paired question distances and update norms,-0.23842083313995477,-0.23387339972796467,-0.29180162109211255,-0.1693796928866895,0.0005,False,1000,1999,0.021
+llama2,refusal,Refusal,fit,0.0,True,333,332,source-group means of genuine paired question distances and update norms,,,,,,True,,,
+llama2,refusal,Refusal,fit,0.01,False,333,332,source-group means of genuine paired question distances and update norms,0.3284567303036389,0.32682440384547906,0.22003494789870714,0.42331362913134835,0.0005,False,1000,1999,0.021
+llama2,refusal,Refusal,fit,1.0,False,333,332,source-group means of genuine paired question distances and update norms,0.3298937780576912,0.3284548334597474,0.21611442366885836,0.4226869774832974,0.0005,False,1000,1999,0.021

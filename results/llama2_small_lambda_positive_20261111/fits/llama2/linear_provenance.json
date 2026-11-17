@@ -1,0 +1,44 @@
+[
+  {
+    "concept": "coordinate-other-ais",
+    "pairs": 298,
+    "raw_norm": 8.92029094696045,
+    "calibrated_norm": 7.2497124671936035
+  },
+  {
+    "concept": "corrigible-neutral-HHH",
+    "pairs": 238,
+    "raw_norm": 8.834186553955078,
+    "calibrated_norm": 7.249712944030762
+  },
+  {
+    "concept": "hallucination",
+    "pairs": 803,
+    "raw_norm": 9.082796096801758,
+    "calibrated_norm": 7.249711990356445
+  },
+  {
+    "concept": "myopic-reward",
+    "pairs": 723,
+    "raw_norm": 8.180366516113281,
+    "calibrated_norm": 7.24971342086792
+  },
+  {
+    "concept": "survival-instinct",
+    "pairs": 714,
+    "raw_norm": 5.271671772003174,
+    "calibrated_norm": 7.249713897705078
+  },
+  {
+    "concept": "sycophancy",
+    "pairs": 797,
+    "raw_norm": 1.7840052843093872,
+    "calibrated_norm": 7.249711990356445
+  },
+  {
+    "concept": "refusal",
+    "pairs": 333,
+    "raw_norm": 8.674670219421387,
+    "calibrated_norm": 7.249711513519287
+  }
+]

@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllll}
+\toprule
+Behavior & Fit Q / G & Val Q / G & Test Q / G & Fit pos. & Fit neg. & Excluded generate Q \\
+\midrule
+AI Coordination & 298 / 298 & 62 / 62 & 50 / 50 & 298 & 298 & 0 \\
+Corrigibility & 238 / 238 & 52 / 52 & 50 / 50 & 238 & 238 & 0 \\
+Hallucination & 803 / 754 & 195 / 184 & 50 / 50 & 803 & 803 & 2 \\
+Myopic Reward & 723 / 565 & 137 / 126 & 50 / 46 & 723 & 723 & 90 \\
+Survival Instinct & 714 / 714 & 189 / 189 & 50 / 50 & 714 & 714 & 0 \\
+Sycophancy & 797 / 793 & 202 / 200 & 50 / 50 & 797 & 797 & 1 \\
+Refusal & 333 / 332 & 75 / 75 & 50 / 50 & 333 & 333 & 0 \\
+\bottomrule
+\end{tabular}}
+\caption{CAA data statistics, identical for all three models. Q denotes question records and G denotes unique source groups within each concept. Each fitting question supplies one matching and one nonmatching completed-answer activation; these are two activation samples, not two independent questions. Test-linked generate groups are excluded before fitting. All 350 official test questions and labels are retained.}
+\label{tab:dataset_statistics}
+\end{table*}

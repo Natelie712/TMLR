@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "protected_input_files": 254,
+  "historical_table_sources_verified": 3,
+  "main_conditions": 21,
+  "kernel_fits": 189,
+  "table_arithmetic_passed": true,
+  "split_counts_passed": true,
+  "source_group_disjoint": true,
+  "latex_compiled_without_overfull_boxes": true,
+  "scope": "Current CPU artifacts and protected source checks. GPU replay is reported separately."
+}
