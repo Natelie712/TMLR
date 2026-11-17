@@ -92,9 +92,9 @@ def main():
         for r in rows(path):
             if r.get('model'):
                 assert r['model'] in MODELS,(path,r['model'])
-    assert len(list((P/'figures').glob('figure_*.pdf')))==18
+    assert not list((P/'figures').glob('figure_*')), 'Withdrawn figures must not be published'
     assert not (P/'figures/drafts').exists()
-    print('PASS: packaged hashes; 21 positive cells and all negative test means reproduced from question records; three models only; split counts; frozen selections; 18 completed figures.')
+    print('PASS: packaged hashes; 21 positive cells and all negative test means reproduced from question records; three models only; split counts; frozen selections; main-table release; figures withdrawn.')
 
 
 if __name__=='__main__':

@@ -3,11 +3,15 @@
 Curated, completed experiments for **Qwen3-1.7B**, **Llama-3.2-3B-Instruct**,
 and **Llama-2-7B-Chat** on seven official CAA behavior datasets.
 This release includes positive steering, an independently selected negative
-steering study, statistical intervals, displacement diagnostics, paper figures,
+steering study, statistical intervals, displacement diagnostics,
 and the source implementations. It includes weak, negative, and null results.
 
 **Gemma and Phi results are intentionally excluded.** No model weights, tokens,
 raw training activation caches, or large fitted KPCA objects are distributed.
+
+**Release scope: main-table results and supporting computations. Figures have been
+withdrawn pending scientific and manuscript review. No figure in this release is
+approved to replace a figure in the original paper.**
 
 ## Start here
 
@@ -15,7 +19,6 @@ raw training activation caches, or large fitted KPCA objects are distributed.
 - [Training / validation / test results](TMLR_paper/data/training_validation_test.csv)
 - [Independent negative steering](TMLR_paper/reports/negative_lambda_search.md) / [CSV](TMLR_paper/data/negative_lambda_search/summary.csv)
 - [Dataset statistics](TMLR_paper/data/dataset_statistics.csv)
-- [Figure gallery](TMLR_paper/reports/figure_gallery.html) and [captions](TMLR_paper/reports/figure_captions.md)
 - [Scientific interpretation and limits](TMLR_paper/reports/paper_results_report.md)
 - [Release audit](RELEASE_AUDIT.md) and [file provenance](release_manifest.json)
 
@@ -59,7 +62,6 @@ is the linear-kernel KPCA limit and is not necessarily identical to CAA Linear.
 | Llama 2 execution | [Llama 2 runner](experiments/llama2_small_lambda_positive_20261111/execute.py) |
 | Independent negative lambda search | [negative_search.py](TMLR_paper/scripts/negative_search.py) |
 | Fixed response curves | [response_gpu.py](TMLR_paper/scripts/response_gpu.py) |
-| Paper plotting | [refined_figures.py](TMLR_paper/scripts/refined_figures.py) |
 
 Scientific source files are preserved byte-for-byte. Shared historical adapters
 may mention other architectures; no Phi/Gemma experimental results are included.
@@ -71,14 +73,16 @@ contains every dependency for re-running LLM extraction. See [reproduction](REPR
 
 ```bash
 python scripts/verify_release.py
-# For figure/table rendering, install the analysis dependencies first:
+# For main-table rendering, install the analysis dependencies first:
 pip install -r requirements-analysis.txt
 bash scripts/reproduce.sh
 ```
 
 The verification command uses only the Python standard library. Reproduction
-renders the main table and all completed paper figures from the included
-numeric caches into `reproduced/`, preserving the distributed originals.
+renders only the main table from the included numeric data into `reproduced/`,
+preserving the distributed originals. Archived plotting code is retained for
+traceability; it is not run by this entry point and its figures are not approved
+for manuscript use.
 Large per-question CSVs are losslessly gzip-compressed and readable directly
 with Python `gzip.open(..., 'rt')` or pandas `read_csv(..., compression='gzip')`.
 
@@ -98,10 +102,10 @@ with Python `gzip.open(..., 'rt')` or pandas `read_csv(..., compression='gzip')`
   differ from the original manuscript setup. This is not an exact reproduction
   of every NeurIPS paper setting.
 
-The historical reports are dated snapshots. This release audit supersedes old
-scheduler status text. Figures 2, 8 and 9 are not reproduced/published as completed
-experiments; see the numbering inventory. No claim is made about unavailable
-open-ended judge evaluation or VAE experiments.
+The historical experiment reports are dated snapshots. This release audit
+supersedes old scheduler status and figure-readiness text. No manuscript figures
+are included in the current branch. No claim is made about unavailable open-ended
+judge evaluation or VAE experiments.
 
 CAA dataset provenance: [nrimsky/CAA](https://github.com/nrimsky/CAA), pinned
 commit `5dabbbd9a0bca5f25e174501e959de378806aa48`. The original datasets are not

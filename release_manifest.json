@@ -12,7 +12,8 @@
     "large fitted objects",
     "draft figures",
     "scheduler logs",
-    "credentials"
+    "credentials",
+    "All manuscript figure images and figure-review/presentation artifacts pending review"
   ],
   "files": [
     {
@@ -144,14 +145,6 @@
       "encoding": "identity"
     },
     {
-      "source": "TMLR_paper/tables/figure_includes.tex",
-      "destination": "TMLR_paper/tables/figure_includes.tex",
-      "source_sha256": "d658142716f473046411419237f054f5606f1efd6c9aff7b096aa71df811aa03",
-      "packaged_sha256": "d658142716f473046411419237f054f5606f1efd6c9aff7b096aa71df811aa03",
-      "bytes": 10082,
-      "encoding": "identity"
-    },
-    {
       "source": "TMLR_paper/tables/fit_magnitude_correlation_full.tex",
       "destination": "TMLR_paper/tables/fit_magnitude_correlation_full.tex",
       "source_sha256": "bc9ee10520d1bf941cf46b87277542e5a313b22ef4096ebeb57573dc360d03cc",
@@ -200,294 +193,6 @@
       "encoding": "identity"
     },
     {
-      "source": "TMLR_paper/figures/figure_1.pdf",
-      "destination": "TMLR_paper/figures/figure_1.pdf",
-      "source_sha256": "65151fef7709a147ff5e461b7a4eae2e38ca4349e750a058063b6c2b15f71a89",
-      "packaged_sha256": "65151fef7709a147ff5e461b7a4eae2e38ca4349e750a058063b6c2b15f71a89",
-      "bytes": 36311,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_10.pdf",
-      "destination": "TMLR_paper/figures/figure_10.pdf",
-      "source_sha256": "1413673e4c6d785a296542a198d096f654ca864d7a2720b99c8c599e133bdb91",
-      "packaged_sha256": "1413673e4c6d785a296542a198d096f654ca864d7a2720b99c8c599e133bdb91",
-      "bytes": 36976,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_11.pdf",
-      "destination": "TMLR_paper/figures/figure_11.pdf",
-      "source_sha256": "705ad1053117afe835364c71224e3fa75775cbadb5d209bce8fb52f050c1b2eb",
-      "packaged_sha256": "705ad1053117afe835364c71224e3fa75775cbadb5d209bce8fb52f050c1b2eb",
-      "bytes": 38837,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_12.pdf",
-      "destination": "TMLR_paper/figures/figure_12.pdf",
-      "source_sha256": "48b9f77ea5dc29238f1bcd22b572b3dbb26c7b3ee7946710d607100b82acc662",
-      "packaged_sha256": "48b9f77ea5dc29238f1bcd22b572b3dbb26c7b3ee7946710d607100b82acc662",
-      "bytes": 43544,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_13.pdf",
-      "destination": "TMLR_paper/figures/figure_13.pdf",
-      "source_sha256": "742fdb9ac7692cbb994032756502241719fff3ca7789b2604d31a7c58c8a343a",
-      "packaged_sha256": "742fdb9ac7692cbb994032756502241719fff3ca7789b2604d31a7c58c8a343a",
-      "bytes": 49574,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_14.pdf",
-      "destination": "TMLR_paper/figures/figure_14.pdf",
-      "source_sha256": "7058cedfef0f5e737baa1c752ab6f88a1b83883544515d4309dd60b625177411",
-      "packaged_sha256": "7058cedfef0f5e737baa1c752ab6f88a1b83883544515d4309dd60b625177411",
-      "bytes": 53593,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_15.pdf",
-      "destination": "TMLR_paper/figures/figure_15.pdf",
-      "source_sha256": "0ab975fdc530a035feea150535cbe7d787739f3b1caa2aa8106a4722ef9a5d20",
-      "packaged_sha256": "0ab975fdc530a035feea150535cbe7d787739f3b1caa2aa8106a4722ef9a5d20",
-      "bytes": 65985,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_16.pdf",
-      "destination": "TMLR_paper/figures/figure_16.pdf",
-      "source_sha256": "3cd9bb6e9eafb181e134ace1aef56cfb3327f755ad490779f2312d19909bf1d7",
-      "packaged_sha256": "3cd9bb6e9eafb181e134ace1aef56cfb3327f755ad490779f2312d19909bf1d7",
-      "bytes": 60412,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_17.pdf",
-      "destination": "TMLR_paper/figures/figure_17.pdf",
-      "source_sha256": "d1b79dad4677770fc3d0b2fd0c324dcb409575a92cc00b4ac130577192e04f88",
-      "packaged_sha256": "d1b79dad4677770fc3d0b2fd0c324dcb409575a92cc00b4ac130577192e04f88",
-      "bytes": 68219,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_18.pdf",
-      "destination": "TMLR_paper/figures/figure_18.pdf",
-      "source_sha256": "3ebd19ba0862e3053a335b514c5b6335681e13087e90c088cb88691d71289d93",
-      "packaged_sha256": "3ebd19ba0862e3053a335b514c5b6335681e13087e90c088cb88691d71289d93",
-      "bytes": 76480,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_19.pdf",
-      "destination": "TMLR_paper/figures/figure_19.pdf",
-      "source_sha256": "472cd8bdac80011e35ef7e64b6ddb2f3c5935e6db014971a0dd0e5dce247f0c1",
-      "packaged_sha256": "472cd8bdac80011e35ef7e64b6ddb2f3c5935e6db014971a0dd0e5dce247f0c1",
-      "bytes": 46029,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_20.pdf",
-      "destination": "TMLR_paper/figures/figure_20.pdf",
-      "source_sha256": "92eeb57d01ab1442e72b8fce3cfd4b8589088f30d25074f3c02734574c7711d5",
-      "packaged_sha256": "92eeb57d01ab1442e72b8fce3cfd4b8589088f30d25074f3c02734574c7711d5",
-      "bytes": 27617,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_21.pdf",
-      "destination": "TMLR_paper/figures/figure_21.pdf",
-      "source_sha256": "e6b46f086c307156eb893ef2f09ba8b07dfa015511543df80aa80c573ea811f0",
-      "packaged_sha256": "e6b46f086c307156eb893ef2f09ba8b07dfa015511543df80aa80c573ea811f0",
-      "bytes": 37172,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_3.pdf",
-      "destination": "TMLR_paper/figures/figure_3.pdf",
-      "source_sha256": "e853eae20414bc39e2e7293c003b7224e575c73e443f358d0af0b0fc11108bd0",
-      "packaged_sha256": "e853eae20414bc39e2e7293c003b7224e575c73e443f358d0af0b0fc11108bd0",
-      "bytes": 28472,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_4.pdf",
-      "destination": "TMLR_paper/figures/figure_4.pdf",
-      "source_sha256": "f755621eb681e88a1ce9b2ca97479dd7f8012a1740d866c505cb76cb4cfad33c",
-      "packaged_sha256": "f755621eb681e88a1ce9b2ca97479dd7f8012a1740d866c505cb76cb4cfad33c",
-      "bytes": 33929,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_5.pdf",
-      "destination": "TMLR_paper/figures/figure_5.pdf",
-      "source_sha256": "04a98e945513d73d5ff0c2ff4d0ed580db84e3abbbdeb119be063d5550959b84",
-      "packaged_sha256": "04a98e945513d73d5ff0c2ff4d0ed580db84e3abbbdeb119be063d5550959b84",
-      "bytes": 31383,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_6.pdf",
-      "destination": "TMLR_paper/figures/figure_6.pdf",
-      "source_sha256": "f99fd1c9ec17480a4fb1f3b18127597a0c55aa9cd740ad9fd5d53c004afcb615",
-      "packaged_sha256": "f99fd1c9ec17480a4fb1f3b18127597a0c55aa9cd740ad9fd5d53c004afcb615",
-      "bytes": 27759,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_7.pdf",
-      "destination": "TMLR_paper/figures/figure_7.pdf",
-      "source_sha256": "ee8c737068d5ded90a49c36c70abb05185195140fb3c9e4c9b92136cdf883ead",
-      "packaged_sha256": "ee8c737068d5ded90a49c36c70abb05185195140fb3c9e4c9b92136cdf883ead",
-      "bytes": 48096,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_1.png",
-      "destination": "TMLR_paper/figures/figure_1.png",
-      "source_sha256": "71928e3da1cc17aaf61a93ebb39f4e1db6c1e9541b0a85eb025e63da98cde7cb",
-      "packaged_sha256": "71928e3da1cc17aaf61a93ebb39f4e1db6c1e9541b0a85eb025e63da98cde7cb",
-      "bytes": 136681,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_10.png",
-      "destination": "TMLR_paper/figures/figure_10.png",
-      "source_sha256": "45867e6e0dc0b41d8df9e96bde3d3f2f0d8c6b21ee3541409ff65bd740dd59a2",
-      "packaged_sha256": "45867e6e0dc0b41d8df9e96bde3d3f2f0d8c6b21ee3541409ff65bd740dd59a2",
-      "bytes": 199519,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_11.png",
-      "destination": "TMLR_paper/figures/figure_11.png",
-      "source_sha256": "b92b44f02dadd0ac0c110b6a1b5d807903cf0d7770855059bf2601af1333abd0",
-      "packaged_sha256": "b92b44f02dadd0ac0c110b6a1b5d807903cf0d7770855059bf2601af1333abd0",
-      "bytes": 161689,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_12.png",
-      "destination": "TMLR_paper/figures/figure_12.png",
-      "source_sha256": "3b3a7268afe2724a55b7497fb984e38c59c49fb383b914e4ec324e18112b05cd",
-      "packaged_sha256": "3b3a7268afe2724a55b7497fb984e38c59c49fb383b914e4ec324e18112b05cd",
-      "bytes": 208208,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_13.png",
-      "destination": "TMLR_paper/figures/figure_13.png",
-      "source_sha256": "f4fbde3dc6215e3c041541ddc5fd50195ef85c3a23a56557ebb934d9b7e373a8",
-      "packaged_sha256": "f4fbde3dc6215e3c041541ddc5fd50195ef85c3a23a56557ebb934d9b7e373a8",
-      "bytes": 227002,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_14.png",
-      "destination": "TMLR_paper/figures/figure_14.png",
-      "source_sha256": "68495009e5f476a2134de7a1b1ba147817abb8af1c0cfc23eedb79df05d84ac8",
-      "packaged_sha256": "68495009e5f476a2134de7a1b1ba147817abb8af1c0cfc23eedb79df05d84ac8",
-      "bytes": 227944,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_15.png",
-      "destination": "TMLR_paper/figures/figure_15.png",
-      "source_sha256": "2f6fbca7bed4e53a96b96d8bd89162d4c1e8bda49d2fb04cd87d738f471f1cd6",
-      "packaged_sha256": "2f6fbca7bed4e53a96b96d8bd89162d4c1e8bda49d2fb04cd87d738f471f1cd6",
-      "bytes": 243178,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_16.png",
-      "destination": "TMLR_paper/figures/figure_16.png",
-      "source_sha256": "267d5b784598595b37e21228a36c025bb8aa853b290f27e2bcb32f5a9f5de1d4",
-      "packaged_sha256": "267d5b784598595b37e21228a36c025bb8aa853b290f27e2bcb32f5a9f5de1d4",
-      "bytes": 241494,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_17.png",
-      "destination": "TMLR_paper/figures/figure_17.png",
-      "source_sha256": "abe543728034283c0c1c71eef4d3f2e8090438d854df3f5f72105e0aeec20b24",
-      "packaged_sha256": "abe543728034283c0c1c71eef4d3f2e8090438d854df3f5f72105e0aeec20b24",
-      "bytes": 235277,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_18.png",
-      "destination": "TMLR_paper/figures/figure_18.png",
-      "source_sha256": "d43161e08a318602472105025dc712c381665f8053b36b28b3315c3dd2f6aac6",
-      "packaged_sha256": "d43161e08a318602472105025dc712c381665f8053b36b28b3315c3dd2f6aac6",
-      "bytes": 244168,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_19.png",
-      "destination": "TMLR_paper/figures/figure_19.png",
-      "source_sha256": "b92a147185ece8d331abf02d1191f170e6fd6fa09a85ced3f32190f876cfbeb4",
-      "packaged_sha256": "b92a147185ece8d331abf02d1191f170e6fd6fa09a85ced3f32190f876cfbeb4",
-      "bytes": 230262,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_20.png",
-      "destination": "TMLR_paper/figures/figure_20.png",
-      "source_sha256": "1ed15b374cd19b7df787d3951d81784b81bb11d239fe63cb6386687cb2615661",
-      "packaged_sha256": "1ed15b374cd19b7df787d3951d81784b81bb11d239fe63cb6386687cb2615661",
-      "bytes": 114265,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_21.png",
-      "destination": "TMLR_paper/figures/figure_21.png",
-      "source_sha256": "44e43e170e4f09069b44fa5f6697ac19e2ba042af4ac1a4b4416943dd9d62ae5",
-      "packaged_sha256": "44e43e170e4f09069b44fa5f6697ac19e2ba042af4ac1a4b4416943dd9d62ae5",
-      "bytes": 185367,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_3.png",
-      "destination": "TMLR_paper/figures/figure_3.png",
-      "source_sha256": "62173ad4e47ae9263931fdd7620d80d9b426f0039f98e5d7beb25d574f2a3fb7",
-      "packaged_sha256": "62173ad4e47ae9263931fdd7620d80d9b426f0039f98e5d7beb25d574f2a3fb7",
-      "bytes": 104569,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_4.png",
-      "destination": "TMLR_paper/figures/figure_4.png",
-      "source_sha256": "1d79752576e43d48df36f00ebb702dfc19389ea4c7f848089a2bbed4950bef98",
-      "packaged_sha256": "1d79752576e43d48df36f00ebb702dfc19389ea4c7f848089a2bbed4950bef98",
-      "bytes": 189913,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_5.png",
-      "destination": "TMLR_paper/figures/figure_5.png",
-      "source_sha256": "6c23aaa28850168f174130d001cb08b3aea7cf07a5b811c96c34cfb0e039d89a",
-      "packaged_sha256": "6c23aaa28850168f174130d001cb08b3aea7cf07a5b811c96c34cfb0e039d89a",
-      "bytes": 102463,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_6.png",
-      "destination": "TMLR_paper/figures/figure_6.png",
-      "source_sha256": "161c3ccbf8c309c7bc4799e46715d56033f107d13d1419c98f8bfa006ba95ff8",
-      "packaged_sha256": "161c3ccbf8c309c7bc4799e46715d56033f107d13d1419c98f8bfa006ba95ff8",
-      "bytes": 92979,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/figures/figure_7.png",
-      "destination": "TMLR_paper/figures/figure_7.png",
-      "source_sha256": "7318c0520c0e3fa8d420f20273790c0bf81aeb64461933f7ffe63e85ed64f87d",
-      "packaged_sha256": "7318c0520c0e3fa8d420f20273790c0bf81aeb64461933f7ffe63e85ed64f87d",
-      "bytes": 205680,
-      "encoding": "identity"
-    },
-    {
       "source": "TMLR_paper/data/analysis_source_manifest.json",
       "destination": "TMLR_paper/data/analysis_source_manifest.json",
       "source_sha256": "17657ac9d719392cde8dd69ee2e4ef403c92d3a37625b01be941b6bddb418693",
@@ -533,30 +238,6 @@
       "source_sha256": "dd9b8118a4c70a0e5752c986c2c4cb0e43a7e8e724362a0e94279c1383bf9bdb",
       "packaged_sha256": "dd9b8118a4c70a0e5752c986c2c4cb0e43a7e8e724362a0e94279c1383bf9bdb",
       "bytes": 106050,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/data/figure_routing.json",
-      "destination": "TMLR_paper/data/figure_routing.json",
-      "source_sha256": "c0894172a9ed9b90a351415c99acebb80dac57157ebb52e187a8b750aef3009a",
-      "packaged_sha256": "c0894172a9ed9b90a351415c99acebb80dac57157ebb52e187a8b750aef3009a",
-      "bytes": 69,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/data/figure_scientific_checks.json",
-      "destination": "TMLR_paper/data/figure_scientific_checks.json",
-      "source_sha256": "e8886dd0833580c17325039885c2052342e3c17a6eae5c719079a32fc937c808",
-      "packaged_sha256": "e8886dd0833580c17325039885c2052342e3c17a6eae5c719079a32fc937c808",
-      "bytes": 4992,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/data/figure_visual_review.json",
-      "destination": "TMLR_paper/data/figure_visual_review.json",
-      "source_sha256": "220be3d15d85f802583e727fc3c5c81f7d4098d416ce404aae6a4e5cc2d941dd",
-      "packaged_sha256": "220be3d15d85f802583e727fc3c5c81f7d4098d416ce404aae6a4e5cc2d941dd",
-      "bytes": 7508,
       "encoding": "identity"
     },
     {
@@ -1115,57 +796,28 @@
       "source": "TMLR_paper/reports/paper_results_report.md",
       "destination": "TMLR_paper/reports/paper_results_report.md",
       "source_sha256": "f2734b26fe942bd4647477dcaa262da30723981e1746d5ee807351b433136087",
-      "packaged_sha256": "f2734b26fe942bd4647477dcaa262da30723981e1746d5ee807351b433136087",
-      "bytes": 10761,
-      "encoding": "identity"
+      "packaged_sha256": "10a690c4750d3cd945b491edde8f7ac5c0d9a74130842509e209b3f677ffaec0",
+      "bytes": 3703,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/reports/paper_results_report.html",
       "destination": "TMLR_paper/reports/paper_results_report.html",
       "source_sha256": "7af67bed9adaddacbe2d9e6860869be6277abcb9da7a69609eb38aa42abc35b2",
-      "packaged_sha256": "7af67bed9adaddacbe2d9e6860869be6277abcb9da7a69609eb38aa42abc35b2",
-      "bytes": 12496,
-      "encoding": "identity"
+      "packaged_sha256": "c14e86ef6e8e93c91e0cf2b8d09da71dfe914db9e82346952f87a05346e7a77c",
+      "bytes": 4989,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/reports/paper_artifact_inventory.md",
       "destination": "TMLR_paper/reports/paper_artifact_inventory.md",
       "source_sha256": "2d4cee8f123d0cb8988902d0e55af5e7df65bb85f407e772adf441220b644673",
-      "packaged_sha256": "2d4cee8f123d0cb8988902d0e55af5e7df65bb85f407e772adf441220b644673",
-      "bytes": 12442,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/reports/figure_captions.md",
-      "destination": "TMLR_paper/reports/figure_captions.md",
-      "source_sha256": "4019607283dd0fa939331cd0d552c0411db3a4f4e75ba952b19b21aa1e13fd80",
-      "packaged_sha256": "4019607283dd0fa939331cd0d552c0411db3a4f4e75ba952b19b21aa1e13fd80",
-      "bytes": 6674,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/reports/figure_gallery.html",
-      "destination": "TMLR_paper/reports/figure_gallery.html",
-      "source_sha256": "b7ab5fb1ceb31f917b075b312b1135561370e83c22490c9227ed76cd73941782",
-      "packaged_sha256": "b7ab5fb1ceb31f917b075b312b1135561370e83c22490c9227ed76cd73941782",
-      "bytes": 9648,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/reports/figure_refinement_review.md",
-      "destination": "TMLR_paper/reports/figure_refinement_review.md",
-      "source_sha256": "67efe4da4d9cdabe9baedb086ed140806fff1b7f399b8d9a57753832b03f8362",
-      "packaged_sha256": "67efe4da4d9cdabe9baedb086ed140806fff1b7f399b8d9a57753832b03f8362",
-      "bytes": 5056,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/reports/figure_visual_review.md",
-      "destination": "TMLR_paper/reports/figure_visual_review.md",
-      "source_sha256": "f06955bd0bcd4a058b6be05aba2a107b87b966a639d6170b90ef377919149818",
-      "packaged_sha256": "f06955bd0bcd4a058b6be05aba2a107b87b966a639d6170b90ef377919149818",
-      "bytes": 730,
-      "encoding": "identity"
+      "packaged_sha256": "713b65a9bccd6f4abcc9ed74196838a93fa30cd4539cfd23caa693a5b6c45ad2",
+      "bytes": 785,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/reports/geometric_findings.md",
@@ -1205,14 +857,6 @@
       "source_sha256": "f3bd4013e92eeae1fd9bce1c894ab6a341c151a0fc410d9f5265f4908409d475",
       "packaged_sha256": "f3bd4013e92eeae1fd9bce1c894ab6a341c151a0fc410d9f5265f4908409d475",
       "bytes": 3271,
-      "encoding": "identity"
-    },
-    {
-      "source": "TMLR_paper/README.md",
-      "destination": "TMLR_paper/reports/historical_readme.md",
-      "source_sha256": "879a89ecf98d93ea2e61ecef448b4d3de7fe8e9b97a502cb6c450e2ffcd7c227",
-      "packaged_sha256": "879a89ecf98d93ea2e61ecef448b4d3de7fe8e9b97a502cb6c450e2ffcd7c227",
-      "bytes": 6398,
       "encoding": "identity"
     },
     {
@@ -2115,25 +1759,28 @@
       "source": "TMLR_paper/github_release/release_files/README.md",
       "destination": "README.md",
       "source_sha256": "ab1dc50cfa13b3aa5834ba5f65bf9008ee410b59568331613fe8392700094e1b",
-      "packaged_sha256": "ab1dc50cfa13b3aa5834ba5f65bf9008ee410b59568331613fe8392700094e1b",
-      "bytes": 6347,
-      "encoding": "identity"
+      "packaged_sha256": "d430b356c9315182b6173f13625849acd840e26f07eb07267f848815f0825f77",
+      "bytes": 6453,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/github_release/release_files/RELEASE_AUDIT.md",
       "destination": "RELEASE_AUDIT.md",
       "source_sha256": "22164ebb7b28ca0533fce59ea1ea120f88aefd5a186e289b6e5d03a311f68158",
-      "packaged_sha256": "22164ebb7b28ca0533fce59ea1ea120f88aefd5a186e289b6e5d03a311f68158",
-      "bytes": 3815,
-      "encoding": "identity"
+      "packaged_sha256": "f132def91915f9dcce8f6a0a549661ae5d86c58552e03a32fd044bc184044eea",
+      "bytes": 2807,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/github_release/release_files/REPRODUCING.md",
       "destination": "REPRODUCING.md",
       "source_sha256": "5e1d7be55c6afc3dce43b4d6b79de6c793cc37e4c01ffd786908492219dc2758",
-      "packaged_sha256": "5e1d7be55c6afc3dce43b4d6b79de6c793cc37e4c01ffd786908492219dc2758",
-      "bytes": 2937,
-      "encoding": "identity"
+      "packaged_sha256": "f653ef0dfe28d28f20b2c16f4b2fc30c23e6ed74a43f7a77396bb4079d4a3676",
+      "bytes": 3094,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/github_release/release_files/requirements-analysis.txt",
@@ -2155,9 +1802,10 @@
       "source": "TMLR_paper/github_release/release_files/scripts/render_release.py",
       "destination": "scripts/render_release.py",
       "source_sha256": "63a88c2c07930978bf498ecc51284279ff548389ff15b808f386632aca8878fc",
-      "packaged_sha256": "63a88c2c07930978bf498ecc51284279ff548389ff15b808f386632aca8878fc",
-      "bytes": 1241,
-      "encoding": "identity"
+      "packaged_sha256": "afc530422cfa937c055d8239ea00d643f9ccf0ed48e1eea5c1112aa6273b46ed",
+      "bytes": 871,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     },
     {
       "source": "TMLR_paper/github_release/release_files/scripts/reproduce.sh",
@@ -2171,9 +1819,62 @@
       "source": "TMLR_paper/github_release/release_files/scripts/verify_release.py",
       "destination": "scripts/verify_release.py",
       "source_sha256": "23eb5ded57c80ef2f93ba247db63da6840b2e82b3ef2744cb247ce4e7a3e65f6",
-      "packaged_sha256": "23eb5ded57c80ef2f93ba247db63da6840b2e82b3ef2744cb247ce4e7a3e65f6",
-      "bytes": 5086,
-      "encoding": "identity"
+      "packaged_sha256": "661cc963e4d3a626c794044a18174649ef20be1039d9b0b596cfa71573b61adf",
+      "bytes": 5137,
+      "encoding": "identity",
+      "release_amendment": "Figure withdrawal and table-only documentation/reproduction; numerical results unchanged."
     }
-  ]
+  ],
+  "amendment": {
+    "date": "2026-11-17",
+    "reason": "Owner-requested figure withdrawal; focus on main-table results",
+    "removed_paths": [
+      "TMLR_paper/figures/figure_1.pdf",
+      "TMLR_paper/figures/figure_1.png",
+      "TMLR_paper/figures/figure_10.pdf",
+      "TMLR_paper/figures/figure_10.png",
+      "TMLR_paper/figures/figure_11.pdf",
+      "TMLR_paper/figures/figure_11.png",
+      "TMLR_paper/figures/figure_12.pdf",
+      "TMLR_paper/figures/figure_12.png",
+      "TMLR_paper/figures/figure_13.pdf",
+      "TMLR_paper/figures/figure_13.png",
+      "TMLR_paper/figures/figure_14.pdf",
+      "TMLR_paper/figures/figure_14.png",
+      "TMLR_paper/figures/figure_15.pdf",
+      "TMLR_paper/figures/figure_15.png",
+      "TMLR_paper/figures/figure_16.pdf",
+      "TMLR_paper/figures/figure_16.png",
+      "TMLR_paper/figures/figure_17.pdf",
+      "TMLR_paper/figures/figure_17.png",
+      "TMLR_paper/figures/figure_18.pdf",
+      "TMLR_paper/figures/figure_18.png",
+      "TMLR_paper/figures/figure_19.pdf",
+      "TMLR_paper/figures/figure_19.png",
+      "TMLR_paper/figures/figure_20.pdf",
+      "TMLR_paper/figures/figure_20.png",
+      "TMLR_paper/figures/figure_21.pdf",
+      "TMLR_paper/figures/figure_21.png",
+      "TMLR_paper/figures/figure_3.pdf",
+      "TMLR_paper/figures/figure_3.png",
+      "TMLR_paper/figures/figure_4.pdf",
+      "TMLR_paper/figures/figure_4.png",
+      "TMLR_paper/figures/figure_5.pdf",
+      "TMLR_paper/figures/figure_5.png",
+      "TMLR_paper/figures/figure_6.pdf",
+      "TMLR_paper/figures/figure_6.png",
+      "TMLR_paper/figures/figure_7.pdf",
+      "TMLR_paper/figures/figure_7.png",
+      "TMLR_paper/reports/figure_gallery.html",
+      "TMLR_paper/reports/figure_captions.md",
+      "TMLR_paper/reports/figure_refinement_review.md",
+      "TMLR_paper/reports/figure_visual_review.md",
+      "TMLR_paper/reports/historical_readme.md",
+      "TMLR_paper/data/figure_routing.json",
+      "TMLR_paper/data/figure_scientific_checks.json",
+      "TMLR_paper/data/figure_visual_review.json",
+      "TMLR_paper/tables/figure_includes.tex"
+    ],
+    "unchanged_numeric_and_table_files": 91
+  }
 }
